@@ -1,0 +1,60 @@
+/* Built-in styling for finished notes (the "Gray out finished notes"
+   plugin setting): grayed out with a green checkmark. */
+
+.nav-file-title.epa-done .nav-file-title-content {
+	color: var(--text-faint);
+}
+
+.nav-file-title.epa-done .nav-file-title-content::before {
+	content: '✓ ';
+	color: var(--color-green);
+	font-weight: 700;
+}
+
+/* Note footer toggles (the "Note footer toggles" plugin setting) */
+
+.epa-footer {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	z-index: var(--layer-cover, 5);
+	display: flex;
+	align-items: center;
+	gap: 12px;
+	padding: 8px 24px;
+	background: var(--background-primary);
+	border-top: 1px solid var(--background-modifier-border);
+	font-size: var(--font-ui-small);
+}
+
+.epa-footer-toggle {
+	display: flex;
+	align-items: center;
+	gap: 8px;
+	padding: 5px 16px;
+	border: 1px solid var(--background-modifier-border);
+	border-radius: 999px;
+	background: var(--interactive-normal);
+	box-shadow: var(--shadow-s, none);
+	cursor: pointer;
+	color: var(--text-normal);
+	font-weight: 500;
+	user-select: none;
+	transition: background 80ms ease, border-color 80ms ease, color 80ms ease;
+}
+
+.epa-footer-toggle:hover {
+	background: var(--interactive-hover);
+	border-color: var(--background-modifier-border-hover);
+}
+
+.epa-footer-toggle:has(input:checked) {
+	color: var(--color-green);
+	border-color: var(--color-green);
+}
+
+.epa-footer-toggle input[type='checkbox'] {
+	margin: 0;
+	cursor: pointer;
+}

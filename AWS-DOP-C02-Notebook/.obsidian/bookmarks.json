@@ -1,0 +1,18 @@
+{
+  "items": [
+    {
+      "type": "group",
+      "ctime": 1789919850473,
+      "items": [
+        {
+          "type": "file",
+          "ctime": 1789919826448,
+          "path": "00 - Start Here.md",
+          "subpath": "#Domain 1 study path",
+          "title": "Path: Domain 1"
+        }
+      ],
+      "title": "Domain Paths"
+    }
+  ]
+}

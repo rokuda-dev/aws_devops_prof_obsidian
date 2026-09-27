@@ -1,19 +1,22 @@
 ---
-tags: [aws, dop-c02, domain-3]
+tags:
+  - aws
+  - dop-c02
+  - domain-3
 verified: 2026-09-18
-read: false
+read: true
 ---
 
 # RTO RPO SLA SLO and Error Budgets
 
-| Term | Meaning | Example interpretation |
-|---|---|---|
-| SLA | External agreement, often with defined remedies | Contractual service commitment |
-| SLO | Operational reliability target | Target availability or latency over a window |
-| SLI | Measurement used to evaluate a target | Fraction of successful valid requests |
-| Error budget | Allowed unreliability under the chosen SLO | Remaining permissible failed requests/time |
-| RTO | Maximum acceptable time to restore the required service | Business service usable within two hours |
-| RPO | Maximum acceptable loss expressed as time/data age | At most five minutes of accepted changes lost |
+| Term                          | Meaning                                                 | Example interpretation                        |
+| ----------------------------- | ------------------------------------------------------- | --------------------------------------------- |
+| SLA (Service Level Agreement) | External agreement, often with defined remedies         | Contractual service commitment                |
+| SLO (Service Level Objective) | Operational reliability target                          | Target availability or latency over a window  |
+| SLI (Service Level Indicator) | Measurement used to evaluate a target                   | Fraction of successful valid requests         |
+| Error budget                  | Allowed unreliability under the chosen SLO              | Remaining permissible failed requests/time    |
+| RTO (Return Time Objective)   | Maximum acceptable time to restore the required service | Business service usable within two hours      |
+| RPO (Return Point Objective)  | Maximum acceptable loss expressed as time/data age      | At most five minutes of accepted changes lost |
 
 SLA, SLO, and RTO are not interchangeable. An error budget is not automatically an AWS service credit.
 

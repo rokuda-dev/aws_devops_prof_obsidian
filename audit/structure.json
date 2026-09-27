@@ -1,0 +1,1288 @@
+{
+  "checked_at_utc": "2026-09-27T09:41:17.388089+00:00",
+  "notes": 213,
+  "service_pages": 99,
+  "active_wiki_links": 2081,
+  "errors": [],
+  "front_matter_scope": "Delimiter, duplicate top-level key, and Boolean read checks; not a complete YAML parser",
+  "references": {
+    "https://aws.amazon.com/about-aws/whats-new/2024/02/amazon-data-firehose-message-extraction-cloudwatch-logs/": [
+      "Services/Amazon Data Firehose.md",
+      "Sources/Domain 4 Official Sources.md"
+    ],
+    "https://aws.amazon.com/about-aws/whats-new/2026/09/elastic-beanstalk-cluster-mode/": [
+      "Sources/Audit Delivery and Comparisons 2026-09-27.md"
+    ],
+    "https://aws.amazon.com/blogs/apn/understanding-amazon-sqs-and-aws-lambda-event-source-mapping-for-efficient-message-processing/": [
+      "Services/Amazon SQS.md"
+    ],
+    "https://aws.amazon.com/blogs/aws/aws-shield-advanced-update-automatic-application-layer-ddos-mitigation/": [
+      "Services/AWS Shield.md",
+      "Sources/Domain 5 Official Sources.md"
+    ],
+    "https://aws.amazon.com/blogs/aws/cloudtrail-update-capture-and-process-amazon-s3-object-level-api-activity/": [
+      "Sources/Domain 5 Official Sources.md"
+    ],
+    "https://aws.amazon.com/blogs/big-data/use-amazon-kinesis-data-streams-to-deliver-real-time-data-to-amazon-opensearch-service-domains-with-amazon-opensearch-ingestion/": [
+      "Services/Amazon Kinesis Data Streams.md",
+      "Services/Amazon OpenSearch Service.md",
+      "Sources/Domain 4 Official Sources.md"
+    ],
+    "https://aws.amazon.com/blogs/business-intelligence/reimagine-business-intelligence-amazon-quicksight-evolves-to-amazon-quick-suite/": [
+      "Sources/Domain 4 Official Sources.md"
+    ],
+    "https://aws.amazon.com/blogs/compute/automate-your-it-operations-using-aws-step-functions-and-amazon-cloudwatch-events/": [
+      "Concepts/Exposed Credential Response.md",
+      "Services/AWS Identity and Access Management.md",
+      "Sources/Domain 5 Official Sources.md"
+    ],
+    "https://aws.amazon.com/blogs/compute/automate-your-it-operations-using-aws-step-functions-and-amazon-cloudwatch-events//": [
+      "Sources/Audit Concepts and Domains 2026-09-27.md"
+    ],
+    "https://aws.amazon.com/blogs/compute/using-aws-x-ray-tracing-with-amazon-eventbridge/": [
+      "Concepts/Monitoring Correlation Tracing and Dashboards.md",
+      "Services/AWS X-Ray.md",
+      "Services/Amazon EventBridge.md",
+      "Sources/Audit Concepts and Domains 2026-09-27.md",
+      "Sources/Domain 4 Official Sources.md"
+    ],
+    "https://aws.amazon.com/blogs/containers/faster-nodes-smarter-scaling-whats-new-inside-amazon-elastic-kubernetes-service-amazon-eks-auto-mode/": [
+      "Services/Amazon EKS.md",
+      "Sources/Domain 3 Official Sources.md"
+    ],
+    "https://aws.amazon.com/blogs/containers/saving-money-pod-at-time-with-eks-fargate-and-aws-compute-savings-plans/": [
+      "Services/AWS Fargate.md",
+      "Sources/Domain 3 Official Sources.md"
+    ],
+    "https://aws.amazon.com/blogs/database/best-practices-for-amazon-dynamodb-global-tables-part-1-operational-readiness/": [
+      "Comparisons/DynamoDB Global Tables vs Aurora Global Database.md",
+      "Exam/Common Traps and Current Corrections.md",
+      "Services/Amazon DynamoDB.md",
+      "Sources/Official AWS Sources.md"
+    ],
+    "https://aws.amazon.com/blogs/database/upgrade-strategies-for-amazon-rds-for-mysql-8-0-to-8-4/": [
+      "Comparisons/RDS Blue Green vs EngineVersion Update vs Read Replica Promotion.md",
+      "Services/Amazon RDS.md",
+      "Sources/Domain 3 Official Sources.md"
+    ],
+    "https://aws.amazon.com/blogs/devops/choosing-between-amazon-ecs-blue-green-native-or-aws-codedeploy-in-aws-cdk/": [
+      "Comparisons/ECS Native vs CodeDeploy Deployments.md",
+      "Exam/Common Traps and Current Corrections.md",
+      "Services/Amazon ECS.md",
+      "Sources/Official AWS Sources.md"
+    ],
+    "https://aws.amazon.com/blogs/devops/debugging-with-amazon-cloudwatch-synthetics-and-aws-x-ray/": [
+      "Services/AWS X-Ray.md",
+      "Sources/Domain 5 Official Sources.md"
+    ],
+    "https://aws.amazon.com/blogs/dotnet/building-serverless-net-applications-with-aws-lambda-and-the-sam-cli/": [
+      "Services/AWS SAM.md",
+      "Sources/Domain 3 Official Sources.md"
+    ],
+    "https://aws.amazon.com/blogs/mt/manage-custom-aws-config-rules-with-remediation-using-conformance-packs/": [
+      "Services/AWS Config.md"
+    ],
+    "https://aws.amazon.com/blogs/mt/seamlessly-off-board-from-aws-opsworks-stacks-by-detaching-resources/": [
+      "Exam/Common Traps and Current Corrections.md",
+      "Sources/Domain 4 Official Sources.md",
+      "Sources/Domain 5 Official Sources.md",
+      "Sources/Official AWS Sources.md"
+    ],
+    "https://aws.amazon.com/blogs/mt/simplifying-log-management-using-amazon-cloudwatch-logs-centralization/": [
+      "Comparisons/Cross-Account Observability vs Log Centralization.md",
+      "Sources/Domain 4 Official Sources.md"
+    ],
+    "https://aws.amazon.com/blogs/mt/streamline-server-fleet-management-aws-systems-manager-fleet-manager/": [
+      "Concepts/Systems Manager Incident Operations.md",
+      "Sources/Domain 5 Official Sources.md"
+    ],
+    "https://aws.amazon.com/blogs/mt/validating-and-improving-the-rto-and-rpo-using-aws-resilience-hub/": [
+      "Concepts/RTO RPO SLA SLO and Error Budgets.md"
+    ],
+    "https://aws.amazon.com/blogs/networking-and-content-delivery/exploring-data-transfer-costs-for-aws-network-load-balancers/": [
+      "Sources/Domain 3 Official Sources.md"
+    ],
+    "https://aws.amazon.com/blogs/networking-and-content-delivery/performing-route-53-health-checks-on-private-resources-in-a-vpc-with-aws-lambda-and-amazon-cloudwatch/": [
+      "Sources/Domain 3 Official Sources.md"
+    ],
+    "https://aws.amazon.com/blogs/security/how-to-improve-your-security-incident-response-processes-with-jupyter-notebooks/": [
+      "Concepts/Exposed Credential Response.md",
+      "Services/AWS Identity and Access Management.md",
+      "Sources/Domain 5 Official Sources.md"
+    ],
+    "https://aws.amazon.com/blogs/security/use-macie-to-discover-sensitive-data-as-part-of-automated-data-pipelines/": [
+      "Sources/Domain 6 Official Sources.md"
+    ],
+    "https://aws.amazon.com/blogs/storage/amazon-s3-audit-logging-part-1-analyzing-server-access-logs-with-amazon-athena-for-performance-insights/": [
+      "Services/Amazon Athena.md",
+      "Sources/Domain 4 Official Sources.md"
+    ],
+    "https://aws.amazon.com/blogs/storage/amazon-s3-audit-logging-part-2-centralized-logging-and-analysis-of-s3-data-events-in-aws-cloudtrail-for-security-and-compliance/": [
+      "Sources/Domain 4 Official Sources.md"
+    ],
+    "https://aws.amazon.com/blogs/storage/implementing-restore-testing-for-recovery-validation-using-aws-backup/": [
+      "Concepts/Disaster Recovery Testing and Failback.md",
+      "Services/AWS Backup.md",
+      "Sources/Domain 3 Official Sources.md"
+    ],
+    "https://aws.amazon.com/cloudwatch/faqs/": [
+      "Concepts/CloudWatch Container Insights.md",
+      "Sources/Domain 5 Official Sources.md"
+    ],
+    "https://aws.amazon.com/cloudwatch/features/": [
+      "Concepts/Monitoring Correlation Tracing and Dashboards.md",
+      "Sources/Domain 4 Official Sources.md"
+    ],
+    "https://aws.amazon.com/config/features/": [
+      "Concepts/Dedicated Host Compliance and Licensing.md",
+      "Services/AWS License Manager.md",
+      "Sources/Domain 5 Official Sources.md"
+    ],
+    "https://aws.amazon.com/detective/faqs/": [
+      "Services/Amazon Detective.md",
+      "Sources/Official AWS Sources.md"
+    ],
+    "https://aws.amazon.com/devops/continuous-delivery/": [
+      "Concepts/SDLC and CI-CD Fundamentals.md",
+      "Sources/Audit Concepts and Domains 2026-09-27.md",
+      "Sources/Official AWS Sources.md"
+    ],
+    "https://aws.amazon.com/devops/continuous-integration/": [
+      "Concepts/SDLC and CI-CD Fundamentals.md",
+      "Sources/Official AWS Sources.md"
+    ],
+    "https://aws.amazon.com/disaster-recovery/faqs/": [
+      "Concepts/RTO RPO SLA SLO and Error Budgets.md",
+      "Sources/Audit Concepts and Domains 2026-09-27.md"
+    ],
+    "https://aws.amazon.com/dynamodb/global-tables/": [
+      "Sources/Domain 3 Official Sources.md"
+    ],
+    "https://aws.amazon.com/fargate/": [
+      "Services/AWS Fargate.md"
+    ],
+    "https://aws.amazon.com/fargate/pricing/": [
+      "Sources/Audit Delivery and Comparisons 2026-09-27.md"
+    ],
+    "https://aws.amazon.com/global-accelerator/faqs/": [
+      "Services/AWS Global Accelerator.md",
+      "Sources/Domain 3 Official Sources.md"
+    ],
+    "https://aws.amazon.com/iam/roles-anywhere/": [
+      "Services/AWS IAM Roles Anywhere.md"
+    ],
+    "https://aws.amazon.com/otel/": [
+      "Concepts/AWS Distro for OpenTelemetry.md"
+    ],
+    "https://aws.amazon.com/premiumsupport/faqs/": [
+      "Services/AWS Trusted Advisor.md",
+      "Sources/Domain 4 Official Sources.md"
+    ],
+    "https://aws.amazon.com/s3/features/block-public-access/": [
+      "Sources/Domain 6 Official Sources.md"
+    ],
+    "https://aws.amazon.com/shield/features/": [
+      "Services/AWS Shield.md",
+      "Sources/Domain 5 Official Sources.md"
+    ],
+    "https://aws.amazon.com/solutions/": [
+      "Sources/Official AWS Sources.md"
+    ],
+    "https://aws.amazon.com/waf/faqs/": [
+      "Services/AWS WAF.md",
+      "Sources/Domain 5 Official Sources.md"
+    ],
+    "https://docs.aws.amazon.com/AWSCloudFormation/latest/TemplateReference/aws-resource-cloudwatch-compositealarm.html": [
+      "Concepts/Metric Alarms and Anomaly Detection.md",
+      "Sources/Domain 4 Official Sources.md"
+    ],
+    "https://docs.aws.amazon.com/AWSCloudFormation/latest/TemplateReference/aws-resource-ssm-resourcedatasync.html": [
+      "Services/AWS Systems Manager.md",
+      "Sources/Domain 4 Official Sources.md"
+    ],
+    "https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/Welcome.html": [
+      "Services/AWS CloudFormation.md",
+      "Sources/Official AWS Sources.md"
+    ],
+    "https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/continuous-delivery-codepipeline.html": [
+      "Services/AWS CodePipeline.md",
+      "Sources/Official AWS Sources.md"
+    ],
+    "https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/using-cfn-stack-drift.html": [
+      "Sources/Audit Delivery and Comparisons 2026-09-27.md"
+    ],
+    "https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/what-is-cfnstacksets.html": [
+      "Services/AWS CloudFormation StackSets.md",
+      "Sources/Audit Delivery and Comparisons 2026-09-27.md",
+      "Sources/Official AWS Sources.md"
+    ],
+    "https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-allowed-amis.html": [
+      "Sources/Domain 6 Official Sources.md"
+    ],
+    "https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/instance-configuration-recovery.html": [
+      "Services/AWS Health.md",
+      "Sources/Domain 4 Official Sources.md"
+    ],
+    "https://docs.aws.amazon.com/AWSSimpleQueueService/latest/SQSDeveloperGuide/sqs-visibility-timeout.html": [
+      "Sources/Audit Amazon Services 2026-09-27.md"
+    ],
+    "https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/field-level-encryption.html": [
+      "Services/CloudFront Field-Level Encryption.md",
+      "Sources/Audit Amazon Services 2026-09-27.md",
+      "Sources/Official AWS Sources.md"
+    ],
+    "https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/high_availability_origin_failover.html": [
+      "Services/Amazon CloudFront.md",
+      "Sources/Audit Amazon Services 2026-09-27.md",
+      "Sources/Official AWS Sources.md",
+      "Sources/Verification and Stale Reference Audit 2026-09-27.md"
+    ],
+    "https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/lambda-at-edge-function-restrictions.html": [
+      "Sources/Audit Amazon Services 2026-09-27.md"
+    ],
+    "https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/lambda-at-the-edge.html": [
+      "Services/Lambda@Edge.md",
+      "Sources/Official AWS Sources.md"
+    ],
+    "https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/restrict-access-to-load-balancer.html": [
+      "Concepts/DDoS Mitigation and Attack Surface Reduction.md",
+      "Services/Amazon CloudFront.md",
+      "Sources/Audit Concepts and Domains 2026-09-27.md",
+      "Sources/Domain 5 Official Sources.md"
+    ],
+    "https://docs.aws.amazon.com/AmazonCloudWatch/latest/logs/AnalyzingLogData.html": [
+      "Services/Amazon CloudWatch.md",
+      "Sources/Official AWS Sources.md"
+    ],
+    "https://docs.aws.amazon.com/AmazonCloudWatch/latest/logs/CWL_AnalyzeLogData-discoverable-fields.html": [
+      "Concepts/CloudWatch Logs Insights and Filter Patterns.md",
+      "Sources/Domain 4 Official Sources.md"
+    ],
+    "https://docs.aws.amazon.com/AmazonCloudWatch/latest/logs/CWL_QuerySyntax-examples.html": [
+      "Concepts/CloudWatch Logs Insights and Filter Patterns.md",
+      "Sources/Domain 4 Official Sources.md"
+    ],
+    "https://docs.aws.amazon.com/AmazonCloudWatch/latest/logs/CloudWatchLogs_Centralization.html": [
+      "Comparisons/Cross-Account Observability vs Log Centralization.md",
+      "Sources/Audit Concepts and Domains 2026-09-27.md",
+      "Sources/Audit Delivery and Comparisons 2026-09-27.md",
+      "Sources/Domain 4 Official Sources.md"
+    ],
+    "https://docs.aws.amazon.com/AmazonCloudWatch/latest/logs/CrossAccountSubscriptions-Firehose-Account.html": [
+      "Concepts/CloudWatch Log Subscriptions and Cross-Account Destinations.md",
+      "Services/Amazon Data Firehose.md",
+      "Sources/Audit Concepts and Domains 2026-09-27.md",
+      "Sources/Domain 4 Official Sources.md"
+    ],
+    "https://docs.aws.amazon.com/AmazonCloudWatch/latest/logs/CrossAccountSubscriptions.html": [
+      "Sources/Audit Amazon Services 2026-09-27.md",
+      "Sources/Official AWS Sources.md"
+    ],
+    "https://docs.aws.amazon.com/AmazonCloudWatch/latest/logs/MonitoringLogData.html": [
+      "Concepts/CloudWatch Logs Insights and Filter Patterns.md",
+      "Sources/Audit Concepts and Domains 2026-09-27.md",
+      "Sources/Domain 4 Official Sources.md"
+    ],
+    "https://docs.aws.amazon.com/AmazonCloudWatch/latest/logs/SubscriptionFilters.html#LambdaFunctionExample": [
+      "Concepts/CloudWatch Log Subscriptions and Cross-Account Destinations.md",
+      "Sources/Domain 4 Official Sources.md"
+    ],
+    "https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/CloudWatch-Agent-Configuration-File-Details.html": [
+      "Concepts/CloudWatch Metrics Namespaces and Dimensions.md",
+      "Sources/Domain 4 Official Sources.md"
+    ],
+    "https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/CloudWatch-Cross-Account-Methods.html": [
+      "Sources/Official AWS Sources.md"
+    ],
+    "https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/CloudWatch-metric-streams-setup-datalake.html": [
+      "Concepts/CloudWatch Metric Streams.md",
+      "Sources/Audit Concepts and Domains 2026-09-27.md",
+      "Sources/Domain 4 Official Sources.md"
+    ],
+    "https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/CloudWatch_Alarms.html": [
+      "Comparisons/Log Subscription vs Metric Filter vs EventBridge Rule.md",
+      "Services/Amazon CloudWatch.md",
+      "Sources/Audit Amazon Services 2026-09-27.md",
+      "Sources/Audit Concepts and Domains 2026-09-27.md",
+      "Sources/Audit Delivery and Comparisons 2026-09-27.md",
+      "Sources/Verification and Stale Reference Audit 2026-09-27.md"
+    ],
+    "https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/CloudWatch_Synthetics_Canaries_VPC.html": [
+      "Sources/Audit Concepts and Domains 2026-09-27.md"
+    ],
+    "https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/cloudwatch_concepts.html": [
+      "Concepts/CloudWatch Metrics Namespaces and Dimensions.md",
+      "Sources/Audit Amazon Services 2026-09-27.md",
+      "Sources/Domain 4 Official Sources.md"
+    ],
+    "https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/metrics-collected-by-CloudWatch-agent.html": [
+      "Sources/Official AWS Sources.md"
+    ],
+    "https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/publishingMetrics.html": [
+      "Concepts/CloudWatch Metrics Namespaces and Dimensions.md",
+      "Sources/Audit Concepts and Domains 2026-09-27.md",
+      "Sources/Domain 4 Official Sources.md"
+    ],
+    "https://docs.aws.amazon.com/AmazonECR/latest/userguide/replication.html": [
+      "Concepts/Multi-Region Application Checklist.md",
+      "Services/Amazon ECR.md",
+      "Sources/Audit Amazon Services 2026-09-27.md",
+      "Sources/Audit Concepts and Domains 2026-09-27.md",
+      "Sources/Domain 3 Official Sources.md"
+    ],
+    "https://docs.aws.amazon.com/AmazonECR/latest/userguide/what-is-ecr.html": [
+      "Services/Amazon ECR.md",
+      "Sources/Official AWS Sources.md"
+    ],
+    "https://docs.aws.amazon.com/AmazonECS/latest/developerguide/Welcome.html": [
+      "Sources/Official AWS Sources.md"
+    ],
+    "https://docs.aws.amazon.com/AmazonECS/latest/developerguide/deployment-type-blue-green.html": [
+      "Sources/Audit Amazon Services 2026-09-27.md",
+      "Sources/Audit Concepts and Domains 2026-09-27.md"
+    ],
+    "https://docs.aws.amazon.com/AmazonECS/latest/developerguide/deployment-type-ecs.html": [
+      "Sources/Audit Amazon Services 2026-09-27.md"
+    ],
+    "https://docs.aws.amazon.com/AmazonECS/latest/developerguide/ecs-account-settings.html": [
+      "Concepts/CloudWatch Agent and Container Log Collection.md",
+      "Services/Amazon ECS.md",
+      "Sources/Audit Amazon Services 2026-09-27.md",
+      "Sources/Audit Concepts and Domains 2026-09-27.md",
+      "Sources/Domain 4 Official Sources.md"
+    ],
+    "https://docs.aws.amazon.com/AmazonECS/latest/developerguide/stopped-task-errors.html": [
+      "Sources/Audit Concepts and Domains 2026-09-27.md"
+    ],
+    "https://docs.aws.amazon.com/AmazonElastiCache/latest/dg/WhatIs.html": [
+      "Services/Amazon ElastiCache.md",
+      "Sources/Audit Amazon Services 2026-09-27.md",
+      "Sources/Official AWS Sources.md"
+    ],
+    "https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/AuroraMySQL.Replication.CrossRegion.html": [
+      "Services/Amazon Aurora Global Database.md",
+      "Sources/Domain 3 Official Sources.md",
+      "Sources/Official AWS Sources.md"
+    ],
+    "https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/aurora-global-database.html": [
+      "Comparisons/DynamoDB Global Tables vs Aurora Global Database.md",
+      "Exam/Common Traps and Current Corrections.md",
+      "Services/Amazon Aurora Global Database.md",
+      "Sources/Audit Amazon Services 2026-09-27.md",
+      "Sources/Official AWS Sources.md"
+    ],
+    "https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/Overview.Encryption.html": [
+      "Sources/Domain 6 Official Sources.md"
+    ],
+    "https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/USER_Events.overview.html": [
+      "Services/Amazon Aurora Global Database.md",
+      "Services/Amazon RDS.md",
+      "Services/Amazon SNS.md",
+      "Sources/Audit Amazon Services 2026-09-27.md",
+      "Sources/Domain 3 Official Sources.md"
+    ],
+    "https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/Welcome.html": [
+      "Services/Amazon RDS.md",
+      "Sources/Domain 3 Official Sources.md"
+    ],
+    "https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/blue-green-deployments-overview.html": [
+      "Comparisons/RDS Blue Green vs EngineVersion Update vs Read Replica Promotion.md",
+      "Services/Amazon RDS.md",
+      "Sources/Audit Delivery and Comparisons 2026-09-27.md",
+      "Sources/Domain 3 Official Sources.md"
+    ],
+    "https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/multi-az-db-clusters-upgrading.html": [
+      "Services/Amazon RDS.md",
+      "Sources/Audit Amazon Services 2026-09-27.md",
+      "Sources/Domain 3 Official Sources.md"
+    ],
+    "https://docs.aws.amazon.com/AmazonS3/latest/userguide/Versioning.html": [
+      "Services/Amazon S3.md",
+      "Sources/Audit Amazon Services 2026-09-27.md"
+    ],
+    "https://docs.aws.amazon.com/AmazonS3/latest/userguide/Welcome.html": [
+      "Services/Amazon S3.md",
+      "Sources/Official AWS Sources.md"
+    ],
+    "https://docs.aws.amazon.com/AmazonS3/latest/userguide/about-object-ownership.html": [
+      "Sources/Audit Concepts and Domains 2026-09-27.md"
+    ],
+    "https://docs.aws.amazon.com/AmazonS3/latest/userguide/access-control-block-public-access.html": [
+      "Sources/Official AWS Sources.md"
+    ],
+    "https://docs.aws.amazon.com/AmazonS3/latest/userguide/bucket-encryption.html": [
+      "Sources/Domain 6 Official Sources.md"
+    ],
+    "https://docs.aws.amazon.com/AmazonS3/latest/userguide/example-bucket-policies.html": [
+      "Sources/Domain 6 Official Sources.md"
+    ],
+    "https://docs.aws.amazon.com/AmazonS3/latest/userguide/replication-add-config.html": [
+      "Services/Amazon S3.md",
+      "Sources/Domain 3 Official Sources.md"
+    ],
+    "https://docs.aws.amazon.com/AmazonS3/latest/userguide/s3-batch-replication-batch.html": [
+      "Services/Amazon S3.md",
+      "Sources/Domain 3 Official Sources.md"
+    ],
+    "https://docs.aws.amazon.com/AmazonS3/latest/userguide/update-sse-encryption.html": [
+      "Services/Amazon S3.md",
+      "Sources/Audit Amazon Services 2026-09-27.md",
+      "Sources/Domain 6 Official Sources.md",
+      "Sources/Verification and Stale Reference Audit 2026-09-27.md"
+    ],
+    "https://docs.aws.amazon.com/IAM/latest/UserGuide/access_policies_boundaries.html": [
+      "Sources/Domain 6 Official Sources.md",
+      "Sources/Official AWS Sources.md"
+    ],
+    "https://docs.aws.amazon.com/IAM/latest/UserGuide/id_credentials_temp.html": [
+      "Services/AWS Security Token Service.md",
+      "Sources/Audit Delivery and Comparisons 2026-09-27.md",
+      "Sources/Domain 6 Official Sources.md"
+    ],
+    "https://docs.aws.amazon.com/IAM/latest/UserGuide/id_roles.html": [
+      "Sources/Domain 6 Official Sources.md"
+    ],
+    "https://docs.aws.amazon.com/IAM/latest/UserGuide/introduction_attribute-based-access-control.html": [
+      "Sources/Domain 6 Official Sources.md"
+    ],
+    "https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_evaluation-logic_policy-eval-denyallow.html": [
+      "Sources/Audit Delivery and Comparisons 2026-09-27.md"
+    ],
+    "https://docs.aws.amazon.com/Route53/latest/DeveloperGuide/dns-failover-complex-configs.html": [
+      "Services/Amazon Route 53.md",
+      "Sources/Audit Amazon Services 2026-09-27.md",
+      "Sources/Domain 3 Official Sources.md"
+    ],
+    "https://docs.aws.amazon.com/Route53/latest/DeveloperGuide/dns-failover-configuring.html": [
+      "Services/Amazon Route 53.md",
+      "Sources/Domain 3 Official Sources.md"
+    ],
+    "https://docs.aws.amazon.com/Route53/latest/DeveloperGuide/dns-failover-how-to.html": [
+      "Sources/Official AWS Sources.md"
+    ],
+    "https://docs.aws.amazon.com/access-analyzer/latest/APIReference/Welcome.html": [
+      "Services/IAM Access Analyzer.md",
+      "Sources/Audit Amazon Services 2026-09-27.md"
+    ],
+    "https://docs.aws.amazon.com/acm/latest/userguide/acm-overview.html": [
+      "Services/AWS Certificate Manager.md",
+      "Sources/Domain 6 Official Sources.md"
+    ],
+    "https://docs.aws.amazon.com/acm/latest/userguide/export-public-certificate.html": [
+      "Sources/Audit Delivery and Comparisons 2026-09-27.md"
+    ],
+    "https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/AutoScaling.html": [
+      "Concepts/Scaling Metrics and Troubleshooting.md",
+      "Services/AWS Application Auto Scaling.md",
+      "Services/Amazon DynamoDB.md",
+      "Sources/Domain 3 Official Sources.md"
+    ],
+    "https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/DAX.consistency.html": [
+      "Services/Amazon DynamoDB Accelerator (DAX).md",
+      "Sources/Audit Amazon Services 2026-09-27.md",
+      "Sources/Domain 3 Official Sources.md"
+    ],
+    "https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/Introduction.html": [
+      "Services/Amazon DynamoDB.md"
+    ],
+    "https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/V2globaltables_HowItWorks.html": [
+      "Sources/Audit Amazon Services 2026-09-27.md"
+    ],
+    "https://docs.aws.amazon.com/apigateway/latest/developerguide/api-gateway-api-endpoint-types.html": [
+      "Services/Amazon API Gateway.md",
+      "Sources/Domain 3 Official Sources.md"
+    ],
+    "https://docs.aws.amazon.com/apigateway/latest/developerguide/apigateway-xray.html": [
+      "Concepts/Monitoring Correlation Tracing and Dashboards.md",
+      "Services/AWS X-Ray.md",
+      "Services/Amazon API Gateway.md",
+      "Sources/Domain 4 Official Sources.md"
+    ],
+    "https://docs.aws.amazon.com/apigateway/latest/developerguide/canary-release.html": [
+      "Services/Amazon API Gateway.md",
+      "Sources/Domain 3 Official Sources.md"
+    ],
+    "https://docs.aws.amazon.com/apigateway/latest/developerguide/http-api-vs-rest.html": [
+      "Sources/Audit Amazon Services 2026-09-27.md"
+    ],
+    "https://docs.aws.amazon.com/apigateway/latest/developerguide/welcome.html": [
+      "Services/Amazon API Gateway.md",
+      "Sources/Official AWS Sources.md"
+    ],
+    "https://docs.aws.amazon.com/appconfig/latest/userguide/what-is-appconfig.html": [
+      "Services/AWS AppConfig.md",
+      "Sources/Audit Delivery and Comparisons 2026-09-27.md",
+      "Sources/Official AWS Sources.md"
+    ],
+    "https://docs.aws.amazon.com/application-discovery/latest/userguide/application-discovery-service-availability-change.html": [
+      "Domains/Domain 2 - Configuration Management and IaC.md",
+      "Exam/Common Traps and Current Corrections.md",
+      "Services/AWS Application Discovery Service.md",
+      "Sources/Audit Concepts and Domains 2026-09-27.md",
+      "Sources/Audit Delivery and Comparisons 2026-09-27.md",
+      "Sources/Official AWS Sources.md",
+      "Sources/Verification and Stale Reference Audit 2026-09-27.md"
+    ],
+    "https://docs.aws.amazon.com/application-discovery/latest/userguide/what-is-appdiscovery.html": [
+      "Exam/Common Traps and Current Corrections.md",
+      "Services/AWS Application Discovery Service.md",
+      "Sources/Official AWS Sources.md"
+    ],
+    "https://docs.aws.amazon.com/athena/latest/ug/what-is.html": [
+      "Sources/Audit Amazon Services 2026-09-27.md"
+    ],
+    "https://docs.aws.amazon.com/audit-manager/latest/userguide/audit-manager-availability-change.html": [
+      "Services/AWS Audit Manager.md",
+      "Sources/Audit Delivery and Comparisons 2026-09-27.md",
+      "Sources/Domain 6 Official Sources.md"
+    ],
+    "https://docs.aws.amazon.com/autoscaling/application/userguide/what-is-application-auto-scaling.html": [
+      "Services/AWS Application Auto Scaling.md",
+      "Sources/Audit Delivery and Comparisons 2026-09-27.md"
+    ],
+    "https://docs.aws.amazon.com/autoscaling/ec2/userguide/as-scaling-target-tracking.html": [
+      "Sources/Audit Concepts and Domains 2026-09-27.md"
+    ],
+    "https://docs.aws.amazon.com/autoscaling/ec2/userguide/ec2-auto-scaling-scaling-cooldowns.html": [
+      "Comparisons/Cooldown vs Warmup vs Lifecycle Hooks vs Health Check Grace Period.md",
+      "Concepts/Scaling Metrics and Troubleshooting.md",
+      "Services/Amazon EC2 Auto Scaling.md",
+      "Sources/Audit Delivery and Comparisons 2026-09-27.md",
+      "Sources/Domain 3 Official Sources.md"
+    ],
+    "https://docs.aws.amazon.com/autoscaling/ec2/userguide/ec2-auto-scaling-scheduled-scaling.html": [
+      "Services/Amazon EC2 Auto Scaling.md",
+      "Sources/Domain 3 Official Sources.md"
+    ],
+    "https://docs.aws.amazon.com/autoscaling/ec2/userguide/warm-pools-eventbridge-events.html": [
+      "Services/Amazon EC2 Auto Scaling.md",
+      "Services/Amazon EventBridge.md",
+      "Sources/Audit Amazon Services 2026-09-27.md",
+      "Sources/Domain 3 Official Sources.md"
+    ],
+    "https://docs.aws.amazon.com/aws-backup/latest/devguide/cross-region-backup.html": [
+      "Sources/Official AWS Sources.md"
+    ],
+    "https://docs.aws.amazon.com/aws-backup/latest/devguide/encryption.html": [
+      "Services/AWS Backup.md",
+      "Sources/Domain 3 Official Sources.md"
+    ],
+    "https://docs.aws.amazon.com/aws-backup/latest/devguide/point-in-time-recovery-copying.html": [
+      "Services/AWS Backup.md",
+      "Sources/Audit Delivery and Comparisons 2026-09-27.md",
+      "Sources/Domain 3 Official Sources.md"
+    ],
+    "https://docs.aws.amazon.com/aws-certification/latest/devops-engineer-professional-02/devops-engineer-professional-02-domain1.html": [
+      "Domains/Domain 1 - SDLC Automation.md",
+      "Sources/Audit Concepts and Domains 2026-09-27.md",
+      "Sources/Official AWS Sources.md"
+    ],
+    "https://docs.aws.amazon.com/aws-certification/latest/devops-engineer-professional-02/devops-engineer-professional-02-domain2.html": [
+      "Domains/Domain 2 - Configuration Management and IaC.md",
+      "Sources/Audit Concepts and Domains 2026-09-27.md",
+      "Sources/Official AWS Sources.md"
+    ],
+    "https://docs.aws.amazon.com/aws-certification/latest/devops-engineer-professional-02/devops-engineer-professional-02-domain3.html": [
+      "Concepts/Disaster Recovery Strategies.md",
+      "Concepts/RTO RPO SLA SLO and Error Budgets.md",
+      "Concepts/Resilience Framework and Dependency Isolation.md",
+      "Domains/Domain 3 - Resilient Cloud Solutions.md",
+      "Sources/Audit Concepts and Domains 2026-09-27.md",
+      "Sources/Domain 3 Official Sources.md",
+      "Sources/Official AWS Sources.md"
+    ],
+    "https://docs.aws.amazon.com/aws-certification/latest/devops-engineer-professional-02/devops-engineer-professional-02-domain4.html": [
+      "Concepts/CloudWatch Metric Streams.md",
+      "Domains/Domain 4 - Monitoring and Logging.md",
+      "Sources/Audit Concepts and Domains 2026-09-27.md",
+      "Sources/Domain 4 Official Sources.md",
+      "Sources/Official AWS Sources.md"
+    ],
+    "https://docs.aws.amazon.com/aws-certification/latest/devops-engineer-professional-02/devops-engineer-professional-02-domain5.html": [
+      "Concepts/CloudWatch Synthetics.md",
+      "Domains/Domain 5 - Incident and Event Response.md",
+      "Sources/Audit Concepts and Domains 2026-09-27.md",
+      "Sources/Domain 5 Official Sources.md",
+      "Sources/Official AWS Sources.md"
+    ],
+    "https://docs.aws.amazon.com/aws-certification/latest/devops-engineer-professional-02/devops-engineer-professional-02-domain6.html": [
+      "Domains/Domain 6 - Security and Compliance.md",
+      "Sources/Audit Concepts and Domains 2026-09-27.md",
+      "Sources/Domain 6 Official Sources.md",
+      "Sources/Official AWS Sources.md"
+    ],
+    "https://docs.aws.amazon.com/aws-certification/latest/devops-engineer-professional-02/devops-engineer-professional-02.html": [
+      "Sources/Audit Concepts and Domains 2026-09-27.md",
+      "Sources/Official AWS Sources.md",
+      "Sources/Verification and Stale Reference Audit 2026-09-27.md"
+    ],
+    "https://docs.aws.amazon.com/aws-managed-policy/latest/reference/AWSCodeCommitPowerUser.html": [
+      "Sources/Audit Concepts and Domains 2026-09-27.md",
+      "Sources/Domain 6 Official Sources.md"
+    ],
+    "https://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-concepts.html": [
+      "Services/AWS CloudTrail.md",
+      "Sources/Domain 4 Official Sources.md"
+    ],
+    "https://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-lake-service-availability-change.html": [
+      "Services/AWS CloudTrail.md",
+      "Sources/Audit Delivery and Comparisons 2026-09-27.md",
+      "Sources/Verification and Stale Reference Audit 2026-09-27.md"
+    ],
+    "https://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-log-file-validation-intro.html": [
+      "Concepts/Log Lifecycle Security and Integrity.md",
+      "Services/AWS CloudTrail.md",
+      "Sources/Domain 4 Official Sources.md"
+    ],
+    "https://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-user-guide.html": [
+      "Services/AWS CloudTrail.md",
+      "Sources/Domain 4 Official Sources.md",
+      "Sources/Official AWS Sources.md"
+    ],
+    "https://docs.aws.amazon.com/awscloudtrail/latest/userguide/logging-data-events-with-cloudtrail.html": [
+      "Sources/Official AWS Sources.md"
+    ],
+    "https://docs.aws.amazon.com/awscloudtrail/latest/userguide/view-cloudtrail-events.html": [
+      "Services/AWS CloudTrail.md",
+      "Sources/Domain 4 Official Sources.md"
+    ],
+    "https://docs.aws.amazon.com/cdk/api/v2/docs/aws-cdk-lib.aws_config.CfnConfigRule.SourceDetailProperty.html": [
+      "Sources/Domain 4 Official Sources.md"
+    ],
+    "https://docs.aws.amazon.com/cdk/api/v2/docs/aws-cdk-lib.aws_elasticloadbalancingv2-readme.html": [
+      "Concepts/Log Lifecycle Security and Integrity.md",
+      "Sources/Domain 4 Official Sources.md"
+    ],
+    "https://docs.aws.amazon.com/cdk/api/v2/python/aws_cdk.aws_cloudwatch/README.html": [
+      "Concepts/Metric Alarms and Anomaly Detection.md",
+      "Sources/Domain 4 Official Sources.md"
+    ],
+    "https://docs.aws.amazon.com/cdk/v2/guide/home.html": [
+      "Services/AWS CDK.md",
+      "Sources/Audit Delivery and Comparisons 2026-09-27.md",
+      "Sources/Official AWS Sources.md"
+    ],
+    "https://docs.aws.amazon.com/cloudhsm/latest/userguide/fips-validation.html": [
+      "Services/AWS CloudHSM.md",
+      "Sources/Audit Delivery and Comparisons 2026-09-27.md",
+      "Sources/Domain 6 Official Sources.md"
+    ],
+    "https://docs.aws.amazon.com/codeartifact/latest/ug/tokens-authentication.html": [
+      "Services/AWS CodeArtifact.md"
+    ],
+    "https://docs.aws.amazon.com/codeartifact/latest/ug/welcome.html": [
+      "Services/AWS CodeArtifact.md",
+      "Sources/Audit Concepts and Domains 2026-09-27.md",
+      "Sources/Audit Delivery and Comparisons 2026-09-27.md"
+    ],
+    "https://docs.aws.amazon.com/codebuild/latest/userguide/test-reporting.html": [
+      "Exam/Common Traps and Current Corrections.md",
+      "Services/AWS CodeBuild.md",
+      "Sources/Audit Concepts and Domains 2026-09-27.md",
+      "Sources/Audit Delivery and Comparisons 2026-09-27.md",
+      "Sources/Official AWS Sources.md"
+    ],
+    "https://docs.aws.amazon.com/codebuild/latest/userguide/vpc-support.html": [
+      "Services/AWS CodeBuild.md"
+    ],
+    "https://docs.aws.amazon.com/codebuild/latest/userguide/welcome.html": [
+      "Services/AWS CodeBuild.md"
+    ],
+    "https://docs.aws.amazon.com/codecommit/latest/userguide/history.html": [
+      "Exam/Common Traps and Current Corrections.md",
+      "Services/AWS CodeCommit.md",
+      "Sources/Audit Delivery and Comparisons 2026-09-27.md",
+      "Sources/Official AWS Sources.md"
+    ],
+    "https://docs.aws.amazon.com/codecommit/latest/userguide/welcome.html": [
+      "Sources/Official AWS Sources.md"
+    ],
+    "https://docs.aws.amazon.com/codedeploy/latest/userguide/deployment-configurations.html": [
+      "Exam/Common Traps and Current Corrections.md",
+      "Services/AWS CodeDeploy.md",
+      "Sources/Audit Delivery and Comparisons 2026-09-27.md",
+      "Sources/Official AWS Sources.md"
+    ],
+    "https://docs.aws.amazon.com/codedeploy/latest/userguide/deployment-steps.html": [
+      "Services/AWS CodeDeploy.md"
+    ],
+    "https://docs.aws.amazon.com/codedeploy/latest/userguide/deployment-steps.html#deployment-steps-what-happens": [
+      "Concepts/Lambda Deployment Validation Hooks.md",
+      "Sources/Domain 5 Official Sources.md",
+      "Sources/Official AWS Sources.md"
+    ],
+    "https://docs.aws.amazon.com/codedeploy/latest/userguide/monitoring-cloudwatch-events.html": [
+      "Services/AWS CodeDeploy.md",
+      "Sources/Domain 4 Official Sources.md"
+    ],
+    "https://docs.aws.amazon.com/codedeploy/latest/userguide/reference-appspec-file-structure-hooks.html": [
+      "Comparisons/Lambda vs ECS vs EC2 CodeDeploy Hooks.md",
+      "Concepts/Lambda Deployment Validation Hooks.md",
+      "Exam/Common Traps and Current Corrections.md",
+      "Services/AWS CodeDeploy.md",
+      "Sources/Audit Concepts and Domains 2026-09-27.md",
+      "Sources/Audit Delivery and Comparisons 2026-09-27.md",
+      "Sources/Domain 5 Official Sources.md",
+      "Sources/Official AWS Sources.md"
+    ],
+    "https://docs.aws.amazon.com/codedeploy/latest/userguide/reference-appspec-file-structure-hooks.html#appspec-hooks-ecs": [
+      "Sources/Official AWS Sources.md"
+    ],
+    "https://docs.aws.amazon.com/codedeploy/latest/userguide/reference-appspec-file-structure-hooks.html#appspec-hooks-server": [
+      "Sources/Official AWS Sources.md"
+    ],
+    "https://docs.aws.amazon.com/codedeploy/latest/userguide/welcome.html": [
+      "Exam/Common Traps and Current Corrections.md",
+      "Services/AWS CodeDeploy.md",
+      "Sources/Official AWS Sources.md"
+    ],
+    "https://docs.aws.amazon.com/codepipeline/latest/userguide/action-reference-Commands.html": [
+      "Comparisons/CodePipeline vs CodeBuild vs CodeDeploy.md",
+      "Exam/Common Traps and Current Corrections.md",
+      "Services/AWS CodePipeline.md",
+      "Sources/Audit Delivery and Comparisons 2026-09-27.md",
+      "Sources/Verification and Stale Reference Audit 2026-09-27.md"
+    ],
+    "https://docs.aws.amazon.com/codepipeline/latest/userguide/action-requirements.html": [
+      "Exam/Common Traps and Current Corrections.md",
+      "Services/AWS CodePipeline.md",
+      "Sources/Domain 5 Official Sources.md",
+      "Sources/Official AWS Sources.md"
+    ],
+    "https://docs.aws.amazon.com/codepipeline/latest/userguide/actions-create-cross-region.html": [
+      "Exam/Cross-Account and Cross-Region CodePipeline.md",
+      "Services/AWS CodePipeline.md",
+      "Sources/Verification and Stale Reference Audit 2026-09-27.md"
+    ],
+    "https://docs.aws.amazon.com/codepipeline/latest/userguide/best-practices.html": [
+      "Services/AWS CodePipeline.md",
+      "Sources/Official AWS Sources.md"
+    ],
+    "https://docs.aws.amazon.com/codepipeline/latest/userguide/pipeline-types-planning.html": [
+      "Sources/Audit Delivery and Comparisons 2026-09-27.md"
+    ],
+    "https://docs.aws.amazon.com/codepipeline/latest/userguide/pipelines-create-cross-account.html": [
+      "Exam/Cross-Account and Cross-Region CodePipeline.md",
+      "Services/AWS CodePipeline.md",
+      "Sources/Verification and Stale Reference Audit 2026-09-27.md"
+    ],
+    "https://docs.aws.amazon.com/codepipeline/latest/userguide/reference-pipeline-structure.html": [
+      "Services/AWS CodePipeline.md",
+      "Sources/Audit Concepts and Domains 2026-09-27.md",
+      "Sources/Official AWS Sources.md"
+    ],
+    "https://docs.aws.amazon.com/cognito/latest/developerguide/what-is-amazon-cognito.html": [
+      "Sources/Audit Amazon Services 2026-09-27.md"
+    ],
+    "https://docs.aws.amazon.com/config/latest/developerguide/WhatIsConfig.html": [
+      "Services/AWS Config.md",
+      "Sources/Audit Delivery and Comparisons 2026-09-27.md",
+      "Sources/Official AWS Sources.md"
+    ],
+    "https://docs.aws.amazon.com/config/latest/developerguide/approved-amis-by-id.html": [
+      "Sources/Domain 6 Official Sources.md"
+    ],
+    "https://docs.aws.amazon.com/config/latest/developerguide/aws-config-landing-page.html": [
+      "Concepts/Disaster Recovery Testing and Failback.md",
+      "Services/AWS Config.md",
+      "Sources/Domain 3 Official Sources.md"
+    ],
+    "https://docs.aws.amazon.com/config/latest/developerguide/cloudtrail-enabled.html": [
+      "Concepts/Safe Event-Driven Remediation.md",
+      "Services/AWS Config.md",
+      "Sources/Audit Concepts and Domains 2026-09-27.md",
+      "Sources/Domain 4 Official Sources.md"
+    ],
+    "https://docs.aws.amazon.com/config/latest/developerguide/codedeploy-ec2-minimum-healthy-hosts-configured.html": [
+      "Sources/Domain 5 Official Sources.md"
+    ],
+    "https://docs.aws.amazon.com/config/latest/developerguide/evaluate-config_use-managed-rules.html": [
+      "Sources/Domain 4 Official Sources.md"
+    ],
+    "https://docs.aws.amazon.com/config/latest/developerguide/restricted-ssh.html": [
+      "Concepts/Security Group Remediation and Access Safety.md",
+      "Services/AWS Config.md",
+      "Sources/Audit Concepts and Domains 2026-09-27.md",
+      "Sources/Domain 5 Official Sources.md"
+    ],
+    "https://docs.aws.amazon.com/controltower/latest/userguide/what-is-control-tower.html": [
+      "Services/AWS Control Tower.md",
+      "Sources/Audit Delivery and Comparisons 2026-09-27.md",
+      "Sources/Official AWS Sources.md"
+    ],
+    "https://docs.aws.amazon.com/detective/latest/userguide/what-is-detective.html": [
+      "Sources/Audit Amazon Services 2026-09-27.md"
+    ],
+    "https://docs.aws.amazon.com/drs/latest/userguide/CloudEndure-Concepts.html": [
+      "Services/AWS Elastic Disaster Recovery.md",
+      "Sources/Audit Delivery and Comparisons 2026-09-27.md",
+      "Sources/Domain 3 Official Sources.md",
+      "Sources/Verification and Stale Reference Audit 2026-09-27.md"
+    ],
+    "https://docs.aws.amazon.com/drs/latest/userguide/what-is-drs.html": [
+      "Sources/Official AWS Sources.md"
+    ],
+    "https://docs.aws.amazon.com/dtconsole/latest/userguide/connections.html": [
+      "Services/AWS CodeConnections.md",
+      "Sources/Audit Delivery and Comparisons 2026-09-27.md",
+      "Sources/Official AWS Sources.md"
+    ],
+    "https://docs.aws.amazon.com/ebs/latest/userguide/what-is-ebs.html": [
+      "Services/Amazon EBS.md",
+      "Sources/Audit Amazon Services 2026-09-27.md",
+      "Sources/Official AWS Sources.md"
+    ],
+    "https://docs.aws.amazon.com/efs/latest/ug/whatisefs.html": [
+      "Services/Amazon EFS.md",
+      "Sources/Audit Amazon Services 2026-09-27.md",
+      "Sources/Official AWS Sources.md"
+    ],
+    "https://docs.aws.amazon.com/eks/latest/userguide/horizontal-pod-autoscaler.html": [
+      "Services/Amazon EKS.md",
+      "Sources/Audit Amazon Services 2026-09-27.md",
+      "Sources/Domain 3 Official Sources.md"
+    ],
+    "https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/Welcome.html": [
+      "Services/AWS Elastic Beanstalk.md",
+      "Sources/Official AWS Sources.md"
+    ],
+    "https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/concepts.html": [
+      "Services/AWS Elastic Beanstalk.md"
+    ],
+    "https://docs.aws.amazon.com/elasticbeanstalk/latest/relnotes/release-2026-09-17-cluster-mode.html": [
+      "Exam/Common Traps and Current Corrections.md",
+      "Services/AWS Elastic Beanstalk.md",
+      "Sources/Official AWS Sources.md"
+    ],
+    "https://docs.aws.amazon.com/elasticloadbalancing/latest/APIReference/API_ModifyLoadBalancerAttributes.html": [
+      "Concepts/Log Lifecycle Security and Integrity.md",
+      "Sources/Domain 4 Official Sources.md"
+    ],
+    "https://docs.aws.amazon.com/elasticloadbalancing/latest/application/edit-target-group-attributes.html#modify-cross-zone": [
+      "Services/Elastic Load Balancing.md",
+      "Sources/Domain 3 Official Sources.md"
+    ],
+    "https://docs.aws.amazon.com/elasticloadbalancing/latest/application/load-balancer-access-logs.html": [
+      "Concepts/Log Lifecycle Security and Integrity.md",
+      "Services/Elastic Load Balancing.md",
+      "Sources/Audit Amazon Services 2026-09-27.md",
+      "Sources/Audit Concepts and Domains 2026-09-27.md",
+      "Sources/Domain 4 Official Sources.md"
+    ],
+    "https://docs.aws.amazon.com/elasticloadbalancing/latest/network/load-balancer-target-groups.html": [
+      "Services/Elastic Load Balancing.md",
+      "Sources/Audit Amazon Services 2026-09-27.md",
+      "Sources/Domain 3 Official Sources.md"
+    ],
+    "https://docs.aws.amazon.com/eventbridge/latest/ref/events-ref-trustedadvisor.html": [
+      "Services/AWS Trusted Advisor.md",
+      "Sources/Audit Amazon Services 2026-09-27.md",
+      "Sources/Domain 4 Official Sources.md"
+    ],
+    "https://docs.aws.amazon.com/eventbridge/latest/userguide/eb-targets.html": [
+      "Services/Amazon EventBridge.md",
+      "Sources/Audit Amazon Services 2026-09-27.md",
+      "Sources/Audit Concepts and Domains 2026-09-27.md",
+      "Sources/Domain 5 Official Sources.md",
+      "Sources/Official AWS Sources.md"
+    ],
+    "https://docs.aws.amazon.com/eventbridge/latest/userguide/eb-what-is.html": [
+      "Services/Amazon EventBridge.md",
+      "Sources/Official AWS Sources.md"
+    ],
+    "https://docs.aws.amazon.com/firehose/latest/dev/writing-with-cloudwatch-logs.html": [
+      "Services/Amazon Data Firehose.md",
+      "Services/Amazon OpenSearch Service.md",
+      "Sources/Audit Amazon Services 2026-09-27.md",
+      "Sources/Domain 4 Official Sources.md"
+    ],
+    "https://docs.aws.amazon.com/fis/latest/userguide/stop-experiment.html": [
+      "Sources/Audit Concepts and Domains 2026-09-27.md"
+    ],
+    "https://docs.aws.amazon.com/global-accelerator/latest/dg/about-endpoints.html": [
+      "Sources/Audit Delivery and Comparisons 2026-09-27.md"
+    ],
+    "https://docs.aws.amazon.com/guardduty/latest/ug/guardduty_exportfindings.html": [
+      "Services/Amazon GuardDuty.md",
+      "Sources/Audit Amazon Services 2026-09-27.md",
+      "Sources/Domain 4 Official Sources.md"
+    ],
+    "https://docs.aws.amazon.com/guardduty/latest/ug/what-is-guardduty.html": [
+      "Services/Amazon GuardDuty.md",
+      "Sources/Domain 4 Official Sources.md",
+      "Sources/Official AWS Sources.md"
+    ],
+    "https://docs.aws.amazon.com/health/latest/ug/automating-instance-actions.html": [
+      "Concepts/Safe Event-Driven Remediation.md",
+      "Services/AWS Health.md",
+      "Sources/Domain 4 Official Sources.md"
+    ],
+    "https://docs.aws.amazon.com/health/latest/ug/cloudwatch-events-health.html": [
+      "Services/AWS Health.md",
+      "Sources/Audit Delivery and Comparisons 2026-09-27.md",
+      "Sources/Domain 4 Official Sources.md",
+      "Sources/Domain 5 Official Sources.md",
+      "Sources/Official AWS Sources.md"
+    ],
+    "https://docs.aws.amazon.com/help-panel/AmazonS3/latest/console/hp-edit-object-ownership-page.html": [
+      "Services/Amazon S3.md",
+      "Sources/Domain 5 Official Sources.md"
+    ],
+    "https://docs.aws.amazon.com/help-panel/autoscaling/ec2/help-panel/health-checks.subtopic.html": [
+      "Sources/Domain 3 Official Sources.md"
+    ],
+    "https://docs.aws.amazon.com/imagebuilder/latest/userguide/what-is-image-builder.html": [
+      "Services/EC2 Image Builder.md",
+      "Sources/Audit Amazon Services 2026-09-27.md",
+      "Sources/Official AWS Sources.md"
+    ],
+    "https://docs.aws.amazon.com/incident-manager/latest/userguide/migration-opscenter.html": [
+      "Concepts/Systems Manager Incident Operations.md",
+      "Sources/Audit Concepts and Domains 2026-09-27.md",
+      "Sources/Domain 5 Official Sources.md"
+    ],
+    "https://docs.aws.amazon.com/inspector/latest/user/what-is-inspector.html": [
+      "Exam/Common Traps and Current Corrections.md",
+      "Services/Amazon Inspector.md",
+      "Sources/Official AWS Sources.md"
+    ],
+    "https://docs.aws.amazon.com/kinesisanalytics/latest/dev/doc-history.html": [
+      "Exam/Common Traps and Current Corrections.md",
+      "Sources/Official AWS Sources.md"
+    ],
+    "https://docs.aws.amazon.com/kms/latest/developerguide/concepts.html": [
+      "Services/AWS Key Management Service.md"
+    ],
+    "https://docs.aws.amazon.com/kms/latest/developerguide/data-keys.html": [
+      "Services/AWS Key Management Service.md",
+      "Sources/Audit Delivery and Comparisons 2026-09-27.md",
+      "Sources/Domain 6 Official Sources.md",
+      "Sources/Official AWS Sources.md"
+    ],
+    "https://docs.aws.amazon.com/lambda/latest/dg/configuration-aliases.html": [
+      "Services/AWS Lambda.md",
+      "Sources/Audit Delivery and Comparisons 2026-09-27.md",
+      "Sources/Official AWS Sources.md"
+    ],
+    "https://docs.aws.amazon.com/lambda/latest/dg/services-cloudwatchevents.html": [
+      "Sources/Domain 5 Official Sources.md"
+    ],
+    "https://docs.aws.amazon.com/lambda/latest/dg/with-eventbridge-scheduler.html": [
+      "Sources/Domain 5 Official Sources.md"
+    ],
+    "https://docs.aws.amazon.com/license-manager/latest/userguide/host-resource-groups.html": [
+      "Concepts/Dedicated Host Compliance and Licensing.md",
+      "Services/AWS License Manager.md",
+      "Sources/Audit Concepts and Domains 2026-09-27.md",
+      "Sources/Audit Delivery and Comparisons 2026-09-27.md",
+      "Sources/Domain 5 Official Sources.md"
+    ],
+    "https://docs.aws.amazon.com/macie/latest/user/discovery-results-repository-s3.html": [
+      "Services/Amazon Macie.md",
+      "Sources/Domain 4 Official Sources.md"
+    ],
+    "https://docs.aws.amazon.com/macie/latest/user/what-is-macie.html": [
+      "Sources/Audit Amazon Services 2026-09-27.md"
+    ],
+    "https://docs.aws.amazon.com/managedservices/latest/userguide/inspector.html": [
+      "Sources/Domain 6 Official Sources.md"
+    ],
+    "https://docs.aws.amazon.com/network-firewall/latest/developerguide/what-is-aws-network-firewall.html": [
+      "Services/AWS Network Firewall.md",
+      "Sources/Audit Delivery and Comparisons 2026-09-27.md"
+    ],
+    "https://docs.aws.amazon.com/opensearch-service/latest/developerguide/what-is.html": [
+      "Services/Amazon OpenSearch Service.md",
+      "Sources/Audit Amazon Services 2026-09-27.md",
+      "Sources/Domain 4 Official Sources.md"
+    ],
+    "https://docs.aws.amazon.com/organizations/latest/userguide/orgs_manage_policies_scps.html": [
+      "Services/AWS Organizations.md",
+      "Sources/Audit Delivery and Comparisons 2026-09-27.md",
+      "Sources/Official AWS Sources.md"
+    ],
+    "https://docs.aws.amazon.com/pdfs/inspector/v1/userguide/inspector-ug.pdf": [
+      "Services/Amazon Inspector.md",
+      "Sources/Audit Amazon Services 2026-09-27.md",
+      "Sources/Audit Concepts and Domains 2026-09-27.md",
+      "Sources/Domain 4 Official Sources.md",
+      "Sources/Verification and Stale Reference Audit 2026-09-27.md"
+    ],
+    "https://docs.aws.amazon.com/prescriptive-guidance/latest/patterns/automate-the-setup-of-inter-region-peering-with-aws-transit-gateway.html": [
+      "Services/AWS Transit Gateway.md"
+    ],
+    "https://docs.aws.amazon.com/prescriptive-guidance/latest/patterns/create-aws-config-custom-rules-by-using-aws-cloudformation-guard-policies.html": [
+      "Services/AWS Config.md",
+      "Sources/Domain 5 Official Sources.md"
+    ],
+    "https://docs.aws.amazon.com/prescriptive-guidance/latest/security-reference-architecture/security-tooling.html": [
+      "Services/Amazon Macie.md",
+      "Sources/Domain 4 Official Sources.md"
+    ],
+    "https://docs.aws.amazon.com/prescriptive-guidance/latest/serverless-etl-aws-glue/aws-glue-data-catalog.html": [
+      "Services/AWS Glue.md",
+      "Sources/Audit Delivery and Comparisons 2026-09-27.md"
+    ],
+    "https://docs.aws.amazon.com/privateca/latest/userguide/PcaWelcome.html": [
+      "Services/AWS Private CA.md",
+      "Sources/Audit Delivery and Comparisons 2026-09-27.md"
+    ],
+    "https://docs.aws.amazon.com/quick/latest/userguide/what-is.html": [
+      "Services/Amazon QuickSight.md",
+      "Sources/Audit Amazon Services 2026-09-27.md",
+      "Sources/Domain 4 Official Sources.md",
+      "Sources/Verification and Stale Reference Audit 2026-09-27.md"
+    ],
+    "https://docs.aws.amazon.com/r53recovery/latest/dg/arc-readiness-availability-change.html": [
+      "Services/Amazon Application Recovery Controller.md",
+      "Sources/Audit Amazon Services 2026-09-27.md",
+      "Sources/Domain 6 Official Sources.md",
+      "Sources/Official AWS Sources.md"
+    ],
+    "https://docs.aws.amazon.com/r53recovery/latest/dg/doc-history.html": [
+      "Sources/Audit Amazon Services 2026-09-27.md",
+      "Sources/Verification and Stale Reference Audit 2026-09-27.md"
+    ],
+    "https://docs.aws.amazon.com/r53recovery/latest/dg/rds-promote-read-replica-block.html": [
+      "Services/Amazon Application Recovery Controller.md",
+      "Sources/Domain 3 Official Sources.md"
+    ],
+    "https://docs.aws.amazon.com/r53recovery/latest/dg/rds-switchover-read-replica-block.html": [
+      "Services/Amazon Application Recovery Controller.md"
+    ],
+    "https://docs.aws.amazon.com/r53recovery/latest/dg/what-is-route53-recovery.html": [
+      "Services/Amazon Application Recovery Controller.md",
+      "Sources/Domain 3 Official Sources.md"
+    ],
+    "https://docs.aws.amazon.com/ram/latest/userguide/what-is.html": [
+      "Services/AWS RAM.md",
+      "Sources/Audit Delivery and Comparisons 2026-09-27.md",
+      "Sources/Official AWS Sources.md"
+    ],
+    "https://docs.aws.amazon.com/resilience-hub/latest/userguide/arh-testing.html": [
+      "Concepts/Disaster Recovery Testing and Failback.md",
+      "Sources/Domain 3 Official Sources.md"
+    ],
+    "https://docs.aws.amazon.com/resilience-hub/latest/userguide/concepts-terms.html": [
+      "Concepts/Resilience Framework and Dependency Isolation.md",
+      "Sources/Domain 3 Official Sources.md"
+    ],
+    "https://docs.aws.amazon.com/rolesanywhere/latest/userguide/introduction.html": [
+      "Sources/Audit Delivery and Comparisons 2026-09-27.md"
+    ],
+    "https://docs.aws.amazon.com/sdk-for-ruby/v3/api/Aws/ECS/Types/LogConfiguration.html": [
+      "Concepts/CloudWatch Agent and Container Log Collection.md",
+      "Sources/Domain 4 Official Sources.md"
+    ],
+    "https://docs.aws.amazon.com/secretsmanager/latest/userguide/intro.html": [
+      "Services/AWS Secrets Manager.md",
+      "Sources/Official AWS Sources.md"
+    ],
+    "https://docs.aws.amazon.com/secretsmanager/latest/userguide/rotate-secrets_lambda-functions.html": [
+      "Sources/Domain 6 Official Sources.md"
+    ],
+    "https://docs.aws.amazon.com/secretsmanager/latest/userguide/rotating-secrets.html": [
+      "Services/AWS Secrets Manager.md",
+      "Sources/Audit Delivery and Comparisons 2026-09-27.md",
+      "Sources/Domain 6 Official Sources.md",
+      "Sources/Official AWS Sources.md",
+      "Sources/Verification and Stale Reference Audit 2026-09-27.md"
+    ],
+    "https://docs.aws.amazon.com/security-ir/latest/userguide/contain.html": [
+      "Sources/Audit Concepts and Domains 2026-09-27.md"
+    ],
+    "https://docs.aws.amazon.com/securityhub/latest/userguide/what-are-securityhub-services.html": [
+      "Comparisons/GuardDuty vs Inspector vs Security Hub vs Detective.md",
+      "Services/AWS Security Hub.md",
+      "Sources/Audit Delivery and Comparisons 2026-09-27.md",
+      "Sources/Official AWS Sources.md"
+    ],
+    "https://docs.aws.amazon.com/securityhub/latest/userguide/what-is-securityhub.html": [
+      "Sources/Official AWS Sources.md"
+    ],
+    "https://docs.aws.amazon.com/serverless-application-model/latest/developerguide/what-is-sam.html": [
+      "Services/AWS SAM.md",
+      "Sources/Audit Delivery and Comparisons 2026-09-27.md",
+      "Sources/Official AWS Sources.md"
+    ],
+    "https://docs.aws.amazon.com/servicecatalog/latest/adminguide/catalogs_constraints_template-constraints.html": [
+      "Sources/Domain 6 Official Sources.md"
+    ],
+    "https://docs.aws.amazon.com/servicecatalog/latest/adminguide/introduction.html": [
+      "Services/AWS Service Catalog.md",
+      "Sources/Audit Delivery and Comparisons 2026-09-27.md",
+      "Sources/Official AWS Sources.md"
+    ],
+    "https://docs.aws.amazon.com/singlesignon/latest/userguide/what-is.html": [
+      "Services/AWS IAM Identity Center.md",
+      "Sources/Audit Delivery and Comparisons 2026-09-27.md"
+    ],
+    "https://docs.aws.amazon.com/sns/latest/dg/welcome.html": [
+      "Services/Amazon SNS.md"
+    ],
+    "https://docs.aws.amazon.com/solutions/latest/devops-monitoring-dashboard-on-aws/solution-overview.html": [
+      "Services/Amazon QuickSight.md",
+      "Sources/Audit Amazon Services 2026-09-27.md",
+      "Sources/Domain 4 Official Sources.md"
+    ],
+    "https://docs.aws.amazon.com/step-functions/latest/dg/choosing-workflow-type.html": [
+      "Sources/Audit Delivery and Comparisons 2026-09-27.md"
+    ],
+    "https://docs.aws.amazon.com/step-functions/latest/dg/welcome.html": [
+      "Services/AWS Step Functions.md",
+      "Sources/Official AWS Sources.md"
+    ],
+    "https://docs.aws.amazon.com/storagegateway/latest/APIReference/API_RefreshCache.html": [
+      "Services/AWS Storage Gateway.md",
+      "Sources/Audit Delivery and Comparisons 2026-09-27.md",
+      "Sources/Domain 5 Official Sources.md"
+    ],
+    "https://docs.aws.amazon.com/systems-manager/latest/userguide/automation-action-executeStateMachine.html": [
+      "Services/AWS Step Functions.md",
+      "Sources/Domain 5 Official Sources.md"
+    ],
+    "https://docs.aws.amazon.com/systems-manager/latest/userguide/automation-actions.html": [
+      "Sources/Official AWS Sources.md"
+    ],
+    "https://docs.aws.amazon.com/systems-manager/latest/userguide/integration-ps-secretsmanager.html": [
+      "Sources/Audit Concepts and Domains 2026-09-27.md",
+      "Sources/Audit Delivery and Comparisons 2026-09-27.md",
+      "Sources/Domain 6 Official Sources.md"
+    ],
+    "https://docs.aws.amazon.com/systems-manager/latest/userguide/patch-manager-policies.html": [
+      "Services/AWS Systems Manager.md"
+    ],
+    "https://docs.aws.amazon.com/systems-manager/latest/userguide/patch-manager.html": [
+      "Sources/Domain 6 Official Sources.md"
+    ],
+    "https://docs.aws.amazon.com/systems-manager/latest/userguide/quick-setup-patch-manager.html": [
+      "Services/AWS Systems Manager.md",
+      "Sources/Official AWS Sources.md"
+    ],
+    "https://docs.aws.amazon.com/systems-manager/latest/userguide/running-automations-multiple-accounts-regions.html": [
+      "Sources/Domain 6 Official Sources.md"
+    ],
+    "https://docs.aws.amazon.com/systems-manager/latest/userguide/sysman-compliance-about.html#sysman-compliance-custom": [
+      "Sources/Domain 6 Official Sources.md"
+    ],
+    "https://docs.aws.amazon.com/systems-manager/latest/userguide/systems-manager-hybrid-multicloud.html": [
+      "Services/AWS Systems Manager.md"
+    ],
+    "https://docs.aws.amazon.com/systems-manager/latest/userguide/systems-manager-parameter-store.html": [
+      "Services/AWS Systems Manager Parameter Store.md",
+      "Sources/Official AWS Sources.md"
+    ],
+    "https://docs.aws.amazon.com/systems-manager/latest/userguide/what-is-systems-manager.html": [
+      "Services/AWS Systems Manager.md",
+      "Sources/Audit Delivery and Comparisons 2026-09-27.md",
+      "Sources/Official AWS Sources.md"
+    ],
+    "https://docs.aws.amazon.com/vpc/latest/privatelink/gateway-endpoints.html": [
+      "Sources/Domain 6 Official Sources.md"
+    ],
+    "https://docs.aws.amazon.com/vpc/latest/tgw/tgw-peering-add-route.html": [
+      "Concepts/Multi-Region Application Checklist.md",
+      "Services/AWS Transit Gateway.md",
+      "Sources/Audit Amazon Services 2026-09-27.md",
+      "Sources/Domain 3 Official Sources.md"
+    ],
+    "https://docs.aws.amazon.com/vpc/latest/userguide/resolver-dns-firewall.html": [
+      "Services/Amazon Route 53 Resolver DNS Firewall.md",
+      "Sources/Audit Amazon Services 2026-09-27.md"
+    ],
+    "https://docs.aws.amazon.com/vpc/latest/userguide/vpc-network-acls.html": [
+      "Comparisons/Security Groups vs Network ACLs.md",
+      "Concepts/HTTPS Connectivity Troubleshooting.md",
+      "Sources/Audit Delivery and Comparisons 2026-09-27.md",
+      "Sources/Domain 5 Official Sources.md"
+    ],
+    "https://docs.aws.amazon.com/vpc/latest/userguide/vpc-security-groups.html": [
+      "Comparisons/Security Groups vs Network ACLs.md",
+      "Concepts/HTTPS Connectivity Troubleshooting.md",
+      "Concepts/Security Group Remediation and Access Safety.md",
+      "Sources/Audit Concepts and Domains 2026-09-27.md",
+      "Sources/Audit Delivery and Comparisons 2026-09-27.md",
+      "Sources/Domain 5 Official Sources.md"
+    ],
+    "https://docs.aws.amazon.com/waf/latest/developerguide/ddos-automatic-app-layer-response.html": [
+      "Comparisons/Shield vs WAF vs CloudFront vs Auto Scaling.md",
+      "Concepts/DDoS Mitigation and Attack Surface Reduction.md",
+      "Services/AWS Shield.md",
+      "Services/AWS WAF.md",
+      "Sources/Audit Amazon Services 2026-09-27.md",
+      "Sources/Audit Concepts and Domains 2026-09-27.md",
+      "Sources/Audit Delivery and Comparisons 2026-09-27.md",
+      "Sources/Domain 5 Official Sources.md",
+      "Sources/Verification and Stale Reference Audit 2026-09-27.md"
+    ],
+    "https://docs.aws.amazon.com/waf/latest/developerguide/fms-prereq.html": [
+      "Services/AWS Firewall Manager.md",
+      "Sources/Audit Delivery and Comparisons 2026-09-27.md",
+      "Sources/Domain 6 Official Sources.md"
+    ],
+    "https://docs.aws.amazon.com/waf/latest/developerguide/waf-chapter.html": [
+      "Sources/Audit Amazon Services 2026-09-27.md"
+    ],
+    "https://docs.aws.amazon.com/wellarchitected/2022-03-31/framework/rel_mitigate_interaction_failure_stateless.html": [
+      "Sources/Audit Concepts and Domains 2026-09-27.md"
+    ],
+    "https://docs.aws.amazon.com/wellarchitected/2023-04-10/framework/rel_withstand_component_failures_static_stability.html": [
+      "Sources/Audit Concepts and Domains 2026-09-27.md"
+    ],
+    "https://docs.aws.amazon.com/wellarchitected/latest/reliability-pillar/rel_planning_for_recovery_disaster_recovery.html": [
+      "Sources/Audit Concepts and Domains 2026-09-27.md"
+    ],
+    "https://docs.aws.amazon.com/whitepapers/latest/aws-best-practices-ddos-resiliency/aws-best-practices-ddos-resiliency.html": [
+      "Concepts/DDoS Mitigation and Attack Surface Reduction.md",
+      "Services/AWS WAF.md",
+      "Sources/Domain 5 Official Sources.md",
+      "Sources/Verification and Stale Reference Audit 2026-09-27.md"
+    ],
+    "https://docs.aws.amazon.com/whitepapers/latest/aws-best-practices-ddos-resiliency/welcome.html": [
+      "Sources/Domain 5 Official Sources.md"
+    ],
+    "https://docs.aws.amazon.com/xray/latest/devguide/aws-xray.html": [
+      "Sources/Official AWS Sources.md"
+    ],
+    "https://docs.aws.amazon.com/xray/latest/devguide/xray-sdk-daemon-timeline.html": [
+      "Concepts/AWS Distro for OpenTelemetry.md",
+      "Exam/Common Traps and Current Corrections.md",
+      "Services/AWS X-Ray.md",
+      "Sources/Audit Amazon Services 2026-09-27.md",
+      "Sources/Audit Concepts and Domains 2026-09-27.md",
+      "Sources/Official AWS Sources.md",
+      "Sources/Verification and Stale Reference Audit 2026-09-27.md"
+    ],
+    "https://repost.aws/knowledge-center/add-config-remediation-actions": [
+      "Services/AWS Config.md",
+      "Sources/Domain 5 Official Sources.md",
+      "Sources/Official AWS Sources.md"
+    ],
+    "https://repost.aws/knowledge-center/cloudwatch-failed-log-delivery": [
+      "Concepts/CloudWatch Log Subscriptions and Cross-Account Destinations.md",
+      "Sources/Domain 4 Official Sources.md"
+    ],
+    "https://repost.aws/knowledge-center/cloudwatch-memory-metrics-ec2": [
+      "Concepts/CloudWatch Agent and Container Log Collection.md",
+      "Sources/Domain 4 Official Sources.md"
+    ],
+    "https://repost.aws/knowledge-center/cognito-user-pools-identity-pools": [
+      "Services/Amazon Cognito.md"
+    ],
+    "https://repost.aws/knowledge-center/elb-make-weighted-target-groups-for-alb": [
+      "Services/Elastic Load Balancing.md",
+      "Sources/Domain 3 Official Sources.md"
+    ],
+    "https://repost.aws/knowledge-center/eventbridge-rule-monitors-s3": [
+      "Services/Amazon EventBridge.md",
+      "Sources/Domain 4 Official Sources.md"
+    ],
+    "https://repost.aws/knowledge-center/global-accelerator-unhealthy-endpoints": [
+      "Services/AWS Global Accelerator.md"
+    ],
+    "https://repost.aws/knowledge-center/streaming-cloudwatch-logs": [
+      "Services/Amazon Kinesis Data Streams.md",
+      "Sources/Domain 4 Official Sources.md"
+    ]
+  }
+}

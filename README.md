@@ -30,6 +30,22 @@ The notebook contains **213 Markdown notes**, including **99 service pages** (in
 - Review [High-Value Exam Patterns](AWS-DOP-C02-Notebook/Exam/High-Value%20Exam%20Patterns.md) and [Common Traps and Current Corrections](AWS-DOP-C02-Notebook/Exam/Common%20Traps%20and%20Current%20Corrections.md).
 - Finish with [Rapid Review](AWS-DOP-C02-Notebook/Exam/Rapid%20Review.md), updating note `read` properties as you study.
 
+### Reset reading progress
+
+Each reader can start with a clean set of progress flags by running this command from the repository root:
+
+```shell
+python scripts/reset_read_flags.py
+```
+
+The script sets the YAML `read` property to `false` in every Markdown note under `AWS-DOP-C02-Notebook/`. It validates all notes before changing any of them and leaves notes that are already unread untouched. To preview the number of changes without modifying files, run:
+
+```shell
+python scripts/reset_read_flags.py --dry-run
+```
+
+The reset changes tracked notebook files, so run it in a personal clone or working copy when you do not want to alter another reader's recorded progress. A vault in a different location can be selected with `--vault PATH`.
+
 ## Sources and scope
 
 This is exam-focused study material, not exhaustive AWS documentation. Refer to the notebook's [Official AWS Sources](AWS-DOP-C02-Notebook/Sources/Official%20AWS%20Sources.md) and confirm changing service behavior and exam scope against current AWS documentation.

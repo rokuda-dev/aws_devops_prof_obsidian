@@ -261,6 +261,10 @@
   },
   "active": "e7bfd9dc7fcabf7f",
   "lastOpenFiles": [
+    "Sources/Verification and Stale Reference Audit 2026-09-27.md",
+    "Sources/Audit Delivery and Comparisons 2026-09-27.md",
+    "Sources/Audit Concepts and Domains 2026-09-27.md",
+    "Sources/Audit Amazon Services 2026-09-27.md",
     "Services/AWS Fargate.md",
     "Services/Amazon ECS.md",
     "Concepts/Scaling Metrics and Troubleshooting.md",
@@ -283,10 +287,6 @@
     "Concepts/Disaster Recovery Strategies.md",
     "Exam/Domain 3 Transcript Corrections.md",
     "Concepts/RTO RPO SLA SLO and Error Budgets.md",
-    "Services/AWS Backup.md",
-    "Services/AWS Elastic Disaster Recovery.md",
-    "Services/Amazon DynamoDB Accelerator (DAX).md",
-    "Comparisons/Multi-AZ vs Multi-Region.md",
     "aws_devops_prof_obsidian",
     "AWS"
   ]

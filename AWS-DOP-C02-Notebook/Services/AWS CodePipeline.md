@@ -11,7 +11,7 @@ read: true
 
 # AWS CodePipeline
 
-CodePipeline orchestrates release workflows as stages containing actions. It integrates source, build, test, approval, deploy, and custom actions; it does not compile code or perform host-level deployment itself.
+CodePipeline orchestrates release workflows as stages containing actions. It integrates source, build, test, approval, deploy, and custom actions. Its V2 Commands action can run shell commands using CodePipeline-managed CodeBuild compute without a separately created CodeBuild project; host deployment remains a deployment-provider responsibility.
 
 ## Know for the exam
 
@@ -34,7 +34,7 @@ CodePipeline orchestrates release workflows as stages containing actions. It int
   - a target role trusted by the pipeline account
   - artifact-bucket permissions
   - a customer-managed KMS key policy that permits the target role
-  Use a key ARN/ID rather than relying on an alias across accounts.
+  Prefer the full key ARN to identify the owning account and Region; do not rely on an alias across accounts.
 
 ## Exam traps
 
@@ -54,6 +54,7 @@ For access denied, inspect all three boundaries: role trust/permissions, artifac
 
 - [Cross-account pipeline actions](https://docs.aws.amazon.com/codepipeline/latest/userguide/pipelines-create-cross-account.html)
 - [Cross-Region actions](https://docs.aws.amazon.com/codepipeline/latest/userguide/actions-create-cross-region.html)
+- [V2 Commands action and managed CodeBuild compute](https://docs.aws.amazon.com/codepipeline/latest/userguide/action-reference-Commands.html)
 - [[Cross-Account and Cross-Region CodePipeline]]
 
 ## Domain 5 — diagnosis and execution time

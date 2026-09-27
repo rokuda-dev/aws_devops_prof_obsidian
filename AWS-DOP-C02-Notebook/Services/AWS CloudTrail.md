@@ -18,6 +18,9 @@ Task statements: 2.2; cross-domain 4–6. See [[Domain 1 - SDLC Automation]] and
 
 Event history, trails, organization trails, and event-data-store capabilities support different audit needs. Management events and optional data events cover different operations.
 
+> [!warning] Current availability — checked 2026-09-27
+> CloudTrail Lake closed to new customers on May 31, 2026 and receives critical fixes/security updates for existing customers. This restriction applies to Lake, not CloudTrail trails, Insights, or Aggregated Events. Existing organization event data stores can cover new member accounts; account-only event data stores do not automatically extend to new accounts. See [CloudTrail Lake availability](https://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-lake-service-availability-change.html).
+
 ## Architecture pattern
 
 Account/organization API activity → trail/audit destination → analysis/alerting → [[Amazon EventBridge]] response where supported.

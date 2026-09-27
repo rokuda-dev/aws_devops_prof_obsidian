@@ -55,10 +55,12 @@ Current Inspector is a supported continuous vulnerability/exposure service, not 
 Assessment-template wording in the exam guide is legacy Classic terminology. **Inspector Classic ended support May 20, 2026**; do not use its assessment-template/agent recipe as a current deployment instruction.
 
 Task 4.2. See [[Domain 4 Transcript Corrections]].
-- [Classic retirement and current-service distinction](https://docs.aws.amazon.com/inspector/v1/userguide/inspector-migration.html)
+- [Classic retirement and current-service distinction](https://docs.aws.amazon.com/pdfs/inspector/v1/userguide/inspector-ug.pdf)
 
 ## Domain 6 — vulnerability evidence
 
 Modern Inspector continuously scans supported EC2, ECR, Lambda and related coverage according to enabled scan types. Findings do not approve an AMI or patch a workload. Combine approved-image controls with vulnerability findings and controlled rebuild/redeployment.
 
 Task 6.3. [[Domain 6 Monitoring Auditing and Compliance]], [[Inspector vs GuardDuty vs Macie vs Access Analyzer]].
+
+> Reference availability checked 2026-09-27: the Classic PDF notice remains visible in AWS search results, but its direct URL returns HTTP 404. Treat it as indexed historical evidence, not a working documentation link. See [[Verification and Stale Reference Audit 2026-09-27]].

@@ -19,7 +19,7 @@ Task statements: 1.3, 1.4, 3.1, 3.3, 4.1, 5.1, 6.2. See [[Domain 1 - SDLC Automa
 
 ## Core components and behavior
 
-Buckets contain versioned objects; lifecycle, encryption, access policies, and replication solve different requirements.
+Buckets contain objects; enable S3 Versioning when multiple object versions are required. General purpose buckets are unversioned by default. Lifecycle, encryption, access policies, and replication solve different requirements.
 
 ## Architecture pattern
 
@@ -84,3 +84,8 @@ Tasks 5.1–5.3. [[S3 Permission Monitoring and Remediation]], [[AWS Storage Gat
 Use Block Public Access and least-privilege policies as preventive controls; Config findings are detective. CloudTrail S3 data events are required for object-level actor evidence. S3 encrypts new objects by default with SSE-S3, but a requirement for a specific SSE-KMS key needs deliberate bucket defaults/policy and migration of existing object versions.
 
 Tasks 6.2–6.3. [[Domain 6 Security Automation and Data Protection]], [[Domain 6 Monitoring Auditing and Compliance]], [[AWS Key Management Service]].
+
+For eligible existing objects, `UpdateObjectEncryption` can change SSE-S3 to SSE-KMS or change the KMS key without copying object data. It operates on the selected version (current version if omitted) and does not trigger live replication; update replicas separately. Object Lock retention or legal hold blocks this operation. Do not remove required retention merely to change encryption. Check the documented supported storage/encryption combinations and permissions before choosing this instead of a copy-based migration.
+
+- [Existing-object encryption updates and restrictions](https://docs.aws.amazon.com/AmazonS3/latest/userguide/update-sse-encryption.html)
+- [S3 Versioning states and default](https://docs.aws.amazon.com/AmazonS3/latest/userguide/Versioning.html)

@@ -1,0 +1,1271 @@
+{
+  "notes": {
+    "00 - Start Here.md": {
+      "sha256": "fcee064ede2010a0711ece80c06054a9bb869004596b00b7b9d1a244517334f1",
+      "read": [
+        "false"
+      ]
+    },
+    "Comparisons/AppConfig vs Parameter Store vs Secrets Manager.md": {
+      "sha256": "a3c0c8bb062bde2726deaaa8d0fa44365836a47ecc61eeee806a96dbafa2d346",
+      "read": [
+        "false"
+      ]
+    },
+    "Comparisons/AWS Health vs CloudWatch vs Trusted Advisor.md": {
+      "sha256": "6a82182fdbeb989eed165c1688f2d74a453f06647073e88fbb9e0137b0cb5afd",
+      "read": [
+        "false"
+      ]
+    },
+    "Comparisons/CodeArtifact vs ECR vs S3 vs Image Builder.md": {
+      "sha256": "886568aecc5157aecc402044c716bd62ee604bda02653bcec5bc7e949d1c4bb6",
+      "read": [
+        "false"
+      ]
+    },
+    "Comparisons/CodePipeline vs CodeBuild vs CodeDeploy.md": {
+      "sha256": "d266a8d9beeab4f0c59eca4b9b310d857cad5d26bef65b410cabb1043229f5c3",
+      "read": [
+        "false"
+      ]
+    },
+    "Comparisons/Config Compliance vs CloudTrail Actor Attribution.md": {
+      "sha256": "05ff1bed12d73006fe509a626897ebd812ca174ccb3b03327078732736dba6d4",
+      "read": [
+        "false"
+      ]
+    },
+    "Comparisons/Config vs CloudTrail vs Systems Manager.md": {
+      "sha256": "adb08d38c34d54dfdb958f031cd8cd9da2eb9555477877aa81c4c0029f87dd6c",
+      "read": [
+        "false"
+      ]
+    },
+    "Comparisons/Cooldown vs Warmup vs Lifecycle Hooks vs Health Check Grace Period.md": {
+      "sha256": "b529d3b1641e7a37c183bcb7827e32223fcf30ff0d28904fb6fdcd452913160b",
+      "read": [
+        "true"
+      ]
+    },
+    "Comparisons/Cross-Account Observability vs Log Centralization.md": {
+      "sha256": "191a2a610e28b823ab8103695978a531e75a159692f772274e003c9973dbf2ff",
+      "read": [
+        "false"
+      ]
+    },
+    "Comparisons/DAX vs ElastiCache vs DynamoDB Global Tables.md": {
+      "sha256": "e30bc1ef9832eb6f822b705ec952b09c8f42be5824ed2c15ed15b0baa8e3fd0e",
+      "read": [
+        "false"
+      ]
+    },
+    "Comparisons/Detection vs Enforcement vs Remediation.md": {
+      "sha256": "b549b90ab651bfd2cdeebdf32108cf2eb0524f2a9c7c44ff77e9658fbb8443ac",
+      "read": [
+        "false"
+      ]
+    },
+    "Comparisons/DynamoDB Global Tables vs Aurora Global Database.md": {
+      "sha256": "1e6b5bb2894a69c9fe9772f7ba61e6c1922946197ea890466576f25679745a3e",
+      "read": [
+        "false"
+      ]
+    },
+    "Comparisons/ECS Native vs CodeDeploy Deployments.md": {
+      "sha256": "544d11ef75dc35562b0292236e8526a2ecf45ab4d0d1ccaea0cd37fed05afb6d",
+      "read": [
+        "true"
+      ]
+    },
+    "Comparisons/Fleet Manager vs OpsCenter vs Automation vs State Manager.md": {
+      "sha256": "b67caee7bbce495628d473ad9a8a4b443fe6b95080ac47ae40b849947da85056",
+      "read": [
+        "false"
+      ]
+    },
+    "Comparisons/GuardDuty vs Inspector vs Security Hub vs Detective.md": {
+      "sha256": "04b570aa85542b5e74104927d52be34b8a4edabee2e2bdaafaf3109ed1bf7ec3",
+      "read": [
+        "false"
+      ]
+    },
+    "Comparisons/Inspector vs GuardDuty vs Macie vs Access Analyzer.md": {
+      "sha256": "5651c2b0d821782753bca6ab07f7ea2b9a03f7c23b855e1070d690dc44c2d0cc",
+      "read": [
+        "false"
+      ]
+    },
+    "Comparisons/Kinesis Data Streams vs Firehose vs EventBridge.md": {
+      "sha256": "8fdf28a0cee14f3c8e933075437154e5c8309a6e33fc280bd48665a7c3ecc901",
+      "read": [
+        "false"
+      ]
+    },
+    "Comparisons/KMS vs CloudHSM vs ACM vs Secrets Manager.md": {
+      "sha256": "52839b27839baa274a8a6ad67374d9f64ca6a27813a12733d895a262e17e986d",
+      "read": [
+        "false"
+      ]
+    },
+    "Comparisons/Lambda vs ECS vs EC2 CodeDeploy Hooks.md": {
+      "sha256": "b4df0849ca75015492a76a554849d9b15d7c4a18a54eb0f0ffdce54db75fb8c4",
+      "read": [
+        "false"
+      ]
+    },
+    "Comparisons/Log Subscription vs Metric Filter vs EventBridge Rule.md": {
+      "sha256": "8da0490b796029085a51546f49d5ca6b5d5fdff1d4ea7bb2eae79d9d075477d4",
+      "read": [
+        "false"
+      ]
+    },
+    "Comparisons/Logs Insights vs Athena vs OpenSearch.md": {
+      "sha256": "599eee427152d286dbefad3219093b91f51af20a5fe7d4bf7c0d3c0e8567ca49",
+      "read": [
+        "false"
+      ]
+    },
+    "Comparisons/Multi-AZ vs Multi-Region.md": {
+      "sha256": "496e9981927b39cd8b43ec88533258c5fa11e70f6ebf30c00d69ea5d44e14039",
+      "read": [
+        "true"
+      ]
+    },
+    "Comparisons/Organizations vs Control Tower vs Service Catalog vs RAM vs StackSets.md": {
+      "sha256": "f119893d91d93d405c1355a8dead5fce09638f4b177e9e14647f429eb03d10a8",
+      "read": [
+        "false"
+      ]
+    },
+    "Comparisons/RDS Blue Green vs EngineVersion Update vs Read Replica Promotion.md": {
+      "sha256": "fcd25c663e472b9e7dd6905b9a2516c602158d7eeb2d0d7d3d7a24a9462ecf32",
+      "read": [
+        "false"
+      ]
+    },
+    "Comparisons/RDS Multi-AZ vs Read Replicas vs Aurora Global Database.md": {
+      "sha256": "5d7bb2c1dd0327fe31f86e76ac8d74136c9500512e0674c7f905530f6b837c52",
+      "read": [
+        "false"
+      ]
+    },
+    "Comparisons/Route 53 vs Global Accelerator vs CloudFront.md": {
+      "sha256": "18a733b6ff89ded3241fbac6e5013eb05408d94760af197e9a0005a2c65f43c1",
+      "read": [
+        "false"
+      ]
+    },
+    "Comparisons/Run Command vs Session Manager vs State Manager vs Automation.md": {
+      "sha256": "cbd612d36c5687c3cc0708a893d15900be4613e8a4b948965a935c3059bb6cf9",
+      "read": [
+        "false"
+      ]
+    },
+    "Comparisons/SCP vs Permissions Boundary vs Session Policy vs Resource Policy.md": {
+      "sha256": "a8be84204675c932a20dc77f75f2b3cf6d5af0ae3db546f4cb6be23f3111247a",
+      "read": [
+        "false"
+      ]
+    },
+    "Comparisons/Security Groups vs Network ACLs.md": {
+      "sha256": "415514c49eb75e12974c4db11fe507486c218d4d744ccf4d66b81745abbea990",
+      "read": [
+        "false"
+      ]
+    },
+    "Comparisons/Shield vs WAF vs CloudFront vs Auto Scaling.md": {
+      "sha256": "aa1053a809cbeb5bd9c5416d9a82199bf79c9fa0c634f3c17c1d8c54590be90f",
+      "read": [
+        "false"
+      ]
+    },
+    "Comparisons/Static vs Anomaly vs Composite Alarms.md": {
+      "sha256": "ed1b36628001983d9deab49bfe28ae380fc4d5a25bcbf6f639cc919c178bcea8",
+      "read": [
+        "false"
+      ]
+    },
+    "Concepts/Artifact Management.md": {
+      "sha256": "65d7521146c1484f34d5b906cc3957a3a94a70874a3c25c9ccad3eefc2665a85",
+      "read": [
+        "true"
+      ]
+    },
+    "Concepts/AWS Distro for OpenTelemetry.md": {
+      "sha256": "7eb6249c54a50f3d17e0b6bc164b1d9a0102d2c4db28dd6d376b11aa50618e77",
+      "read": [
+        "true"
+      ]
+    },
+    "Concepts/Centralized Logging Architecture.md": {
+      "sha256": "2a092517b557f2a2b29256b6624176cb625bd9413be6cd67791b274d34d95f3d",
+      "read": [
+        "false"
+      ]
+    },
+    "Concepts/CI-CD Failure Triage and Parallel Actions.md": {
+      "sha256": "879333554a5db519083cb9dc1437b3cedd06ba3a7681faba18c9715858e99be9",
+      "read": [
+        "false"
+      ]
+    },
+    "Concepts/CloudWatch Agent and Container Log Collection.md": {
+      "sha256": "c0f1e10a97ca8803bbff70c6f99e49dbc0e81d141184d96f5de7a84f6136ff3f",
+      "read": [
+        "false"
+      ]
+    },
+    "Concepts/CloudWatch Container Insights.md": {
+      "sha256": "000a720f14cce6d194c73d000a776da7905255be14c2902a29404b7498d45750",
+      "read": [
+        "false"
+      ]
+    },
+    "Concepts/CloudWatch Log Subscriptions and Cross-Account Destinations.md": {
+      "sha256": "310fa2ba0d14c015d442961e7b42f1255e60682d892d81c8b63c30e2a4ce2c00",
+      "read": [
+        "false"
+      ]
+    },
+    "Concepts/CloudWatch Logs Insights and Filter Patterns.md": {
+      "sha256": "a2450249cbee17b14b6c32817919d9fe42a8003248aecceee5152cbe25c8f14a",
+      "read": [
+        "false"
+      ]
+    },
+    "Concepts/CloudWatch Metric Streams.md": {
+      "sha256": "fb7ced8677438041fd5a5101fde3261f988c12d8b608f366c522148640311e38",
+      "read": [
+        "false"
+      ]
+    },
+    "Concepts/CloudWatch Metrics Namespaces and Dimensions.md": {
+      "sha256": "b7feb5c5c083c1e7d66962bb6a9e279a95ad2b299a51c6b9a8de8e2e38440a68",
+      "read": [
+        "false"
+      ]
+    },
+    "Concepts/CloudWatch Synthetics.md": {
+      "sha256": "6779c28631e6ce8ede91b93efbd1fad8f3651a97eb1c44fcf3e457eaa2539011",
+      "read": [
+        "false"
+      ]
+    },
+    "Concepts/DDoS Mitigation and Attack Surface Reduction.md": {
+      "sha256": "057bda7eeb981583a21b7dbbb96f1dfa3c979cf3a7c2cea452764f2e74b01453",
+      "read": [
+        "false"
+      ]
+    },
+    "Concepts/Dedicated Host Compliance and Licensing.md": {
+      "sha256": "5787fc73e34433806aed52dd84e075ebc2755f6e32b57cab37b119e936c1043b",
+      "read": [
+        "false"
+      ]
+    },
+    "Concepts/Deployment Strategy Matrix.md": {
+      "sha256": "31c25b3462e9fdfe516e982a77fa4c450089e97a6a4eae626f16bd9b7382ab42",
+      "read": [
+        "true"
+      ]
+    },
+    "Concepts/Disaster Recovery Strategies.md": {
+      "sha256": "62c69689c23bf26039877feda58e46f7ef78b0f4a32b8f5ad40abd723ad72f01",
+      "read": [
+        "true"
+      ]
+    },
+    "Concepts/Disaster Recovery Testing and Failback.md": {
+      "sha256": "28f250381bc72b2445286396e395346bda139916b308aaaa9ee98822090d027b",
+      "read": [
+        "true"
+      ]
+    },
+    "Concepts/Domain 6 Identity and Access at Scale.md": {
+      "sha256": "86f4473c6d88d0707ba2c83f22aa4163511b7e2db7cb2dd125c2551f2b616897",
+      "read": [
+        "false"
+      ]
+    },
+    "Concepts/Domain 6 Monitoring Auditing and Compliance.md": {
+      "sha256": "628066b7ea209bfd2eae2f9022c7a019fce54b05ab2de3be0805f8d3bb7153e2",
+      "read": [
+        "false"
+      ]
+    },
+    "Concepts/Domain 6 Security Automation and Data Protection.md": {
+      "sha256": "e1cd21d0af38bbbf03fc46f37d489d5b97f88dd218e94c8dc326a70a9062f1d6",
+      "read": [
+        "false"
+      ]
+    },
+    "Concepts/ECS and EKS Failure Triage.md": {
+      "sha256": "d56ae33c971299370270c96a8277187e7fce176f0a3e0c8f77497da152325c4c",
+      "read": [
+        "true"
+      ]
+    },
+    "Concepts/Event Sources and Response Contracts.md": {
+      "sha256": "89fc2676bc88b1d23a48f45450233ec6cad8ae659227e53fa3f646cb571ca39f",
+      "read": [
+        "false"
+      ]
+    },
+    "Concepts/Exposed Credential Response.md": {
+      "sha256": "1a422a7818f29eb241ab34c0d73b8918372a41438c7ec35803a1b79d9f253646",
+      "read": [
+        "false"
+      ]
+    },
+    "Concepts/HTTPS Connectivity Troubleshooting.md": {
+      "sha256": "de415622f89f675b510b13b7c32a8e39b3cecb152af86ddaf723678b228915a0",
+      "read": [
+        "false"
+      ]
+    },
+    "Concepts/Incident Response Workflow and Evidence Preservation.md": {
+      "sha256": "63e0fa35afe8bd4bd6df21156aff4432ddcfc10cd801c0fdbe4bf51a28511e47",
+      "read": [
+        "false"
+      ]
+    },
+    "Concepts/Lambda Deployment Validation Hooks.md": {
+      "sha256": "546be94e3bacb38254f8d7e23c6fd21c3d1413c45e36d5a63eb906a4e1c074d3",
+      "read": [
+        "false"
+      ]
+    },
+    "Concepts/Log Lifecycle Security and Integrity.md": {
+      "sha256": "514b3ef99bab75a4dcf51ac2bd31ddc42b6c6b41a5078571ad219663b38229e2",
+      "read": [
+        "false"
+      ]
+    },
+    "Concepts/Metric Alarms and Anomaly Detection.md": {
+      "sha256": "945608557484fcf23f138b858c87c71ab8a561b754f0e03c052462b156c75f7c",
+      "read": [
+        "false"
+      ]
+    },
+    "Concepts/Monitoring Correlation Tracing and Dashboards.md": {
+      "sha256": "eb1d8e198c1cb91cb8642d0e5b80f4653e56f145ca674c7f3231e03d9c5d56aa",
+      "read": [
+        "false"
+      ]
+    },
+    "Concepts/Multi-Region Application Checklist.md": {
+      "sha256": "804c946c25442bc868501e952901145c5cb32e3c54ba20b5eb6fb2200b1eca8d",
+      "read": [
+        "true"
+      ]
+    },
+    "Concepts/Resilience Framework and Dependency Isolation.md": {
+      "sha256": "6fd55807c7f08e19540da7084b937219d72479b2a7a3ea310fbd9a1be6f649df",
+      "read": [
+        "true"
+      ]
+    },
+    "Concepts/RTO RPO SLA SLO and Error Budgets.md": {
+      "sha256": "a192fe3b21bd0b7f8e4ccdcc1df3ad7c4de4bf4f08d90022c47ca22fba7b82a3",
+      "read": [
+        "true"
+      ]
+    },
+    "Concepts/S3 Permission Monitoring and Remediation.md": {
+      "sha256": "4c9704db6be82ab497bf6f2ef04973a60fde6e598cfe7ebb1a1e1de9594cb6be",
+      "read": [
+        "false"
+      ]
+    },
+    "Concepts/Safe Event-Driven Remediation.md": {
+      "sha256": "4ed6d258c0c308392adbe61d5b265fa6e102fa9800bc4931b2dba3c2773f8493",
+      "read": [
+        "false"
+      ]
+    },
+    "Concepts/Scaling Metrics and Troubleshooting.md": {
+      "sha256": "80628d3036899b21db9fbd931f445c1bd7df4f5eea9492ba715ec39c6894c927",
+      "read": [
+        "false"
+      ]
+    },
+    "Concepts/SDLC and CI-CD Fundamentals.md": {
+      "sha256": "0a753003ec3d6d8ba57276a98ea2a81f08a115222969afd0a2fc4204b7d6a3db",
+      "read": [
+        "true"
+      ]
+    },
+    "Concepts/Security Group Remediation and Access Safety.md": {
+      "sha256": "d6876e6c64bc9ac893f52a3c0db76fb64fdeba9e22baff6a70801d75e74ab74b",
+      "read": [
+        "false"
+      ]
+    },
+    "Concepts/Stateless Applications and External Session State.md": {
+      "sha256": "5533ee5d755e4f5a20195d388eeaf7237ab1dc7373896d33531e59ea414079b9",
+      "read": [
+        "false"
+      ]
+    },
+    "Concepts/Systems Manager Incident Operations.md": {
+      "sha256": "9a579ac7b9fc323bd1b828b8e95968b588971a14f1f766824b42d12707463f1f",
+      "read": [
+        "false"
+      ]
+    },
+    "Concepts/Testing and Pipeline Placement.md": {
+      "sha256": "3c1ce5c21f5fb876f6793afb50fe502f79e158320d30ea2aabd0a09fa1dc2f5a",
+      "read": [
+        "true"
+      ]
+    },
+    "Domains/All-Domain Study Roadmap.md": {
+      "sha256": "77b4332259c3ecee7a68dc146b97ed73f9030934c431378698c4e1a2da5ac6c2",
+      "read": [
+        "false"
+      ]
+    },
+    "Domains/Domain 1 - SDLC Automation.md": {
+      "sha256": "f6ff31b434a08b9861e22d427870c389837757772e7667b8fa07a40400b2b573",
+      "read": [
+        "true"
+      ]
+    },
+    "Domains/Domain 2 - Configuration Management and IaC.md": {
+      "sha256": "d68db2ba86af2cb0c5e1f30f5e15f61d484cb5de916591b51903e0d130a1a747",
+      "read": [
+        "true"
+      ]
+    },
+    "Domains/Domain 3 - Resilient Cloud Solutions.md": {
+      "sha256": "315bb5f73d22753eb734421c268a47f966906a730632ac12ccf4c44dae9c69bb",
+      "read": [
+        "false"
+      ]
+    },
+    "Domains/Domain 4 - Monitoring and Logging.md": {
+      "sha256": "4d1cf25d2c06601b3e9ee17b73a430287ff92ca4a25e3f4d67b718c9857c32bd",
+      "read": [
+        "false"
+      ]
+    },
+    "Domains/Domain 5 - Incident and Event Response.md": {
+      "sha256": "a7700ee258e6168a4011c2400fc62469e1144d9b5d71bc28220f07aaa5621696",
+      "read": [
+        "false"
+      ]
+    },
+    "Domains/Domain 6 - Security and Compliance.md": {
+      "sha256": "c389ab563cc34d527e0e12758097957abb8d6fcc7161ae7d50b3cfe6cc0e63b1",
+      "read": [
+        "false"
+      ]
+    },
+    "Exam/Common Traps and Current Corrections.md": {
+      "sha256": "db3e2bdd014d6b8b23f18f5f727da2f4864a873bed2be71562115e193b6eecc4",
+      "read": [
+        "true"
+      ]
+    },
+    "Exam/Cross-Account and Cross-Region CodePipeline.md": {
+      "sha256": "99d65a8ef20cc2dcc1e0d880219519e0d18acbc2f93de00a6331d4269edd061f",
+      "read": [
+        "false"
+      ]
+    },
+    "Exam/Domain 3 Architecture Patterns.md": {
+      "sha256": "1ec8d2c9b10fc97cd556f01d3146020da35121bc9bd95e471e7173635dde57cb",
+      "read": [
+        "false"
+      ]
+    },
+    "Exam/Domain 3 Scenario Decisions.md": {
+      "sha256": "b8f74b4ae68fad92d8914f020e5c670a7f478b629cdee2c992fe405a24c331e1",
+      "read": [
+        "false"
+      ]
+    },
+    "Exam/Domain 3 Transcript Corrections.md": {
+      "sha256": "7a2424ab7cb5892a88b7cf59e03b4238bed3bb95aff4649e9ba562fe9013e67b",
+      "read": [
+        "false"
+      ]
+    },
+    "Exam/Domain 4 Architecture Patterns.md": {
+      "sha256": "15f90fd36e817cda6e37ec9192acfb083a0394abf43218d3293beeda646882f2",
+      "read": [
+        "false"
+      ]
+    },
+    "Exam/Domain 4 Scenario Decisions.md": {
+      "sha256": "55e512cbde97ae9ae93c11d818035c72c5bd7a544c2cc53a2c04586ad31c4346",
+      "read": [
+        "false"
+      ]
+    },
+    "Exam/Domain 4 Transcript Corrections.md": {
+      "sha256": "ada6e9b30bcccdc2002e6cce78a724ed92e137c256b252b3bb8416dbf222da0f",
+      "read": [
+        "false"
+      ]
+    },
+    "Exam/Domain 5 Architecture Patterns.md": {
+      "sha256": "f1fd39164a8b8a51fd19589dd443806c75ec7ecc98ca88457c67c76dcddcb6e4",
+      "read": [
+        "false"
+      ]
+    },
+    "Exam/Domain 5 Scenario Decisions.md": {
+      "sha256": "a1d1f0922498564abf40c5534db1e7860d3a38c6a6b00a834931c22475deefab",
+      "read": [
+        "false"
+      ]
+    },
+    "Exam/Domain 5 Transcript Corrections.md": {
+      "sha256": "b9315f9a591bd148fe77043b21b0a6f719dd411383ba7db83db13239f2f53042",
+      "read": [
+        "false"
+      ]
+    },
+    "Exam/Domain 6 Architecture Patterns.md": {
+      "sha256": "f0539417da88b9cc3c8f32cb91f6cff37b888a69cb1f7d41e715c52ac31b1f3a",
+      "read": [
+        "false"
+      ]
+    },
+    "Exam/Domain 6 Scenario Decisions.md": {
+      "sha256": "7fed069919d08cad85b64b059e7147491e7b0ee339d7745a012003913f8c9243",
+      "read": [
+        "false"
+      ]
+    },
+    "Exam/Domain 6 Transcript Corrections.md": {
+      "sha256": "bd307c3bbb4132b7ce687cc52e77a11ae77c93cb7e918099f0c39b47b62383b9",
+      "read": [
+        "false"
+      ]
+    },
+    "Exam/Domain Coverage and Service Map.md": {
+      "sha256": "feaa93eaae5707440ff15b7b4ad3969990b92b2f7af69c6692738ac8fb8dc335",
+      "read": [
+        "false"
+      ]
+    },
+    "Exam/High-Value Exam Patterns.md": {
+      "sha256": "ebb9a3bbe3e0ab465bd3608c947c7e78d8df471a2d0709f4fa963f07c6fdde7b",
+      "read": [
+        "false"
+      ]
+    },
+    "Exam/Notebook Validation.md": {
+      "sha256": "7256074b061d64d54e25481ab7dd9d77e461472ef5d07b27e5d9cb1bfa97d3a9",
+      "read": [
+        "false"
+      ]
+    },
+    "Exam/Rapid Review.md": {
+      "sha256": "83b146de3202b8bbbaea1e034a446e54e070ef5483f7939ab8dd180a84737ca1",
+      "read": [
+        "false"
+      ]
+    },
+    "Exam/Service Selection Matrix.md": {
+      "sha256": "36f6846e13c3cb40bfbc9404a89d1689abd509678c9f15e3c77faf3f365e3f3b",
+      "read": [
+        "true"
+      ]
+    },
+    "Service Index.md": {
+      "sha256": "fc46c63f8eb7186b48d85712432b5fde3da255462cc88f660b4b7b6a0eda74b7",
+      "read": [
+        "false"
+      ]
+    },
+    "Services/Amazon API Gateway.md": {
+      "sha256": "92b7a1a953d425969bef5dcea50c39be5abd16f9bb7b448fbad9afa2503e15bc",
+      "read": [
+        "true"
+      ]
+    },
+    "Services/Amazon Application Recovery Controller.md": {
+      "sha256": "989bb660f24e755f46f2f18419041d6bf8a764d4d4e2fb7283bc06966466857f",
+      "read": [
+        "true"
+      ]
+    },
+    "Services/Amazon Athena.md": {
+      "sha256": "43d39a1e8342afd90b2c0b4c95e77211a525fa5885671446281227db2efd03c3",
+      "read": [
+        "false"
+      ]
+    },
+    "Services/Amazon Aurora Global Database.md": {
+      "sha256": "fb16466dc64cd4d3719edeef53e0cbe0f8101d1aef6e0939623caf0e10dbaf48",
+      "read": [
+        "true"
+      ]
+    },
+    "Services/Amazon CloudFront and Lambda@Edge.md": {
+      "sha256": "43f84c5b4446c974c88d588ff53f1b7916306e54eabc59b20578a21fe00128e9",
+      "read": [
+        "false"
+      ]
+    },
+    "Services/Amazon CloudFront.md": {
+      "sha256": "96733eeb31b82f9d9f9b0a73d4aa5c878a99ca1a28392206c8c26996ceb4eb0f",
+      "read": [
+        "true"
+      ]
+    },
+    "Services/Amazon CloudWatch, X-Ray, and OpenTelemetry.md": {
+      "sha256": "ff2013e8a86bf04aa77cd8a1b1e79826ecd02478e51816c906203645b8765a14",
+      "read": [
+        "true"
+      ]
+    },
+    "Services/Amazon CloudWatch.md": {
+      "sha256": "4a98e4c032a524225d4bdf1069c221ae8e90472f344dea2063bf54970574c8a8",
+      "read": [
+        "false"
+      ]
+    },
+    "Services/Amazon Cognito.md": {
+      "sha256": "88e3102cd993481c5e60e1acab0d52ff655a25cbdbfbc83eb3a57666a6fb56c6",
+      "read": [
+        "false"
+      ]
+    },
+    "Services/Amazon Data Firehose.md": {
+      "sha256": "7d5e4bf1451ab7f83b6bc2487b250a04023738dcfcf05e1c4f047f9564369fea",
+      "read": [
+        "false"
+      ]
+    },
+    "Services/Amazon Detective.md": {
+      "sha256": "0560e95ec9a3150a2b5d8991830acfb31a8b04ae1769de5ba1b5f1201fe95e56",
+      "read": [
+        "true"
+      ]
+    },
+    "Services/Amazon DynamoDB Accelerator (DAX).md": {
+      "sha256": "13f5befe41e53630675d21c869182e94964badc3b97b758052ca1a8973106f55",
+      "read": [
+        "true"
+      ]
+    },
+    "Services/Amazon DynamoDB.md": {
+      "sha256": "34b81556b6f17287784df7110f24e0c5146f0a641fbfc3c213ba4d7186c8b99b",
+      "read": [
+        "true"
+      ]
+    },
+    "Services/Amazon EBS.md": {
+      "sha256": "ca772fefa86345736ed07b19a4a3a7538ed63dcc89d315275b490e162022018a",
+      "read": [
+        "false"
+      ]
+    },
+    "Services/Amazon EC2 Auto Scaling.md": {
+      "sha256": "144fc4979344f2af49aee874567b77b24f35a042b186653127d986e8dda8fd69",
+      "read": [
+        "true"
+      ]
+    },
+    "Services/Amazon ECR and EC2 Image Builder.md": {
+      "sha256": "dea12b551e75deab35293395ec83ad7d3bffd369d6942eca745122d7f952d82f",
+      "read": [
+        "true"
+      ]
+    },
+    "Services/Amazon ECR.md": {
+      "sha256": "92de8a971602e171fb987a823556e1af47bae18c986f31048081ded267cc38ff",
+      "read": [
+        "true"
+      ]
+    },
+    "Services/Amazon ECS Deployments.md": {
+      "sha256": "c34d9bfe058e09d599adaf32c6a6741d66ff922ce7743b72c66a2e1c7fc875f0",
+      "read": [
+        "true"
+      ]
+    },
+    "Services/Amazon ECS.md": {
+      "sha256": "50da81581b5270df4637693e00ddb2e991c65e975bf74335dfa3443b841e0238",
+      "read": [
+        "false"
+      ]
+    },
+    "Services/Amazon EFS.md": {
+      "sha256": "8d0b704d35d3d8c57dffe10b82235f7a394db95bb4bf51b848f73a9a2b5fea7e",
+      "read": [
+        "false"
+      ]
+    },
+    "Services/Amazon EKS.md": {
+      "sha256": "ce9f79606a08584711806c9bb2116ead1ed50b9544be7ac9cf425ab0ded6dee9",
+      "read": [
+        "true"
+      ]
+    },
+    "Services/Amazon ElastiCache.md": {
+      "sha256": "a2431960ca567d14a1d21958a89c742420b443d8dfea080e93a8a6a868f6480b",
+      "read": [
+        "false"
+      ]
+    },
+    "Services/Amazon EventBridge.md": {
+      "sha256": "a811fcb233bb204b7f0a85b47864d94e8eb0d210274ccd531e93f536a8fe67dc",
+      "read": [
+        "false"
+      ]
+    },
+    "Services/Amazon GuardDuty and Inspector.md": {
+      "sha256": "cddccbec0d8454032d5b95ab8c74fe2c34de5a261b6ae03cdd4771d793e9d0ea",
+      "read": [
+        "true"
+      ]
+    },
+    "Services/Amazon GuardDuty.md": {
+      "sha256": "31775cc3f37275880c0ee852aec8cf5d03b42d76461769e78e21f70f316884f8",
+      "read": [
+        "true"
+      ]
+    },
+    "Services/Amazon Inspector.md": {
+      "sha256": "dddf31681b60128fbce3df6c77da0c190ca0fd7318712fe73d53a1e6541c3175",
+      "read": [
+        "true"
+      ]
+    },
+    "Services/Amazon Kinesis Data Streams.md": {
+      "sha256": "ece7257e422e2b7c60714ef6f6abc6785b3d325d21e34c0065d955cab8fb191a",
+      "read": [
+        "false"
+      ]
+    },
+    "Services/Amazon Macie.md": {
+      "sha256": "7235b3f2c4f44de0af66f6d08af449f17d463f617c084b644184d670266096f1",
+      "read": [
+        "false"
+      ]
+    },
+    "Services/Amazon OpenSearch Service.md": {
+      "sha256": "31eaf82742bf2c786335618b0b54b1afb50d4114b1384579e9d1fb0cec496ef4",
+      "read": [
+        "false"
+      ]
+    },
+    "Services/Amazon QuickSight.md": {
+      "sha256": "c7dfb2f983f9b4ac3f3932a8c27eb757582832bdf0e6d30e93ced81fa8a7b01f",
+      "read": [
+        "false"
+      ]
+    },
+    "Services/Amazon RDS.md": {
+      "sha256": "c69071c362452443e62ed26ffe64dc6fae6af3bd2910693f4778bcb41086e718",
+      "read": [
+        "true"
+      ]
+    },
+    "Services/Amazon Route 53 Resolver DNS Firewall.md": {
+      "sha256": "9f39f23200e380a7e70377af5cb2968d89407e9e0031ed3d27cbfbfd5761a47b",
+      "read": [
+        "false"
+      ]
+    },
+    "Services/Amazon Route 53.md": {
+      "sha256": "75c3c2000585839be93c8d2eea824ff7be5379f345f2dff263d476cbc7c4218c",
+      "read": [
+        "true"
+      ]
+    },
+    "Services/Amazon S3.md": {
+      "sha256": "150f18245d53e3f4ecd49848664f33be929fda4b1a12ac93a9ab7127ac8abf6e",
+      "read": [
+        "true"
+      ]
+    },
+    "Services/Amazon SNS.md": {
+      "sha256": "22e1ca9ccf469c6916a87c859f68d39436f2277b34f40ccffc9a6ec10adb7e1d",
+      "read": [
+        "false"
+      ]
+    },
+    "Services/Amazon SQS.md": {
+      "sha256": "7ec3b84dfe43c3706d526d6c7f5d1036a5bb296fb03dbb592b172a1f70d33ebe",
+      "read": [
+        "false"
+      ]
+    },
+    "Services/AWS AppConfig, Parameter Store, and Secrets Manager.md": {
+      "sha256": "e44554d5403e20f9d51701d0ae92ab199a0d8c7136066cfa86c685637bd96b2a",
+      "read": [
+        "true"
+      ]
+    },
+    "Services/AWS AppConfig.md": {
+      "sha256": "b58fefea45bfccb1cd2d0aa8b46f6695f4ed6cc611be8bc44f778aae55a7d72d",
+      "read": [
+        "true"
+      ]
+    },
+    "Services/AWS Application Auto Scaling.md": {
+      "sha256": "c7c8969071144cb993a0a223b28cb7020049b137bfd5a28c3038c3597c3ded04",
+      "read": [
+        "true"
+      ]
+    },
+    "Services/AWS Application Discovery Service.md": {
+      "sha256": "c3d2bb738a7dffb2554f9060446669d90888862d0375eaad4c2f3bd2b3eeee92",
+      "read": [
+        "true"
+      ]
+    },
+    "Services/AWS Audit Manager.md": {
+      "sha256": "e1be5a0f820bd5d25ac005d025ff484b7b1c9191c60bce8c1cfa83e3e05d4c27",
+      "read": [
+        "false"
+      ]
+    },
+    "Services/AWS Backup.md": {
+      "sha256": "200a2a4b337b41f6f07a8b79bee2b9f0153b8a628d9b2dd890c06170bd6dc9b3",
+      "read": [
+        "true"
+      ]
+    },
+    "Services/AWS CDK.md": {
+      "sha256": "44f7be1ab9e8b4f39021d11093fd0d7d87799208250a82ff2d92b48faa83d890",
+      "read": [
+        "true"
+      ]
+    },
+    "Services/AWS Certificate Manager.md": {
+      "sha256": "92a1d868d70712b77b587cf2b4b7e15e3dbec449a82104eb312fac47f0e2ad6e",
+      "read": [
+        "false"
+      ]
+    },
+    "Services/AWS CloudFormation StackSets.md": {
+      "sha256": "e1fd0437c16c90a95733bcb53b472a2d094860b508c7ce2a539e6b6a777c2a2c",
+      "read": [
+        "true"
+      ]
+    },
+    "Services/AWS CloudFormation, CDK, and SAM.md": {
+      "sha256": "11b4ec3879e7f084eb159e514e3739498400da34c036ce889312cd6f8b814ed5",
+      "read": [
+        "true"
+      ]
+    },
+    "Services/AWS CloudFormation.md": {
+      "sha256": "5dd47a88c2cb4931ff7e14aa8893890edafb45975816b6685882ef9f929abdcc",
+      "read": [
+        "true"
+      ]
+    },
+    "Services/AWS CloudHSM.md": {
+      "sha256": "4bd625262ff837ef7699afe2a6233764b6b654fb2255623b0af46f7d0096638c",
+      "read": [
+        "false"
+      ]
+    },
+    "Services/AWS CloudTrail.md": {
+      "sha256": "6b13788b6d448cec3bb2dbb7e2e8e7a383f81fa65adb3e3ff8589ae8bfc051a7",
+      "read": [
+        "false"
+      ]
+    },
+    "Services/AWS CodeArtifact.md": {
+      "sha256": "d91f63a3e2bbcf80ef336d2078388741db9327d50f854391c814a360d0c62033",
+      "read": [
+        "true"
+      ]
+    },
+    "Services/AWS CodeBuild.md": {
+      "sha256": "4c905405a1b81fac3fde1338c245544e9c3d89fff27b076cf759b042a28df943",
+      "read": [
+        "true"
+      ]
+    },
+    "Services/AWS CodeCommit and CodeConnections.md": {
+      "sha256": "4107773c2264782e8ab5da62357d110c0f5c2187b1ade57aecfc0b285c6f2f23",
+      "read": [
+        "true"
+      ]
+    },
+    "Services/AWS CodeCommit.md": {
+      "sha256": "b4c849ac0ada47079e724a42aee9ca92bbb389dbb01f71e8ee79d91ab4ec64e2",
+      "read": [
+        "true"
+      ]
+    },
+    "Services/AWS CodeConnections.md": {
+      "sha256": "000b4182678564e91d599098e7e4d35e60089a9abb2bf952dabbdbfeaae6deb4",
+      "read": [
+        "true"
+      ]
+    },
+    "Services/AWS CodeDeploy.md": {
+      "sha256": "419794d0af0a87ec4881250b05bd3c9a0f7c98086e7e22f4f02bf4ec8ee2ab3b",
+      "read": [
+        "true"
+      ]
+    },
+    "Services/AWS CodePipeline.md": {
+      "sha256": "0d2bdaa9b98a22ac3724b3ca646713ad9f03ee1845ae32789579591047b1cbe3",
+      "read": [
+        "true"
+      ]
+    },
+    "Services/AWS Config.md": {
+      "sha256": "ce96ec737a402f67b5d1119489d0b61549cd23c80972009f782a3fb0fd46b0cd",
+      "read": [
+        "true"
+      ]
+    },
+    "Services/AWS Control Tower.md": {
+      "sha256": "d406fe369afb95692a734902a9264a25c56e87b40746eb6e7ad3ec7bc419ce57",
+      "read": [
+        "true"
+      ]
+    },
+    "Services/AWS Elastic Beanstalk.md": {
+      "sha256": "1ae0a6fd245698fb0d2d70cfa0d76232b9b64024f3a2a7f919fed8002cefa7f1",
+      "read": [
+        "true"
+      ]
+    },
+    "Services/AWS Elastic Disaster Recovery.md": {
+      "sha256": "7babdb0f4dfbaea4f4a364c26a28650d32a4215c8babefd553c8306cfe1c4fb0",
+      "read": [
+        "true"
+      ]
+    },
+    "Services/AWS Fargate.md": {
+      "sha256": "0a6cb28e5e04a934da5cdf156d7b36f66bb35f86f8316d3f6d9a361236723ffc",
+      "read": [
+        "true"
+      ]
+    },
+    "Services/AWS Firewall Manager.md": {
+      "sha256": "5c053a1af01ff009ba9567940add2b269ce6ea93fbfb9bce9a87f22b79c027a8",
+      "read": [
+        "false"
+      ]
+    },
+    "Services/AWS Global Accelerator.md": {
+      "sha256": "787350c99e775729f0b93f1bd6582344bf962265cf0ef66b32a9b43cb61d2edb",
+      "read": [
+        "true"
+      ]
+    },
+    "Services/AWS Glue.md": {
+      "sha256": "c06c7bb2bff1c51d07a16a86c5677be0cf7ad8ac95203d528c5bb2fb1649bdaf",
+      "read": [
+        "false"
+      ]
+    },
+    "Services/AWS Health.md": {
+      "sha256": "ed0d175a2985aa448363ada65c80d40a808f435f72b50a11efe9356f11a9a985",
+      "read": [
+        "false"
+      ]
+    },
+    "Services/AWS IAM Identity Center.md": {
+      "sha256": "4a9623f1a50f44b7e6cb91569fd0d33fdb8e1afb8856e54d363bd2d955c4f7d3",
+      "read": [
+        "false"
+      ]
+    },
+    "Services/AWS IAM Roles Anywhere.md": {
+      "sha256": "9bf2f1999d23ae7d0e7aa3ec91fbaf1c3b5360f45ce79c6ad97aa7c4634a7a7b",
+      "read": [
+        "false"
+      ]
+    },
+    "Services/AWS Identity and Access Management.md": {
+      "sha256": "94d2846043551219942b4f4d17e9503dbe14537e9777fb0ccbed7130c8e06da6",
+      "read": [
+        "false"
+      ]
+    },
+    "Services/AWS Key Management Service.md": {
+      "sha256": "ed09fb9781841abc009272e32d18684fbbc6b52d86b28995b2dc778ba3f6735a",
+      "read": [
+        "false"
+      ]
+    },
+    "Services/AWS Lambda and API Gateway.md": {
+      "sha256": "d74c3baa994ac96031ba450b6f6c1425fadc0f07cc1c1141a2844e55b8e2861e",
+      "read": [
+        "true"
+      ]
+    },
+    "Services/AWS Lambda.md": {
+      "sha256": "e4f8a3623e31068983ba496afa12d23332db0219f82f29854283e3ab633e7e9f",
+      "read": [
+        "true"
+      ]
+    },
+    "Services/AWS License Manager.md": {
+      "sha256": "8f534fc10352563978348523e2df91fa5a4eaee8328a4c4ef9cc938e7ee4b7b9",
+      "read": [
+        "false"
+      ]
+    },
+    "Services/AWS Network Firewall.md": {
+      "sha256": "9e8327317a817045e1a22ff7467aa9eee59d115abdaa003c299b4469c952263f",
+      "read": [
+        "false"
+      ]
+    },
+    "Services/AWS Organizations and Control Tower.md": {
+      "sha256": "f9eda4057ec422ba3f75786359639501a30051510abe9f5e5fbbd1b437d78706",
+      "read": [
+        "true"
+      ]
+    },
+    "Services/AWS Organizations.md": {
+      "sha256": "81fa5d069b64e7eb43b5aeec4c66534b8e9aaaa233dc90a4cd37dea5313d18b1",
+      "read": [
+        "true"
+      ]
+    },
+    "Services/AWS Private CA.md": {
+      "sha256": "7f820522330607c8fc931b10cf3b1e7105837b295d530f43f8851be26842b22d",
+      "read": [
+        "false"
+      ]
+    },
+    "Services/AWS RAM.md": {
+      "sha256": "9d7210479d8c9b3f90b6e30f1e6a3db7773982d2fc9d1ca82abf33f90bbbfcd9",
+      "read": [
+        "true"
+      ]
+    },
+    "Services/AWS SAM.md": {
+      "sha256": "53a5926428194a49237954d74502196d5febba64b28a19f3f85ce542b371fec1",
+      "read": [
+        "true"
+      ]
+    },
+    "Services/AWS Secrets Manager.md": {
+      "sha256": "a2e825160d23529588bd30cac221891ad670108b33800fed9401067607495cb2",
+      "read": [
+        "true"
+      ]
+    },
+    "Services/AWS Security Hub.md": {
+      "sha256": "e2a41b8b7390c57d0d8882940db8c6feacbc781a94c3541053e1a7a1d9855b8b",
+      "read": [
+        "true"
+      ]
+    },
+    "Services/AWS Security Token Service.md": {
+      "sha256": "694ca80bd2e9ba56d13a5e6ba0bfa2a3968a72fd780648ab9ee6cf1658fc22be",
+      "read": [
+        "false"
+      ]
+    },
+    "Services/AWS Service Catalog and RAM.md": {
+      "sha256": "1a0a5f7c95689a9385d35ee73f0324f039f130d71fabdb2a0d2f34fc30eea58c",
+      "read": [
+        "true"
+      ]
+    },
+    "Services/AWS Service Catalog.md": {
+      "sha256": "0a8079725a7554e556ab65c1fcf6dc182a973d3a860892c40d1d107fcfa402d0",
+      "read": [
+        "true"
+      ]
+    },
+    "Services/AWS Shield.md": {
+      "sha256": "9460691d9ad0e5cf5f6893b6b01e03abcf8cf2355e1e1bdb464bd9ef93b4d921",
+      "read": [
+        "false"
+      ]
+    },
+    "Services/AWS Step Functions and EventBridge.md": {
+      "sha256": "74bc0daf925998a7eae78e396ebceaa89c41c1460c1367a07a3b3b39044c2660",
+      "read": [
+        "true"
+      ]
+    },
+    "Services/AWS Step Functions.md": {
+      "sha256": "59efad1dfeaf1378c5f3cc033490f80ef23a39d2241017739a365958b1800a4c",
+      "read": [
+        "true"
+      ]
+    },
+    "Services/AWS Storage and Stateless Application Patterns.md": {
+      "sha256": "9b8a96896e149fd5ada842c32d7bb39efaf6ad71e5b39701c2f18c8079a15860",
+      "read": [
+        "false"
+      ]
+    },
+    "Services/AWS Storage Gateway.md": {
+      "sha256": "7c4742595cdd21991679fd21bd83cdb99f17e38f18f1033ef0bc9d48f218f373",
+      "read": [
+        "false"
+      ]
+    },
+    "Services/AWS Systems Manager Parameter Store.md": {
+      "sha256": "a8f4db6e912450f560e2f0d53a519590973ee382a7044ae6612e48a62bb7ead3",
+      "read": [
+        "true"
+      ]
+    },
+    "Services/AWS Systems Manager.md": {
+      "sha256": "d73cee01e43e1eae492a8a1f147c219d3bedc023547b62b5207625e42459f156",
+      "read": [
+        "true"
+      ]
+    },
+    "Services/AWS Transit Gateway.md": {
+      "sha256": "657724027f165c6dc20e062a144936075ccc2d03547cffe0d79a83f5f2e0c3ed",
+      "read": [
+        "false"
+      ]
+    },
+    "Services/AWS Trusted Advisor.md": {
+      "sha256": "ca197095484d004e21bf11223e0a53b1b39b7650814169d6d68b7c845ab46089",
+      "read": [
+        "false"
+      ]
+    },
+    "Services/AWS WAF.md": {
+      "sha256": "3f0f54be1cc70eaf41f97659e9bcf5415f1d8a46573e46b220b054b1b0247da1",
+      "read": [
+        "false"
+      ]
+    },
+    "Services/AWS X-Ray.md": {
+      "sha256": "9d63571a836841e6100462249a6e2c53b80ca51f3a572d37f7f8095d0b4adb40",
+      "read": [
+        "true"
+      ]
+    },
+    "Services/CloudFront Field-Level Encryption.md": {
+      "sha256": "fe45bac2b58f5478098b0741ca2655fdeb650bebba222979a1007804abcccf37",
+      "read": [
+        "false"
+      ]
+    },
+    "Services/EC2 Image Builder.md": {
+      "sha256": "fd9855c0a3d8e7da2af2c065749ef93d269fbfddf9ebe1466ff6cd379e05fc46",
+      "read": [
+        "true"
+      ]
+    },
+    "Services/Elastic Load Balancing.md": {
+      "sha256": "07e40ab8fa6676157cd53c6ced13255a468fa89d154bc06db71cb438247c6bff",
+      "read": [
+        "true"
+      ]
+    },
+    "Services/IAM Access Analyzer.md": {
+      "sha256": "55d5acce7d10f6f6fa6a812fc79c7df7e5aedbb428d0ef3d99538dcf2baa04ee",
+      "read": [
+        "false"
+      ]
+    },
+    "Services/Lambda@Edge.md": {
+      "sha256": "7f92e7c5c1fa6488fc7404f34b0859113e4dc3125c5b557082fff15d953c07db",
+      "read": [
+        "false"
+      ]
+    },
+    "Sources/Domain 3 Official Sources.md": {
+      "sha256": "87835d09c2050af3e32da9039983cc4d4642f5d27d30d2e64c5d83111b8759e0",
+      "read": [
+        "false"
+      ]
+    },
+    "Sources/Domain 3 Transcript Coverage.md": {
+      "sha256": "753a5a5ba5196c6a3266ac8b977f5c8b505711c38b23a912e554e544b5e38eda",
+      "read": [
+        "false"
+      ]
+    },
+    "Sources/Domain 4 Official Sources.md": {
+      "sha256": "ce23a2951976c4d5b08733d3a6495dae72dc515bc922612714850cd2aa056fb2",
+      "read": [
+        "false"
+      ]
+    },
+    "Sources/Domain 4 Transcript Coverage.md": {
+      "sha256": "00ff43bb95f7dc2c28d3c76ec81af713796132894e1e25c796b45817437bbde4",
+      "read": [
+        "false"
+      ]
+    },
+    "Sources/Domain 5 Official Sources.md": {
+      "sha256": "6c748f244c2be34d4f24377f38dffba0c558ee778544c24cb696472350466c7f",
+      "read": [
+        "false"
+      ]
+    },
+    "Sources/Domain 5 Transcript Coverage.md": {
+      "sha256": "eee2dc6974d8ebfb2d9019c5bd673924fc4a27c25376a65cb3063a566684f4f4",
+      "read": [
+        "false"
+      ]
+    },
+    "Sources/Domain 6 Official Sources.md": {
+      "sha256": "0c8f4a4a62a542130d900226e49dbae23ad55662897bbd980b495847a4bb8874",
+      "read": [
+        "false"
+      ]
+    },
+    "Sources/Domain 6 Transcript Coverage.md": {
+      "sha256": "d40c816484bb0f2051fdf6f12c3d506cb60e54edf74ef38fbf8f126504a083c9",
+      "read": [
+        "false"
+      ]
+    },
+    "Sources/Imported Domain 1 Index.md": {
+      "sha256": "a319af76143fe9acecd58f77763186a6fc605fc3e854a3afb0f8ca185479f4e8",
+      "read": [
+        "false"
+      ]
+    },
+    "Sources/Notebook Changelog.md": {
+      "sha256": "764053316c8f466064387500c8cdea9f3f74dad1187eb95ec083fbae459d87d9",
+      "read": [
+        "false"
+      ]
+    },
+    "Sources/Notebook Provenance and Progress.md": {
+      "sha256": "d6c651dbab197fa7ae3c470e08217a74a49755001c51a9085f6449a5fa2d4137",
+      "read": [
+        "false"
+      ]
+    },
+    "Sources/Official AWS Sources.md": {
+      "sha256": "8bf6c57a27e48759bf010dcdf5d0a3a47ca940a298b0f768b864f8650e6277be",
+      "read": [
+        "false"
+      ]
+    },
+    "Sources/Verification Ledger.md": {
+      "sha256": "c5db078e0230040eaed33179961c0feb844ad94a752848b32a30f0da7fd0fcb7",
+      "read": [
+        "false"
+      ]
+    }
+  },
+  "obsidian": {
+    ".obsidian/app.json": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+    ".obsidian/appearance.json": "d00244879367fa48b6e32f6af9bbd4318846b3f5b8ad8d3783c7d9a0d14f26e1",
+    ".obsidian/bookmarks.json": "738986718686b409da1cd12d8be285620e01ff779934eca0d57807eeebc03997",
+    ".obsidian/community-plugins.json": "c79c00b98f1e2720bccc9c947c5ad3a907577fa662cbdaf4a900fe0a92b56d00",
+    ".obsidian/core-plugins.json": "763cf20a921fd9955735b278006820b90b207b2fc04d9e79ca648279c7c14276",
+    ".obsidian/graph.json": "710dc7bf8a110e0bd73e75a92448c9dbdf430ece4223a6565e69d142d680b333",
+    ".obsidian/workspace.json": "f38da4bf06af10e01fadce8c4bea1d9682d565ee0275bdb18ef7f8c0845c1afa",
+    ".obsidian/plugins/explorer-property-attributes/LICENSE": "343af15bed71024b9fbb3b52bb6d6bc30ce439b2ef16775d30c67d76c1604451",
+    ".obsidian/plugins/explorer-property-attributes/main.js": "f2bcd469942a83b158cd3155c69f4165571cd6234d3355ac2927ca6bd62428df",
+    ".obsidian/plugins/explorer-property-attributes/manifest.json": "57736fcee25545416fc43481b066ebcc97b745b6658a86e17038e1e981cb0129",
+    ".obsidian/plugins/explorer-property-attributes/styles.css": "4acd0c8f1165381a2311aacbaf425d8500631e40a23c238634f5ef8367de19d1"
+  }
+}

@@ -17,7 +17,7 @@ read: false
 6. [Storage Gateway RefreshCache](https://docs.aws.amazon.com/storagegateway/latest/APIReference/API_RefreshCache.html)
 7. **Blank in the supplied list; no URL/title invented.**
 
-Resource 3 currently redirects to [Invoke Lambda on a schedule](https://docs.aws.amazon.com/lambda/latest/dg/with-eventbridge-scheduler.html). Scheduling is not the same as event-pattern incident routing. The DDoS welcome URL redirects to the whitepaper root; the original supplied link remains above.
+Resource 3 currently redirects to [Invoke Lambda on a schedule](https://docs.aws.amazon.com/lambda/latest/dg/with-eventbridge-scheduler.html). Scheduling is not the same as event-pattern incident routing. The DDoS welcome URL redirects to the whitepaper root; use the [current whitepaper content page](https://docs.aws.amazon.com/whitepapers/latest/aws-best-practices-ddos-resiliency/aws-best-practices-ddos-resiliency.html). Original supplied links remain above for provenance.
 
 ## Targeted verification sources
 
@@ -35,7 +35,7 @@ Resource 3 currently redirects to [Invoke Lambda on a schedule](https://docs.aws
 | Object activity capture | [CloudTrail S3 data-event architecture](https://aws.amazon.com/blogs/aws/cloudtrail-update-capture-and-process-amazon-s3-object-level-api-activity/) |
 | WAF rate-based controls | [WAF FAQs](https://aws.amazon.com/waf/faqs/) |
 | Shield capabilities | [Shield features](https://aws.amazon.com/shield/features/) |
-| L7 automation | [Shield Advanced automatic mitigation](https://aws.amazon.com/blogs/aws/aws-shield-advanced-update-automatic-application-layer-ddos-mitigation/) |
+| L7 automation | [Current WAF Anti-DDoS transition and legacy Shield access](https://docs.aws.amazon.com/waf/latest/developerguide/ddos-automatic-app-layer-response.html); [historical Shield example](https://aws.amazon.com/blogs/aws/aws-shield-advanced-update-automatic-application-layer-ddos-mitigation/) |
 | Origin bypass prevention | [CloudFront restrict ALB access](https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/restrict-access-to-load-balancer.html) |
 | CodeDeploy Lambda/ECS callbacks/hooks | [AppSpec hooks](https://docs.aws.amazon.com/codedeploy/latest/userguide/reference-appspec-file-structure-hooks.html) |
 | Minimum-host requirement | [Config CodeDeploy healthy-host rule](https://docs.aws.amazon.com/config/latest/developerguide/codedeploy-ec2-minimum-healthy-hosts-configured.html) |

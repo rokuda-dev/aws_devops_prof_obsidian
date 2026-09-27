@@ -6,6 +6,10 @@ read: false
 
 # Notebook Provenance and Progress
 
+## Current working-copy audit — 2026-09-27
+
+The latest available reference was this project's Markdown vault, with a recorded v1.4.5 validation and subsequent user study edits. No ZIP was available. [[Verification and Stale Reference Audit 2026-09-27]] records the current 209-page baseline review and four new audit notes. Existing historical input/release assertions below remain provenance, not newly reproduced checks. Current read states are preserved; the old release's 11/198 split is not the current study state.
+
 ## Input material
 
 Version 1.4.5 is the page-by-page completeness-audit release. Its direct baseline is the user-edited v1.4.4 task archive. It preserves the all-domain navigation, the exact read state (11 `true`, 198 `false`), and the configured **Mark as Read** plugin (`explorer-property-attributes` v1.3.2) with the rest of that archive's `.obsidian` configuration while correcting incomplete or overstated claims and adding exam-relevant omissions. It continues the first packaged notebook (v1.0), the validated v1.4.1 notebook, and the draft Markdown files available in this conversation's workspace.

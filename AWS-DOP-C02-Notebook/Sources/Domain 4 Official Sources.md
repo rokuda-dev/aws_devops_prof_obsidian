@@ -63,9 +63,9 @@ read: false
 | Composite alarm behavior | [CompositeAlarm reference](https://docs.aws.amazon.com/AWSCloudFormation/latest/TemplateReference/aws-resource-cloudwatch-compositealarm.html) |
 | Anomaly band configuration | [CloudWatch construct documentation](https://docs.aws.amazon.com/cdk/api/v2/python/aws_cdk.aws_cloudwatch/README.html) |
 | Athena S3 log schema/partition pattern | [S3 audit analysis with Athena](https://aws.amazon.com/blogs/storage/amazon-s3-audit-logging-part-1-analyzing-server-access-logs-with-amazon-athena-for-performance-insights/) |
-| QuickSight/Quick Suite current naming | [BI transition](https://aws.amazon.com/blogs/business-intelligence/reimagine-business-intelligence-amazon-quicksight-evolves-to-amazon-quick-suite/) |
+| Current Amazon Quick / Quick Sight naming | [Current product documentation](https://docs.aws.amazon.com/quick/latest/userguide/what-is.html); [historical Quick Suite transition](https://aws.amazon.com/blogs/business-intelligence/reimagine-business-intelligence-amazon-quicksight-evolves-to-amazon-quick-suite/) |
 | Unsupported DevOps dashboard solution | [Support notice](https://docs.aws.amazon.com/solutions/latest/devops-monitoring-dashboard-on-aws/solution-overview.html) |
-| Inspector Classic retirement/template distinction | [Classic end of support](https://docs.aws.amazon.com/inspector/v1/userguide/inspector-migration.html) |
+| Inspector Classic retirement/template distinction | [Classic overview and end-of-support notice](https://docs.aws.amazon.com/pdfs/inspector/v1/userguide/inspector-ug.pdf) |
 | Retired OpsWorks Stacks | [Offboarding/end-of-life context](https://aws.amazon.com/blogs/mt/seamlessly-off-board-from-aws-opsworks-stacks-by-detaching-resources/) |
 
 ## Evidence boundaries

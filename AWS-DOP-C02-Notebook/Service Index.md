@@ -36,7 +36,7 @@ Every file in `Services/` appears exactly once below. Canonical notes hold study
 | [[Amazon Kinesis Data Streams]] | Retained log stream and custom consumers | 4.1–4.3 |
 | [[Amazon Macie]] | S3 sensitive-data/policy-risk analysis | 4.2 |
 | [[Amazon OpenSearch Service]] | Indexed search/analytics | 4.1–4.3 |
-| [[Amazon QuickSight]] | Prepared dataset BI; current Quick Suite context | 4.2 |
+| [[Amazon QuickSight]] | Prepared dataset BI; now Amazon Quick Sight within Amazon Quick | 4.2 |
 | [[Amazon RDS]] | HA topology, upgrades, replicas and promotion | 3.1, 3.3 |
 | [[Amazon Route 53 Resolver DNS Firewall]] | DNS query filtering for VPC Resolver traffic | 6.2 |
 | [[Amazon Route 53]] | DNS routing, health and cached failover behavior | 3.1–3.3 |

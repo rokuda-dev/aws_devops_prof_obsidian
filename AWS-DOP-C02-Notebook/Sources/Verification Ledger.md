@@ -6,6 +6,10 @@ read: false
 
 # Verification Ledger
 
+## Verification and stale-reference run — 2026-09-27
+
+Reviewed all 209 baseline Markdown pages with targeted first-party checks of material claims and a separate HTTP reference scan. Applied corrections and added four audit records. See [[Verification and Stale Reference Audit 2026-09-27]] for findings by domain, every-page coverage, evidence, and explicit limits. This run does not reassert a sentence-by-sentence proof of every claim or reproduce unavailable historical ZIP/transcript checks. Historical verification entries below retain their original scope and dates.
+
 ## Verification scope — September 18, 2026
 
 | Item | Check completed |

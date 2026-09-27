@@ -12,6 +12,9 @@ read: false
 | Metric filter | Matching CloudWatch log events | Numeric metric samples | New ingested events; not historical backfill |
 | EventBridge rule | Events on a bus | Target invocation | Event delivery/routing latency |
 | Logs Insights query | Stored logs in selected window | Search/aggregation results | Query execution, not inherently a continuous action |
+| CloudWatch log alarm | Scheduled Logs Insights query results | Alarm state/actions | M-out-of-N query evaluation; no metric filter required |
+
+The log-alarm row reflects current product capabilities checked on 2026-09-27; a one-time Logs Insights query still does not create an alarm. See [CloudWatch alarm types](https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/CloudWatch_Alarms.html).
 
 Example: S3 bucket-policy audit → CloudTrail → CloudWatch Logs → metric filter → alarm → SNS. Alternative: CloudTrail API event → EventBridge → SNS/Lambda response.
 

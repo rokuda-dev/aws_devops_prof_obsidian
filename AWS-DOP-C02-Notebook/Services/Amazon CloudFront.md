@@ -31,7 +31,7 @@ Use HTTPS; use OAC for supported S3 origins; use signed URLs/cookies for restric
 
 ## Failure, rollback, and lifecycle
 
-Origin failover applies to GET, HEAD, and OPTIONS, not arbitrary POST writes. New requests normally start with primary: this is request-level failover, not persistent DNS failover.
+Origin failover applies to GET, HEAD, and OPTIONS, not arbitrary POST writes. OPTIONS must also be configured as a cached HTTP method for failover to occur. New requests normally start with primary: this is request-level failover, not persistent DNS failover.
 
 ## When to choose
 

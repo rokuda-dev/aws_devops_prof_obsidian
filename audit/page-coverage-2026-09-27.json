@@ -1,0 +1,629 @@
+{
+  "00 - Start Here.md": [
+    "Verification and Stale Reference Audit 2026-09-27.md"
+  ],
+  "Comparisons/AppConfig vs Parameter Store vs Secrets Manager.md": [
+    "Audit Delivery and Comparisons 2026-09-27.md"
+  ],
+  "Comparisons/AWS Health vs CloudWatch vs Trusted Advisor.md": [
+    "Audit Delivery and Comparisons 2026-09-27.md"
+  ],
+  "Comparisons/CodeArtifact vs ECR vs S3 vs Image Builder.md": [
+    "Audit Delivery and Comparisons 2026-09-27.md"
+  ],
+  "Comparisons/CodePipeline vs CodeBuild vs CodeDeploy.md": [
+    "Audit Delivery and Comparisons 2026-09-27.md"
+  ],
+  "Comparisons/Config Compliance vs CloudTrail Actor Attribution.md": [
+    "Audit Delivery and Comparisons 2026-09-27.md"
+  ],
+  "Comparisons/Config vs CloudTrail vs Systems Manager.md": [
+    "Audit Delivery and Comparisons 2026-09-27.md"
+  ],
+  "Comparisons/Cooldown vs Warmup vs Lifecycle Hooks vs Health Check Grace Period.md": [
+    "Audit Delivery and Comparisons 2026-09-27.md"
+  ],
+  "Comparisons/Cross-Account Observability vs Log Centralization.md": [
+    "Audit Delivery and Comparisons 2026-09-27.md"
+  ],
+  "Comparisons/DAX vs ElastiCache vs DynamoDB Global Tables.md": [
+    "Audit Delivery and Comparisons 2026-09-27.md"
+  ],
+  "Comparisons/Detection vs Enforcement vs Remediation.md": [
+    "Audit Delivery and Comparisons 2026-09-27.md"
+  ],
+  "Comparisons/DynamoDB Global Tables vs Aurora Global Database.md": [
+    "Audit Delivery and Comparisons 2026-09-27.md"
+  ],
+  "Comparisons/ECS Native vs CodeDeploy Deployments.md": [
+    "Audit Delivery and Comparisons 2026-09-27.md"
+  ],
+  "Comparisons/Fleet Manager vs OpsCenter vs Automation vs State Manager.md": [
+    "Audit Delivery and Comparisons 2026-09-27.md"
+  ],
+  "Comparisons/GuardDuty vs Inspector vs Security Hub vs Detective.md": [
+    "Audit Delivery and Comparisons 2026-09-27.md"
+  ],
+  "Comparisons/Inspector vs GuardDuty vs Macie vs Access Analyzer.md": [
+    "Audit Delivery and Comparisons 2026-09-27.md"
+  ],
+  "Comparisons/Kinesis Data Streams vs Firehose vs EventBridge.md": [
+    "Audit Delivery and Comparisons 2026-09-27.md"
+  ],
+  "Comparisons/KMS vs CloudHSM vs ACM vs Secrets Manager.md": [
+    "Audit Delivery and Comparisons 2026-09-27.md"
+  ],
+  "Comparisons/Lambda vs ECS vs EC2 CodeDeploy Hooks.md": [
+    "Audit Delivery and Comparisons 2026-09-27.md"
+  ],
+  "Comparisons/Log Subscription vs Metric Filter vs EventBridge Rule.md": [
+    "Audit Delivery and Comparisons 2026-09-27.md"
+  ],
+  "Comparisons/Logs Insights vs Athena vs OpenSearch.md": [
+    "Audit Delivery and Comparisons 2026-09-27.md"
+  ],
+  "Comparisons/Multi-AZ vs Multi-Region.md": [
+    "Audit Delivery and Comparisons 2026-09-27.md"
+  ],
+  "Comparisons/Organizations vs Control Tower vs Service Catalog vs RAM vs StackSets.md": [
+    "Audit Delivery and Comparisons 2026-09-27.md"
+  ],
+  "Comparisons/RDS Blue Green vs EngineVersion Update vs Read Replica Promotion.md": [
+    "Audit Delivery and Comparisons 2026-09-27.md"
+  ],
+  "Comparisons/RDS Multi-AZ vs Read Replicas vs Aurora Global Database.md": [
+    "Audit Delivery and Comparisons 2026-09-27.md"
+  ],
+  "Comparisons/Route 53 vs Global Accelerator vs CloudFront.md": [
+    "Audit Delivery and Comparisons 2026-09-27.md"
+  ],
+  "Comparisons/Run Command vs Session Manager vs State Manager vs Automation.md": [
+    "Audit Delivery and Comparisons 2026-09-27.md"
+  ],
+  "Comparisons/SCP vs Permissions Boundary vs Session Policy vs Resource Policy.md": [
+    "Audit Delivery and Comparisons 2026-09-27.md"
+  ],
+  "Comparisons/Security Groups vs Network ACLs.md": [
+    "Audit Delivery and Comparisons 2026-09-27.md"
+  ],
+  "Comparisons/Shield vs WAF vs CloudFront vs Auto Scaling.md": [
+    "Audit Delivery and Comparisons 2026-09-27.md"
+  ],
+  "Comparisons/Static vs Anomaly vs Composite Alarms.md": [
+    "Audit Delivery and Comparisons 2026-09-27.md"
+  ],
+  "Concepts/Artifact Management.md": [
+    "Audit Concepts and Domains 2026-09-27.md"
+  ],
+  "Concepts/AWS Distro for OpenTelemetry.md": [
+    "Audit Concepts and Domains 2026-09-27.md"
+  ],
+  "Concepts/Centralized Logging Architecture.md": [
+    "Audit Concepts and Domains 2026-09-27.md"
+  ],
+  "Concepts/CI-CD Failure Triage and Parallel Actions.md": [
+    "Audit Concepts and Domains 2026-09-27.md"
+  ],
+  "Concepts/CloudWatch Agent and Container Log Collection.md": [
+    "Audit Concepts and Domains 2026-09-27.md"
+  ],
+  "Concepts/CloudWatch Container Insights.md": [
+    "Audit Concepts and Domains 2026-09-27.md"
+  ],
+  "Concepts/CloudWatch Log Subscriptions and Cross-Account Destinations.md": [
+    "Audit Concepts and Domains 2026-09-27.md"
+  ],
+  "Concepts/CloudWatch Logs Insights and Filter Patterns.md": [
+    "Audit Concepts and Domains 2026-09-27.md"
+  ],
+  "Concepts/CloudWatch Metric Streams.md": [
+    "Audit Concepts and Domains 2026-09-27.md"
+  ],
+  "Concepts/CloudWatch Metrics Namespaces and Dimensions.md": [
+    "Audit Concepts and Domains 2026-09-27.md"
+  ],
+  "Concepts/CloudWatch Synthetics.md": [
+    "Audit Concepts and Domains 2026-09-27.md"
+  ],
+  "Concepts/DDoS Mitigation and Attack Surface Reduction.md": [
+    "Audit Concepts and Domains 2026-09-27.md"
+  ],
+  "Concepts/Dedicated Host Compliance and Licensing.md": [
+    "Audit Concepts and Domains 2026-09-27.md"
+  ],
+  "Concepts/Deployment Strategy Matrix.md": [
+    "Audit Concepts and Domains 2026-09-27.md"
+  ],
+  "Concepts/Disaster Recovery Strategies.md": [
+    "Audit Concepts and Domains 2026-09-27.md"
+  ],
+  "Concepts/Disaster Recovery Testing and Failback.md": [
+    "Audit Concepts and Domains 2026-09-27.md"
+  ],
+  "Concepts/Domain 6 Identity and Access at Scale.md": [
+    "Audit Concepts and Domains 2026-09-27.md"
+  ],
+  "Concepts/Domain 6 Monitoring Auditing and Compliance.md": [
+    "Audit Concepts and Domains 2026-09-27.md"
+  ],
+  "Concepts/Domain 6 Security Automation and Data Protection.md": [
+    "Audit Concepts and Domains 2026-09-27.md"
+  ],
+  "Concepts/ECS and EKS Failure Triage.md": [
+    "Audit Concepts and Domains 2026-09-27.md"
+  ],
+  "Concepts/Event Sources and Response Contracts.md": [
+    "Audit Concepts and Domains 2026-09-27.md"
+  ],
+  "Concepts/Exposed Credential Response.md": [
+    "Audit Concepts and Domains 2026-09-27.md"
+  ],
+  "Concepts/HTTPS Connectivity Troubleshooting.md": [
+    "Audit Concepts and Domains 2026-09-27.md"
+  ],
+  "Concepts/Incident Response Workflow and Evidence Preservation.md": [
+    "Audit Concepts and Domains 2026-09-27.md"
+  ],
+  "Concepts/Lambda Deployment Validation Hooks.md": [
+    "Audit Concepts and Domains 2026-09-27.md"
+  ],
+  "Concepts/Log Lifecycle Security and Integrity.md": [
+    "Audit Concepts and Domains 2026-09-27.md"
+  ],
+  "Concepts/Metric Alarms and Anomaly Detection.md": [
+    "Audit Concepts and Domains 2026-09-27.md"
+  ],
+  "Concepts/Monitoring Correlation Tracing and Dashboards.md": [
+    "Audit Concepts and Domains 2026-09-27.md"
+  ],
+  "Concepts/Multi-Region Application Checklist.md": [
+    "Audit Concepts and Domains 2026-09-27.md"
+  ],
+  "Concepts/Resilience Framework and Dependency Isolation.md": [
+    "Audit Concepts and Domains 2026-09-27.md"
+  ],
+  "Concepts/RTO RPO SLA SLO and Error Budgets.md": [
+    "Audit Concepts and Domains 2026-09-27.md"
+  ],
+  "Concepts/S3 Permission Monitoring and Remediation.md": [
+    "Audit Concepts and Domains 2026-09-27.md"
+  ],
+  "Concepts/Safe Event-Driven Remediation.md": [
+    "Audit Concepts and Domains 2026-09-27.md"
+  ],
+  "Concepts/Scaling Metrics and Troubleshooting.md": [
+    "Audit Concepts and Domains 2026-09-27.md"
+  ],
+  "Concepts/SDLC and CI-CD Fundamentals.md": [
+    "Audit Concepts and Domains 2026-09-27.md"
+  ],
+  "Concepts/Security Group Remediation and Access Safety.md": [
+    "Audit Concepts and Domains 2026-09-27.md"
+  ],
+  "Concepts/Stateless Applications and External Session State.md": [
+    "Audit Concepts and Domains 2026-09-27.md"
+  ],
+  "Concepts/Systems Manager Incident Operations.md": [
+    "Audit Concepts and Domains 2026-09-27.md"
+  ],
+  "Concepts/Testing and Pipeline Placement.md": [
+    "Audit Concepts and Domains 2026-09-27.md"
+  ],
+  "Domains/All-Domain Study Roadmap.md": [
+    "Audit Concepts and Domains 2026-09-27.md"
+  ],
+  "Domains/Domain 1 - SDLC Automation.md": [
+    "Audit Concepts and Domains 2026-09-27.md"
+  ],
+  "Domains/Domain 2 - Configuration Management and IaC.md": [
+    "Audit Concepts and Domains 2026-09-27.md"
+  ],
+  "Domains/Domain 3 - Resilient Cloud Solutions.md": [
+    "Audit Concepts and Domains 2026-09-27.md"
+  ],
+  "Domains/Domain 4 - Monitoring and Logging.md": [
+    "Audit Concepts and Domains 2026-09-27.md"
+  ],
+  "Domains/Domain 5 - Incident and Event Response.md": [
+    "Audit Concepts and Domains 2026-09-27.md"
+  ],
+  "Domains/Domain 6 - Security and Compliance.md": [
+    "Audit Concepts and Domains 2026-09-27.md"
+  ],
+  "Exam/Common Traps and Current Corrections.md": [
+    "Verification and Stale Reference Audit 2026-09-27.md"
+  ],
+  "Exam/Cross-Account and Cross-Region CodePipeline.md": [
+    "Verification and Stale Reference Audit 2026-09-27.md"
+  ],
+  "Exam/Domain 3 Architecture Patterns.md": [
+    "Verification and Stale Reference Audit 2026-09-27.md"
+  ],
+  "Exam/Domain 3 Scenario Decisions.md": [
+    "Verification and Stale Reference Audit 2026-09-27.md"
+  ],
+  "Exam/Domain 3 Transcript Corrections.md": [
+    "Verification and Stale Reference Audit 2026-09-27.md"
+  ],
+  "Exam/Domain 4 Architecture Patterns.md": [
+    "Verification and Stale Reference Audit 2026-09-27.md"
+  ],
+  "Exam/Domain 4 Scenario Decisions.md": [
+    "Verification and Stale Reference Audit 2026-09-27.md"
+  ],
+  "Exam/Domain 4 Transcript Corrections.md": [
+    "Verification and Stale Reference Audit 2026-09-27.md"
+  ],
+  "Exam/Domain 5 Architecture Patterns.md": [
+    "Verification and Stale Reference Audit 2026-09-27.md"
+  ],
+  "Exam/Domain 5 Scenario Decisions.md": [
+    "Verification and Stale Reference Audit 2026-09-27.md"
+  ],
+  "Exam/Domain 5 Transcript Corrections.md": [
+    "Verification and Stale Reference Audit 2026-09-27.md"
+  ],
+  "Exam/Domain 6 Architecture Patterns.md": [
+    "Verification and Stale Reference Audit 2026-09-27.md"
+  ],
+  "Exam/Domain 6 Scenario Decisions.md": [
+    "Verification and Stale Reference Audit 2026-09-27.md"
+  ],
+  "Exam/Domain 6 Transcript Corrections.md": [
+    "Verification and Stale Reference Audit 2026-09-27.md"
+  ],
+  "Exam/Domain Coverage and Service Map.md": [
+    "Verification and Stale Reference Audit 2026-09-27.md"
+  ],
+  "Exam/High-Value Exam Patterns.md": [
+    "Verification and Stale Reference Audit 2026-09-27.md"
+  ],
+  "Exam/Notebook Validation.md": [
+    "Verification and Stale Reference Audit 2026-09-27.md"
+  ],
+  "Exam/Rapid Review.md": [
+    "Verification and Stale Reference Audit 2026-09-27.md"
+  ],
+  "Exam/Service Selection Matrix.md": [
+    "Verification and Stale Reference Audit 2026-09-27.md"
+  ],
+  "Service Index.md": [
+    "Verification and Stale Reference Audit 2026-09-27.md"
+  ],
+  "Services/Amazon API Gateway.md": [
+    "Audit Amazon Services 2026-09-27.md"
+  ],
+  "Services/Amazon Application Recovery Controller.md": [
+    "Audit Amazon Services 2026-09-27.md"
+  ],
+  "Services/Amazon Athena.md": [
+    "Audit Amazon Services 2026-09-27.md"
+  ],
+  "Services/Amazon Aurora Global Database.md": [
+    "Audit Amazon Services 2026-09-27.md"
+  ],
+  "Services/Amazon CloudFront and Lambda@Edge.md": [
+    "Audit Amazon Services 2026-09-27.md"
+  ],
+  "Services/Amazon CloudFront.md": [
+    "Audit Amazon Services 2026-09-27.md"
+  ],
+  "Services/Amazon CloudWatch, X-Ray, and OpenTelemetry.md": [
+    "Audit Amazon Services 2026-09-27.md"
+  ],
+  "Services/Amazon CloudWatch.md": [
+    "Audit Amazon Services 2026-09-27.md"
+  ],
+  "Services/Amazon Cognito.md": [
+    "Audit Amazon Services 2026-09-27.md"
+  ],
+  "Services/Amazon Data Firehose.md": [
+    "Audit Amazon Services 2026-09-27.md"
+  ],
+  "Services/Amazon Detective.md": [
+    "Audit Amazon Services 2026-09-27.md"
+  ],
+  "Services/Amazon DynamoDB Accelerator (DAX).md": [
+    "Audit Amazon Services 2026-09-27.md"
+  ],
+  "Services/Amazon DynamoDB.md": [
+    "Audit Amazon Services 2026-09-27.md"
+  ],
+  "Services/Amazon EBS.md": [
+    "Audit Amazon Services 2026-09-27.md"
+  ],
+  "Services/Amazon EC2 Auto Scaling.md": [
+    "Audit Amazon Services 2026-09-27.md"
+  ],
+  "Services/Amazon ECR and EC2 Image Builder.md": [
+    "Audit Amazon Services 2026-09-27.md"
+  ],
+  "Services/Amazon ECR.md": [
+    "Audit Amazon Services 2026-09-27.md"
+  ],
+  "Services/Amazon ECS Deployments.md": [
+    "Audit Amazon Services 2026-09-27.md"
+  ],
+  "Services/Amazon ECS.md": [
+    "Audit Amazon Services 2026-09-27.md"
+  ],
+  "Services/Amazon EFS.md": [
+    "Audit Amazon Services 2026-09-27.md"
+  ],
+  "Services/Amazon EKS.md": [
+    "Audit Amazon Services 2026-09-27.md"
+  ],
+  "Services/Amazon ElastiCache.md": [
+    "Audit Amazon Services 2026-09-27.md"
+  ],
+  "Services/Amazon EventBridge.md": [
+    "Audit Amazon Services 2026-09-27.md"
+  ],
+  "Services/Amazon GuardDuty and Inspector.md": [
+    "Audit Amazon Services 2026-09-27.md"
+  ],
+  "Services/Amazon GuardDuty.md": [
+    "Audit Amazon Services 2026-09-27.md"
+  ],
+  "Services/Amazon Inspector.md": [
+    "Audit Amazon Services 2026-09-27.md"
+  ],
+  "Services/Amazon Kinesis Data Streams.md": [
+    "Audit Amazon Services 2026-09-27.md"
+  ],
+  "Services/Amazon Macie.md": [
+    "Audit Amazon Services 2026-09-27.md"
+  ],
+  "Services/Amazon OpenSearch Service.md": [
+    "Audit Amazon Services 2026-09-27.md"
+  ],
+  "Services/Amazon QuickSight.md": [
+    "Audit Amazon Services 2026-09-27.md"
+  ],
+  "Services/Amazon RDS.md": [
+    "Audit Amazon Services 2026-09-27.md"
+  ],
+  "Services/Amazon Route 53 Resolver DNS Firewall.md": [
+    "Audit Amazon Services 2026-09-27.md"
+  ],
+  "Services/Amazon Route 53.md": [
+    "Audit Amazon Services 2026-09-27.md"
+  ],
+  "Services/Amazon S3.md": [
+    "Audit Amazon Services 2026-09-27.md"
+  ],
+  "Services/Amazon SNS.md": [
+    "Audit Amazon Services 2026-09-27.md"
+  ],
+  "Services/Amazon SQS.md": [
+    "Audit Amazon Services 2026-09-27.md"
+  ],
+  "Services/AWS AppConfig, Parameter Store, and Secrets Manager.md": [
+    "Audit Delivery and Comparisons 2026-09-27.md"
+  ],
+  "Services/AWS AppConfig.md": [
+    "Audit Delivery and Comparisons 2026-09-27.md"
+  ],
+  "Services/AWS Application Auto Scaling.md": [
+    "Audit Delivery and Comparisons 2026-09-27.md"
+  ],
+  "Services/AWS Application Discovery Service.md": [
+    "Audit Delivery and Comparisons 2026-09-27.md"
+  ],
+  "Services/AWS Audit Manager.md": [
+    "Audit Delivery and Comparisons 2026-09-27.md"
+  ],
+  "Services/AWS Backup.md": [
+    "Audit Delivery and Comparisons 2026-09-27.md"
+  ],
+  "Services/AWS CDK.md": [
+    "Audit Delivery and Comparisons 2026-09-27.md"
+  ],
+  "Services/AWS Certificate Manager.md": [
+    "Audit Delivery and Comparisons 2026-09-27.md"
+  ],
+  "Services/AWS CloudFormation StackSets.md": [
+    "Audit Delivery and Comparisons 2026-09-27.md"
+  ],
+  "Services/AWS CloudFormation, CDK, and SAM.md": [
+    "Audit Delivery and Comparisons 2026-09-27.md"
+  ],
+  "Services/AWS CloudFormation.md": [
+    "Audit Delivery and Comparisons 2026-09-27.md"
+  ],
+  "Services/AWS CloudHSM.md": [
+    "Audit Delivery and Comparisons 2026-09-27.md"
+  ],
+  "Services/AWS CloudTrail.md": [
+    "Audit Delivery and Comparisons 2026-09-27.md"
+  ],
+  "Services/AWS CodeArtifact.md": [
+    "Audit Delivery and Comparisons 2026-09-27.md"
+  ],
+  "Services/AWS CodeBuild.md": [
+    "Audit Delivery and Comparisons 2026-09-27.md"
+  ],
+  "Services/AWS CodeCommit and CodeConnections.md": [
+    "Audit Delivery and Comparisons 2026-09-27.md"
+  ],
+  "Services/AWS CodeCommit.md": [
+    "Audit Delivery and Comparisons 2026-09-27.md"
+  ],
+  "Services/AWS CodeConnections.md": [
+    "Audit Delivery and Comparisons 2026-09-27.md"
+  ],
+  "Services/AWS CodeDeploy.md": [
+    "Audit Delivery and Comparisons 2026-09-27.md"
+  ],
+  "Services/AWS CodePipeline.md": [
+    "Audit Delivery and Comparisons 2026-09-27.md"
+  ],
+  "Services/AWS Config.md": [
+    "Audit Delivery and Comparisons 2026-09-27.md"
+  ],
+  "Services/AWS Control Tower.md": [
+    "Audit Delivery and Comparisons 2026-09-27.md"
+  ],
+  "Services/AWS Elastic Beanstalk.md": [
+    "Audit Delivery and Comparisons 2026-09-27.md"
+  ],
+  "Services/AWS Elastic Disaster Recovery.md": [
+    "Audit Delivery and Comparisons 2026-09-27.md"
+  ],
+  "Services/AWS Fargate.md": [
+    "Audit Delivery and Comparisons 2026-09-27.md"
+  ],
+  "Services/AWS Firewall Manager.md": [
+    "Audit Delivery and Comparisons 2026-09-27.md"
+  ],
+  "Services/AWS Global Accelerator.md": [
+    "Audit Delivery and Comparisons 2026-09-27.md"
+  ],
+  "Services/AWS Glue.md": [
+    "Audit Delivery and Comparisons 2026-09-27.md"
+  ],
+  "Services/AWS Health.md": [
+    "Audit Delivery and Comparisons 2026-09-27.md"
+  ],
+  "Services/AWS IAM Identity Center.md": [
+    "Audit Delivery and Comparisons 2026-09-27.md"
+  ],
+  "Services/AWS IAM Roles Anywhere.md": [
+    "Audit Delivery and Comparisons 2026-09-27.md"
+  ],
+  "Services/AWS Identity and Access Management.md": [
+    "Audit Delivery and Comparisons 2026-09-27.md"
+  ],
+  "Services/AWS Key Management Service.md": [
+    "Audit Delivery and Comparisons 2026-09-27.md"
+  ],
+  "Services/AWS Lambda and API Gateway.md": [
+    "Audit Delivery and Comparisons 2026-09-27.md"
+  ],
+  "Services/AWS Lambda.md": [
+    "Audit Delivery and Comparisons 2026-09-27.md"
+  ],
+  "Services/AWS License Manager.md": [
+    "Audit Delivery and Comparisons 2026-09-27.md"
+  ],
+  "Services/AWS Network Firewall.md": [
+    "Audit Delivery and Comparisons 2026-09-27.md"
+  ],
+  "Services/AWS Organizations and Control Tower.md": [
+    "Audit Delivery and Comparisons 2026-09-27.md"
+  ],
+  "Services/AWS Organizations.md": [
+    "Audit Delivery and Comparisons 2026-09-27.md"
+  ],
+  "Services/AWS Private CA.md": [
+    "Audit Delivery and Comparisons 2026-09-27.md"
+  ],
+  "Services/AWS RAM.md": [
+    "Audit Delivery and Comparisons 2026-09-27.md"
+  ],
+  "Services/AWS SAM.md": [
+    "Audit Delivery and Comparisons 2026-09-27.md"
+  ],
+  "Services/AWS Secrets Manager.md": [
+    "Audit Delivery and Comparisons 2026-09-27.md"
+  ],
+  "Services/AWS Security Hub.md": [
+    "Audit Delivery and Comparisons 2026-09-27.md"
+  ],
+  "Services/AWS Security Token Service.md": [
+    "Audit Delivery and Comparisons 2026-09-27.md"
+  ],
+  "Services/AWS Service Catalog and RAM.md": [
+    "Audit Delivery and Comparisons 2026-09-27.md"
+  ],
+  "Services/AWS Service Catalog.md": [
+    "Audit Delivery and Comparisons 2026-09-27.md"
+  ],
+  "Services/AWS Shield.md": [
+    "Audit Delivery and Comparisons 2026-09-27.md"
+  ],
+  "Services/AWS Step Functions and EventBridge.md": [
+    "Audit Delivery and Comparisons 2026-09-27.md"
+  ],
+  "Services/AWS Step Functions.md": [
+    "Audit Delivery and Comparisons 2026-09-27.md"
+  ],
+  "Services/AWS Storage and Stateless Application Patterns.md": [
+    "Audit Delivery and Comparisons 2026-09-27.md"
+  ],
+  "Services/AWS Storage Gateway.md": [
+    "Audit Delivery and Comparisons 2026-09-27.md"
+  ],
+  "Services/AWS Systems Manager Parameter Store.md": [
+    "Audit Delivery and Comparisons 2026-09-27.md"
+  ],
+  "Services/AWS Systems Manager.md": [
+    "Audit Delivery and Comparisons 2026-09-27.md"
+  ],
+  "Services/AWS Transit Gateway.md": [
+    "Audit Amazon Services 2026-09-27.md"
+  ],
+  "Services/AWS Trusted Advisor.md": [
+    "Audit Amazon Services 2026-09-27.md"
+  ],
+  "Services/AWS WAF.md": [
+    "Audit Amazon Services 2026-09-27.md"
+  ],
+  "Services/AWS X-Ray.md": [
+    "Audit Amazon Services 2026-09-27.md"
+  ],
+  "Services/CloudFront Field-Level Encryption.md": [
+    "Audit Amazon Services 2026-09-27.md"
+  ],
+  "Services/EC2 Image Builder.md": [
+    "Audit Amazon Services 2026-09-27.md"
+  ],
+  "Services/Elastic Load Balancing.md": [
+    "Audit Amazon Services 2026-09-27.md"
+  ],
+  "Services/IAM Access Analyzer.md": [
+    "Audit Amazon Services 2026-09-27.md"
+  ],
+  "Services/Lambda@Edge.md": [
+    "Audit Amazon Services 2026-09-27.md"
+  ],
+  "Sources/Domain 3 Official Sources.md": [
+    "Verification and Stale Reference Audit 2026-09-27.md"
+  ],
+  "Sources/Domain 3 Transcript Coverage.md": [
+    "Verification and Stale Reference Audit 2026-09-27.md"
+  ],
+  "Sources/Domain 4 Official Sources.md": [
+    "Verification and Stale Reference Audit 2026-09-27.md"
+  ],
+  "Sources/Domain 4 Transcript Coverage.md": [
+    "Verification and Stale Reference Audit 2026-09-27.md"
+  ],
+  "Sources/Domain 5 Official Sources.md": [
+    "Verification and Stale Reference Audit 2026-09-27.md"
+  ],
+  "Sources/Domain 5 Transcript Coverage.md": [
+    "Verification and Stale Reference Audit 2026-09-27.md"
+  ],
+  "Sources/Domain 6 Official Sources.md": [
+    "Verification and Stale Reference Audit 2026-09-27.md"
+  ],
+  "Sources/Domain 6 Transcript Coverage.md": [
+    "Verification and Stale Reference Audit 2026-09-27.md"
+  ],
+  "Sources/Imported Domain 1 Index.md": [
+    "Verification and Stale Reference Audit 2026-09-27.md"
+  ],
+  "Sources/Notebook Changelog.md": [
+    "Verification and Stale Reference Audit 2026-09-27.md"
+  ],
+  "Sources/Notebook Provenance and Progress.md": [
+    "Verification and Stale Reference Audit 2026-09-27.md"
+  ],
+  "Sources/Official AWS Sources.md": [
+    "Verification and Stale Reference Audit 2026-09-27.md"
+  ],
+  "Sources/Verification Ledger.md": [
+    "Verification and Stale Reference Audit 2026-09-27.md"
+  ]
+}

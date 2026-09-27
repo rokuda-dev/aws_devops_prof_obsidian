@@ -6,6 +6,16 @@ read: false
 
 # Notebook Validation
 
+## Working-copy check — 2026-09-27
+
+See [[Verification and Stale Reference Audit 2026-09-27]] for current review scope, corrections and evidence. The working vault has 213 notes: 209 baseline notes plus four audit records. Current checks use the captured working-copy baseline, including its 76 read and 133 unread states; the historical read counts below are not current totals.
+
+This run checks links/heading targets, unique names/headings, frontmatter delimiters/duplicate keys/Boolean read values, service-index completeness and external HTTP references. It does not run a full YAML parser, Obsidian plugin tests, historical ZIP comparison, or new archive validation. Machine outputs are in the repository's `audit/` folder.
+
+Final results: **213 notes, 99 service pages, 2,081 active wiki links, zero structural errors**. All 209 baseline filenames and read flags were preserved. Of 292 unique external URLs, 291 returned HTTP 200 (three redirected); the Inspector Classic PDF returned HTTP 404 and remains explicitly flagged in the audit. The editor-managed `.obsidian/workspace.json` differs from the snapshot; the audit did not edit it.
+
+## Historical v1.4.5 release validation
+
 The release validation checks every active Obsidian wiki link and heading target, duplicate note basenames/headings, YAML front matter presence and syntax, Markdown table structure, source domains, summary-layer placeholders, stale completion text, and preservation of prior files. Fenced imported source text is not treated as active notebook links.
 
 Release checks:

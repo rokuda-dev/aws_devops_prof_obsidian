@@ -20,6 +20,9 @@ read: false
 
 Auto Scaling alone does not shrink attack surface or distinguish legitimate traffic. It can also increase costs during an attack.
 
+> [!important] Current application-layer choice — checked 2026-09-27
+> Since March 26, 2026, AWS WAF's Anti-DDoS Managed Rule Group supersedes legacy Shield Advanced Layer 7 automatic mitigation as the default HTTP-flood protection solution. Existing Shield Advanced customers can continue the legacy capability; new customers needing it must contact AWS Support. This change does not mean Shield Advanced itself is retired. Match legacy exam wording to its stated mechanism, and use the current option for a new design. [AWS transition notice](https://docs.aws.amazon.com/waf/latest/developerguide/ddos-automatic-app-layer-response.html).
+
 Systems Manager is not a dedicated DDoS filtering service, but the transcript's blanket claim that it cannot reduce exposure is too strong: Session Manager can remove public SSH requirements and State Manager can maintain hardened settings. Patch Manager reduces vulnerability risk, not volumetric attack traffic.
 
 ## Origin restrictions
@@ -28,5 +31,5 @@ Putting an ALB behind CloudFront without controlling direct access can leave a b
 
 Task 5.2. [[AWS Shield]], [[AWS WAF]], [[Amazon CloudFront]], [[Amazon EC2 Auto Scaling]], [[AWS Systems Manager]].
 
-- [DDoS best practices — official resource](https://docs.aws.amazon.com/whitepapers/latest/aws-best-practices-ddos-resiliency/welcome.html)
+- [DDoS best practices — official resource](https://docs.aws.amazon.com/whitepapers/latest/aws-best-practices-ddos-resiliency/aws-best-practices-ddos-resiliency.html)
 - [Restrict ALB origin access](https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/restrict-access-to-load-balancer.html)

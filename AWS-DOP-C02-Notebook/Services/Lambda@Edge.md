@@ -42,6 +42,5 @@ An origin-group failover can invoke an origin request/response function again fo
 
 ## Official AWS references
 
-- [Lambda@Edge official reference](https://docs.aws.amazon.com/lambda/latest/dg/lambda-edge.html)
+- [Lambda@Edge official reference](https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/lambda-at-the-edge.html)
 - [[Official AWS Sources]] — source inventory and verification scope.
-

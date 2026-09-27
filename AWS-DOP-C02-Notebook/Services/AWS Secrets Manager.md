@@ -64,6 +64,6 @@ Tasks 5.1–5.3 where applicable. [[Domain 5 Scenario Decisions]], [[Safe Event-
 
 ## Domain 6 — machine-secret lifecycle
 
-Rotation must create a pending version, update the backing service, test it, and finish the version transition. Consumers using caches or launch-time injection still need a refresh strategy. Prefer workload roles over storing IAM access keys as secrets.
+For Lambda-based rotation, the workflow creates a pending version, updates the backing service, tests it, and finishes the version transition. Supported managed rotation and managed external-secret rotation do not require a customer Lambda rotation function. Consumers using caches or launch-time injection still need a refresh strategy. Prefer workload roles over storing IAM access keys as secrets. See [rotation methods](https://docs.aws.amazon.com/secretsmanager/latest/userguide/rotating-secrets.html).
 
 Task 6.1–6.2. [[Domain 6 Security Automation and Data Protection]], [[AWS Systems Manager Parameter Store]], [[KMS vs CloudHSM vs ACM vs Secrets Manager]].

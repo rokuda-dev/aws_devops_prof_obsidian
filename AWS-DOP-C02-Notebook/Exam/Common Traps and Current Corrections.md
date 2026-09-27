@@ -11,6 +11,8 @@ read: true
 
 Status checked September 20, 2026. Product changes do not prove immediate exam question inclusion.
 
+Latest targeted recheck: September 27, 2026. See [[Verification and Stale Reference Audit 2026-09-27]] for page coverage and evidence limits.
+
 | Training statement/implication | Correct fact / exam consequence | Official source |
 |---|---|---|
 | CodeCommit is permanently unavailable to new customers | Reopened November 25, 2025; AWS-managed Git remains a valid service choice | [Document history](https://docs.aws.amazon.com/codecommit/latest/userguide/history.html) |
@@ -34,6 +36,7 @@ Status checked September 20, 2026. Product changes do not prove immediate exam q
 - “The four commonly shown CodeDeploy hook variables are the complete set” → EC2/on-premises hooks always receive five core variables, plus S3- or GitHub-specific bundle variables where applicable. [AppSpec hook variables](https://docs.aws.amazon.com/codedeploy/latest/userguide/reference-appspec-file-structure-hooks.html)
 - “Deployment Succeeded means every EC2 instance updated” → built-in success thresholds/exceptions can allow partial failure; inspect target results and health.
 - “CodeBuild cannot publish a Lambda version” → it can call authorized APIs; managed release tooling may still be the best answer.
+- “CodePipeline cannot run shell commands without a separate build project” → V2 Commands actions use managed CodeBuild compute. [Commands action](https://docs.aws.amazon.com/codepipeline/latest/userguide/action-reference-Commands.html)
 - “Rollback reverses all writes” → traffic/artifact rollback does not automatically undo data or external effects.
 
 ## Domain 2 — configuration management and IaC traps
@@ -78,6 +81,8 @@ See [[Domain 3 Transcript Corrections]] for the full correction set.
 | “ECS awslogs requires a host CloudWatch agent” | The log driver sends container stdout/stderr; host/guest telemetry is a separate agent concern. |
 | “CloudTrail event history contains S3 object reads” | Event history shows 90 days of regional management events; object activity requires data-event selectors. |
 | “CloudTrail digest files prevent tampering” | Digests enable integrity validation; access and storage controls prevent modification. |
+| “CloudTrail Lake is available to every new customer” | Lake closed to new customers May 31, 2026; CloudTrail trails remain supported. See [[AWS CloudTrail]]. |
+| “Every log-based alarm needs a metric filter” | Current CloudWatch log alarms can evaluate scheduled Logs Insights queries. See [[Log Subscription vs Metric Filter vs EventBridge Rule]]. |
 | “Config periodic evaluation is the same as immediate API detection” | Config evaluates compliance on its trigger; CloudTrail/EventBridge can match the API event path separately. |
 | “An alarm automatically remediates or rolls back” | The alarm must be connected to a supported action or deployment rollback configuration. |
 | “Direct CloudWatch Logs → Firehose → OpenSearch always works” | The record format/path is not a universal direct integration; use a supported transformation/indexing design. |
@@ -93,6 +98,7 @@ See [[Domain 4 Transcript Corrections]] for the full correction set.
 | “Config compliance identifies who accessed an S3 object” | Use CloudTrail data events and session identity for actor attribution; Config records resource state. |
 | “Health exposed-key detection protects before source publication” | It is reactive; add preventive secret scanning and repository controls. |
 | “Auto Scaling is DDoS protection” | Capacity can absorb demand but does not filter malicious traffic or prevent origin bypass. |
+| “Legacy Shield L7 automatic mitigation is the default new HTTP flood design” | Since March 26, 2026, AWS directs this use case to the WAF Anti-DDoS managed rule group; legacy access differs for existing and new customers. See [[AWS Shield]]. |
 | “Lambda CodeDeploy uses ECS test-traffic hooks” | Lambda uses BeforeAllowTraffic and AfterAllowTraffic; the hook must report status to CodeDeploy. |
 | “Exit code 137 always means out of memory” | It indicates SIGKILL; correlate stopped reason, memory, timeout, and operator/service actions. |
 | “restricted-ssh permits only the corporate network” | The managed rule rejects world-open SSH; stricter approved-CIDR requirements need a custom policy/evaluation. |
@@ -111,6 +117,7 @@ See [[Domain 5 Transcript Corrections]] and [[Detection vs Enforcement vs Remedi
 | “A VPC endpoint policy replaces IAM or the bucket policy” | It restricts traffic through the endpoint; normal identity and resource authorization still applies. |
 | “Macie redacts or blocks sensitive data during ingestion” | Macie discovers/classifies S3 data and policy risk; build a separate staged release/enforcement workflow. |
 | “S3 default encryption rewrites existing objects or enforces a specific key in every request” | Defaults affect new writes; migrate old objects and add policy enforcement when the key contract matters. |
+| “Every S3 encryption change requires copying the object” | Eligible existing encrypted objects support UpdateObjectEncryption; source encryption, Object Lock, and replication restrictions apply. See [[Amazon S3]]. |
 | “KMS never returns plaintext key material of any kind” | KMS key material stays protected, but GenerateDataKey can return an authorized plaintext data key. |
 | “Encryption can be enabled in place on an existing unencrypted RDS DB instance” | Copy a snapshot with encryption, restore a replacement, and cut over; evaluate Aurora cluster workflows separately. |
 | “KMS or ACM rotates database credentials” | Secrets Manager provides managed secret rotation; KMS protects cryptographic keys and ACM manages certificates. |

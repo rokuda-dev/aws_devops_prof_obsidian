@@ -12,7 +12,7 @@ The core Markdown notes and wiki links require no plugins. The vault includes Ob
 
 ## What's included
 
-The committed notebook contains **209 Markdown notes**, including **99 service pages** (individual service notes and grouped navigation pages).
+The notebook contains **213 Markdown notes**, including **99 service pages** (individual service notes and grouped navigation pages) and four audit records from the September 27, 2026 verification run.
 
 | Location | Contents |
 | --- | --- |
@@ -35,6 +35,8 @@ The committed notebook contains **209 Markdown notes**, including **99 service p
 This is exam-focused study material, not exhaustive AWS documentation. Refer to the notebook's [Official AWS Sources](AWS-DOP-C02-Notebook/Sources/Official%20AWS%20Sources.md) and confirm changing service behavior and exam scope against current AWS documentation.
 
 The committed notebook identifies itself as **version 1.4.5**. See the [Notebook Changelog](AWS-DOP-C02-Notebook/Sources/Notebook%20Changelog.md), [Notebook Provenance and Progress](AWS-DOP-C02-Notebook/Sources/Notebook%20Provenance%20and%20Progress.md), and [Notebook Validation](AWS-DOP-C02-Notebook/Exam/Notebook%20Validation.md) for its history, coverage limits, and recorded release checks.
+
+The latest [verification and stale-reference audit](AWS-DOP-C02-Notebook/Sources/Verification%20and%20Stale%20Reference%20Audit%202026-09-27.md) covers every original page, records targeted AWS-source checks and corrections, and separates current findings from historical release validation. Run `python scripts/verify_notebook.py --output audit/structure.json` for read-only structural checks; add `--http` for external link status and redirect checks.
 
 ## License
 

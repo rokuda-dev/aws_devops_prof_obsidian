@@ -19,7 +19,7 @@ This retained overview preserves earlier filenames and links. Service detail now
 
 ## Amazon ECR
 
-See [[EC2 Image Builder]].
+See [[Amazon ECR]].
 
 ## EC2 Image Builder
 

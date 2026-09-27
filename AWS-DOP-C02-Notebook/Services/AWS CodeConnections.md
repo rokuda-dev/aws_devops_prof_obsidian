@@ -45,5 +45,5 @@ A pending/revoked connection prevents source access. Confirm authorization, prov
 
 ## Official AWS references
 
-- [AWS CodeConnections official reference](https://docs.aws.amazon.com/codepipeline/latest/userguide/connections.html)
+- [AWS CodeConnections official reference](https://docs.aws.amazon.com/dtconsole/latest/userguide/connections.html)
 - [[Official AWS Sources]] — source inventory and verification scope.

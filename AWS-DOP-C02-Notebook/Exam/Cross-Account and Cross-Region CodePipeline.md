@@ -15,11 +15,11 @@ read: false
 | Artifact bucket | Target principal can access required objects/bucket metadata |
 | Artifact encryption | Customer-managed KMS key policy and caller authorization permit required use |
 
-Use key ARN/ID for cross-account resolution. An AWS-managed artifact key is not the cross-account solution.
+Use the full customer-managed key ARN to make the owning account and Region explicit. Key aliases resolve in the caller's account; a bare key ID should not be treated as an unambiguous cross-account reference. An AWS-managed artifact key is not the cross-account solution.
 
 ## Regional topology
 
-Use an artifact store in each action Region. CodePipeline copies required artifacts for supported cross-Region actions. S3 buckets and their encryption keys must be compatible with the corresponding Region.
+Use an artifact store in each action Region. CodePipeline copies required input artifacts for supported cross-Region actions. Each artifact bucket and encryption key must be in the action's Region and the pipeline's account, even when the action runs in another account.
 
 A cross-account action can be in the same Region; a cross-Region action can be in the same account. Do not collapse the two into one requirement.
 
@@ -33,6 +33,7 @@ Access denied can come from trust, IAM permissions, S3 policy, KMS policy, or an
 
 Not every action category/provider supports cross-Region or cross-account operation. Consult current provider requirements rather than assuming a universal action pattern.
 
+An artifact cannot pass directly between actions in two other accounts when neither account is the pipeline account. Cross-Region Source, third-party, and custom actions are not supported. These topology restrictions can invalidate an otherwise correctly authorized design.
+
 - [Cross-account actions](https://docs.aws.amazon.com/codepipeline/latest/userguide/pipelines-create-cross-account.html)
 - [Cross-Region actions](https://docs.aws.amazon.com/codepipeline/latest/userguide/actions-create-cross-region.html)
-

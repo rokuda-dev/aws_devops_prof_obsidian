@@ -50,6 +50,7 @@ Read [[Common Traps and Current Corrections]] before relying on older training. 
 | CodeDeploy hook variables | Five always available; add S3/GitHub bundle-source variables where applicable |
 | Change set | Preview/review mechanism, not a guarantee of successful execution |
 | Test evidence | CodeBuild reports expire; retain raw results externally when required |
+| Pipeline shell commands without a build project | V2 Commands action uses managed CodeBuild compute |
 
 ## Domain 2 — final-pass anchors
 
@@ -108,6 +109,8 @@ See [[Domain 3 Scenario Decisions]] and [[Domain 3 Transcript Corrections]].
 | ECS log roles | Fargate awslogs execution role; FireLens destination task role |
 | Current ECS log mode | Non-blocking default unless overridden; explicit backpressure choice |
 | CloudTrail event history | 90 days of regional management events |
+| CloudTrail Lake availability | Closed to new customers May 31, 2026; trails remain supported |
+| Log-based alarm | Metric filter + metric alarm, or supported native Logs Insights log alarm |
 | S3 object access audit | Explicit CloudTrail data-event selectors |
 | Digest validation | Detects tampering; does not prevent it |
 | Bucket-policy alert | CloudTrail → metric filter/alarm/SNS or API event → EventBridge |
@@ -133,6 +136,7 @@ See [[Domain 4 Scenario Decisions]], [[Domain 4 Transcript Corrections]].
 | Key containment | Exact verified key, prompt deactivate/delete, audit, rotate and investigate |
 | Auto Scaling in DDoS | Capacity, not malicious-traffic filtering or reduced exposure |
 | Shield / WAF / CloudFront | DDoS / web rules / edge; protect against direct origin bypass |
+| Current HTTP flood protection | WAF Anti-DDoS managed rule group; distinguish legacy Shield L7 automation |
 | SSM and attack surface | Session Manager can remove public SSH; not a DDoS filter |
 | Lambda hook names | BeforeAllowTraffic and AfterAllowTraffic; test target version |
 | Hook completion | PutLifecycleEventHookExecutionStatus callback, not return alone |
@@ -163,6 +167,7 @@ See [[Domain 4 Scenario Decisions]], [[Domain 4 Transcript Corrections]].
 | KMS / CloudHSM / ACM | Managed key integration / dedicated HSM / certificate lifecycle |
 | Envelope encryption | Generate data key → local encryption → erase plaintext key → retain encrypted key |
 | S3 bucket encryption default | Controls new writes; migrate old objects and enforce the required key separately |
+| Change existing S3 object encryption | Eligible UpdateObjectEncryption path or copy; check encryption/Object Lock/replication limits |
 | Existing unencrypted RDS DB | Snapshot → encrypted copy → restore replacement → cut over |
 | Static encrypted parameter / rotating secret | Parameter Store SecureString / Secrets Manager |
 | Parameter Store Secrets Manager reference | `/aws/reference/secretsmanager/<secret>`; path retrieval restrictions apply |

@@ -16,7 +16,9 @@ Task statements: 1.2, 1.4; cross-domain 4–5. See [[Domain 1 - SDLC Automation]
 
 ## Core components and behavior
 
-CloudWatch Agent adds host/system/application logs and metrics. Logs Insights queries stored logs; metric filters turn new matching log events into metrics; alarms evaluate metric conditions.
+CloudWatch Agent adds host/system/application logs and metrics. Logs Insights queries stored logs; metric filters turn new matching log events into metrics. Metric alarms evaluate metrics/expressions; current log alarms evaluate scheduled Logs Insights query results directly, without requiring a metric filter. PromQL alarms query metrics ingested through the CloudWatch OTLP endpoint; composite alarms combine supported alarm states.
+
+- [Current CloudWatch alarm types](https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/CloudWatch_Alarms.html)
 
 ## Architecture pattern
 

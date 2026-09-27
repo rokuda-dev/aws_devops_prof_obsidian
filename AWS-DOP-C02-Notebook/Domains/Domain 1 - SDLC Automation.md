@@ -28,7 +28,7 @@ Core services:
 - [[AWS CodeDeploy]] — deployments to EC2/on-premises, ECS, and Lambda
 - [[AWS AppConfig, Parameter Store, and Secrets Manager]] — runtime configuration and protected build/deployment values
 
-## Task 1.2 — Integrate automated testing
+## Task 1.2 — Integrate automated testing into CI/CD pipelines
 
 Know where unit, integration, acceptance, UI, security, load, and performance tests belong. See [[Testing and Pipeline Placement]].
 
@@ -51,7 +51,7 @@ Exam cues:
 
 See [[Artifact Management]].
 
-## Task 1.4 — Deployment strategies
+## Task 1.4 — Implement deployment strategies for instance, container, and serverless environments
 
 Match the mechanism to the compute platform:
 

@@ -13,6 +13,9 @@ Managed DDoS protection. Distinguish automatic Standard network/transport protec
 
 Shield Advanced can use WAF rules for automatic application-layer mitigation when appropriately configured. A subscription alone does not mean every application endpoint is protected or all WAF settings are enabled. Map protected resources and verify monitoring/response configuration.
 
+> [!warning] Current default — checked 2026-09-27
+> Since March 26, 2026, AWS WAF's Anti-DDoS managed rule group is the default HTTP flood protection solution, superseding legacy Shield Advanced Layer 7 automatic mitigation. Existing Shield Advanced customers can continue the legacy feature; new customers needing it must contact AWS Support. This changes the recommended application-layer configuration, not the distinction between Shield network protection and WAF web rules. See [current AWS mitigation guidance](https://docs.aws.amazon.com/waf/latest/developerguide/ddos-automatic-app-layer-response.html).
+
 ## Exam traps
 
 - Auto Scaling adds capacity; it does not identify malicious requests.

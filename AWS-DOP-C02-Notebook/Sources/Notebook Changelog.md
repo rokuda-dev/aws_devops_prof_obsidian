@@ -6,6 +6,16 @@ read: false
 
 # Notebook Changelog
 
+## 2026-09-27 — verification and stale-reference check on the working v1.4.5 notebook
+
+- Reviewed all 209 existing pages; added four audit records with page-level coverage and first-party evidence.
+- Corrected RTO/RPO terminology, current Quick naming, ECR navigation, and the vault-opening path.
+- Added or clarified CodePipeline Commands/cross-account topology, CloudTrail Lake availability, CloudWatch log alarms, the WAF Anti-DDoS transition, S3 existing-object encryption, and Secrets Manager rotation methods.
+- Repaired broken/stale documentation targets while retaining explicitly supplied historical URLs in provenance.
+- Preserved current note filenames and captured user read states; kept historical release dates and validation claims separate from this narrower audit. No new versioned ZIP is claimed.
+
+Details: [[Verification and Stale Reference Audit 2026-09-27]], [[Notebook Validation]].
+
 ## v1.4.5 — 2026-09-20 — page-by-page completeness audit
 
 - Read and audited all 209 notes, validating every written claim and every list whose wording or structure implied completeness; added exam-relevant omissions without turning the notebook into exhaustive service documentation.

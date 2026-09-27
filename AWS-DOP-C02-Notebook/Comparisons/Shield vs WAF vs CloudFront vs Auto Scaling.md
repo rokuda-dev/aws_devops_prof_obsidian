@@ -17,4 +17,6 @@ read: false
 
 Combine controls according to layers, resource eligibility, latency/availability, and business requirements. Remove unnecessary public administrative exposure and segment privileges/dependencies; capacity alone does not reduce blast radius.
 
+Current-product correction (2026-09-27): AWS WAF's Anti-DDoS managed rule group superseded legacy Shield Advanced Layer 7 automatic mitigation as the default HTTP flood solution on March 26, 2026. Existing-customer legacy support remains; see [[AWS Shield]] and [AWS mitigation guidance](https://docs.aws.amazon.com/waf/latest/developerguide/ddos-automatic-app-layer-response.html).
+
 Task 5.2. [[DDoS Mitigation and Attack Surface Reduction]], [[Domain 5 Official Sources]].

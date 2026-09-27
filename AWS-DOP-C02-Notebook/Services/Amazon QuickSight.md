@@ -8,7 +8,7 @@ read: false
 
 ## Role and naming
 
-Business-intelligence datasets, analyses and dashboards. The transcript calls this Amazon QuickSight; current AWS material places BI under **Quick Sight** within **Amazon Quick Suite**. Retain the familiar service name here for exam and existing-source continuity.
+Business-intelligence datasets, analyses and dashboards. The transcript calls this Amazon QuickSight; current AWS documentation calls the BI feature **Amazon Quick Sight**, within **Amazon Quick**. Earlier material used **Amazon Quick Suite**. Existing QuickSight APIs, SDKs, and integrations continue to work. Retain the familiar filename here for exam and existing-source continuity.
 
 ## Domain 4 use
 
@@ -31,5 +31,5 @@ The AWS DevOps Monitoring Dashboard solution mentioned in the transcript is **no
 
 Task 4.2. See [[Monitoring Correlation Tracing and Dashboards]], [[AWS Config]].
 
-- [QuickSight/Quick Suite transition](https://aws.amazon.com/blogs/business-intelligence/reimagine-business-intelligence-amazon-quicksight-evolves-to-amazon-quick-suite/)
+- [Current Amazon Quick naming and Quick Sight compatibility](https://docs.aws.amazon.com/quick/latest/userguide/what-is.html)
 - [DevOps dashboard support notice](https://docs.aws.amazon.com/solutions/latest/devops-monitoring-dashboard-on-aws/solution-overview.html)

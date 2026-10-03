@@ -6,6 +6,10 @@ read: false
 
 # Verification Ledger
 
+## CloudFormation custom-resource process — 2026-10-03
+
+Expanded [[AWS CloudFormation]] with the provider/template workflow, request and response contract, physical-ID replacement semantics, timeouts, IAM and VPC response-path considerations, lifecycle testing, troubleshooting, and the custom-resource versus registry-resource decision. Targeted first-party checks covered the current CloudFormation custom-resource overview, template reference, request/response reference, Lambda-backed walkthrough, VPC endpoint considerations, and registry resource-type model. This was a scoped custom-resource review; no provider code was deployed and no AWS account operations were performed.
+
 ## Systems Manager Automation page — 2026-10-03
 
 Added the canonical [[AWS Systems Manager Automation]] note and linked it from the service index, general Systems Manager note, Domain 2 and Domain 5 paths, and the most direct comparison/selection pages. Targeted first-party checks covered the Automation runbook model and actions, execution identity and assume-role requirements, target and rate controls, multi-account/multi-Region roles and controls, the unsupported `aws:approve` combination in that mode, and Config automatic-remediation stale-snapshot behavior. This was a scoped Automation review, not a re-verification of every Systems Manager feature or regional service variation.

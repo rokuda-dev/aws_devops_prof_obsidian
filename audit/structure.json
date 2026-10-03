@@ -1,8 +1,8 @@
 {
-  "checked_at_utc": "2026-10-03T09:25:23.600198+00:00",
-  "notes": 214,
+  "checked_at_utc": "2026-10-03T09:30:55.979730+00:00",
+  "notes": 215,
   "service_pages": 100,
-  "active_wiki_links": 2104,
+  "active_wiki_links": 2107,
   "errors": [],
   "front_matter_scope": "Delimiter, duplicate top-level key, and Boolean read checks; not a complete YAML parser",
   "references": {
@@ -206,6 +206,17 @@
     ],
     "https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/continuous-delivery-codepipeline.html": [
       "Services/AWS CodePipeline.md",
+      "Sources/Official AWS Sources.md"
+    ],
+    "https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/crpg-ref.html": [
+      "Services/AWS CloudFormation.md",
+      "Sources/Official AWS Sources.md"
+    ],
+    "https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/template-custom-resources-lambda.html": [
+      "Services/AWS CloudFormation.md"
+    ],
+    "https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/template-custom-resources.html": [
+      "Services/AWS CloudFormation.md",
       "Sources/Official AWS Sources.md"
     ],
     "https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/using-cfn-stack-drift.html": [
@@ -660,6 +671,10 @@
     "https://docs.aws.amazon.com/cdk/v2/guide/home.html": [
       "Services/AWS CDK.md",
       "Sources/Audit Delivery and Comparisons 2026-09-27.md",
+      "Sources/Official AWS Sources.md"
+    ],
+    "https://docs.aws.amazon.com/cloudformation-cli/latest/userguide/resource-types.html": [
+      "Services/AWS CloudFormation.md",
       "Sources/Official AWS Sources.md"
     ],
     "https://docs.aws.amazon.com/cloudhsm/latest/userguide/fips-validation.html": [

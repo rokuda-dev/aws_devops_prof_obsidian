@@ -74,6 +74,7 @@ read: true
 | Requirement | Best first thought | Do not confuse with |
 |---|---|---|
 | Declarative, language-based, or serverless IaC | [[AWS CloudFormation]], [[AWS CDK]], or [[AWS SAM]] | Runtime configuration rollout |
+| Provision unsupported resource or run focused stack lifecycle logic | [[AWS CloudFormation|CloudFormation custom resource]] | Registry extension when first-class CRUDL and drift detection are required |
 | Deploy stacks across accounts and Regions | [[AWS CloudFormation StackSets]] | [[AWS RAM]], which shares supported existing resources |
 | Govern approved self-service infrastructure | [[AWS Service Catalog]] | Account vending through Control Tower Account Factory |
 | Record resource configuration and evaluate compliance | [[AWS Config]] | CloudTrail actor/API history |

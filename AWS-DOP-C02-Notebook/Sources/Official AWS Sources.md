@@ -90,6 +90,9 @@ Representative evidence for all six domains is listed here. Detailed supplied-so
 
 ## Additional targeted checks
 
+- [CloudFormation custom resources](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/template-custom-resources.html)
+- [Custom resource request and response contract](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/crpg-ref.html)
+- [CloudFormation registry resource types](https://docs.aws.amazon.com/cloudformation-cli/latest/userguide/resource-types.html)
 - [CodeDeploy platform configurations and success thresholds](https://docs.aws.amazon.com/codedeploy/latest/userguide/deployment-configurations.html)
 - [CodeDeploy platform capabilities](https://docs.aws.amazon.com/codedeploy/latest/userguide/welcome.html)
 

@@ -57,6 +57,7 @@ Read [[Common Traps and Current Corrections]] before relying on older training. 
 | Cue | Recall |
 |---|---|
 | Declarative / language-based / serverless IaC | CloudFormation / CDK / SAM |
+| Unsupported CloudFormation resource / stack-time logic | Custom resource provider + callback to presigned response URL |
 | Many accounts and Regions | StackSets + correct administrator/execution trust and permissions |
 | Approved self-service / shared resource | Service Catalog / RAM |
 | Account vending / permission ceiling | Control Tower Account Factory / Organizations SCP |

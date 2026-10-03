@@ -1,8 +1,8 @@
 {
-  "checked_at_utc": "2026-10-03T09:30:55.979730+00:00",
-  "notes": 215,
+  "checked_at_utc": "2026-10-03T09:57:59.264431+00:00",
+  "notes": 214,
   "service_pages": 100,
-  "active_wiki_links": 2107,
+  "active_wiki_links": 2106,
   "errors": [],
   "front_matter_scope": "Delimiter, duplicate top-level key, and Boolean read checks; not a complete YAML parser",
   "references": {
@@ -496,8 +496,17 @@
     "https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/Introduction.html": [
       "Services/Amazon DynamoDB.md"
     ],
+    "https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/SecondaryIndexes.html": [
+      "Services/Amazon DynamoDB.md"
+    ],
     "https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/V2globaltables_HowItWorks.html": [
       "Sources/Audit Amazon Services 2026-09-27.md"
+    ],
+    "https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/bp-indexes.html": [
+      "Services/Amazon DynamoDB.md"
+    ],
+    "https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/gsi-throttling.html": [
+      "Services/Amazon DynamoDB.md"
     ],
     "https://docs.aws.amazon.com/apigateway/latest/developerguide/api-gateway-api-endpoint-types.html": [
       "Services/Amazon API Gateway.md",

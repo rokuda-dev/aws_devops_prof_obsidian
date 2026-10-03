@@ -36,6 +36,8 @@ Scope exact event codes/resources as required. Configure permissions, subscribe/
 
 Eligible Dedicated Instances can support simplified automatic recovery; Dedicated Hosts use a different mechanism. Confirm instance/storage/network/ASG eligibility and available capacity. Recovery addresses system impairment and can lose RAM state; it does not provide zero-downtime application or AZ/Region HA.
 
+See [[Amazon EC2#Simplified automatic recovery]] for the trigger, preserved state, failure events and restrictions.
+
 Do not launch a random replacement from a generic Health notification without preserving identity, storage, configuration, licensing/tenancy constraints and traffic recovery.
 
 ## Sources

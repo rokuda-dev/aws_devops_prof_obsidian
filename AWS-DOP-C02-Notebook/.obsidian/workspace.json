@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Comparisons/Security Groups vs Network ACLs.md",
+                "file": "Services/AWS X-Ray.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Security Groups vs Network ACLs"
+              "title": "AWS X-Ray"
             }
           }
         ]
@@ -100,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Comparisons/Security Groups vs Network ACLs.md",
+                "file": "Services/AWS X-Ray.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -190,6 +190,8 @@
   },
   "active": "cfd40427a4c1e194",
   "lastOpenFiles": [
+    "Services/Amazon EC2.md",
+    "Comparisons/Security Groups vs Network ACLs.md",
     "Services/AWS Trusted Advisor.md",
     "Services/Amazon DynamoDB.md",
     "Services/AWS CloudFormation.md",
@@ -214,8 +216,6 @@
     "Comparisons/Shield vs WAF vs CloudFront vs Auto Scaling.md",
     "Comparisons/DAX vs ElastiCache vs DynamoDB Global Tables.md",
     "Comparisons/Config vs CloudTrail vs Systems Manager.md",
-    "Comparisons/Config Compliance vs CloudTrail Actor Attribution.md",
-    "Comparisons/CodePipeline vs CodeBuild vs CodeDeploy.md",
     "aws_devops_prof_obsidian",
     "AWS"
   ]

@@ -24,6 +24,7 @@ Every file in `Services/` appears exactly once below. Canonical notes hold study
 | [[Amazon DynamoDB Accelerator (DAX)]] | Eligible DynamoDB read caching | 3.1–3.2 |
 | [[Amazon DynamoDB]] | Managed NoSQL tables, Streams, capacity, global tables, backups, and resilience semantics. | 2.3; 3.1–3.3 |
 | [[Amazon EBS]] | Block storage attached to EC2, with volume/snapshot lifecycle independent of application deployment. | 1.4; cross-domain 3 |
+| [[Amazon EC2]] | Virtual-machine compute, status checks, and eligible automatic instance recovery. | 3.2; 4.2 |
 | [[Amazon EC2 Auto Scaling]] | EC2 capacity, health replacement, warm pools and lifecycle hooks | 3.1–3.3 |
 | [[Amazon ECR]] | Managed registry for container images and OCI artifacts. | 1.3, 1.4 |
 | [[Amazon ECS]] | Container orchestration with rolling and native or CodeDeploy-controlled traffic-shifting deployments. | 1.4; cross-domain resilience |

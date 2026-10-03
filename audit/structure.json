@@ -1,8 +1,8 @@
 {
-  "checked_at_utc": "2026-10-03T11:02:10.114168+00:00",
-  "notes": 214,
-  "service_pages": 100,
-  "active_wiki_links": 2106,
+  "checked_at_utc": "2026-10-03T12:08:15.083481+00:00",
+  "notes": 215,
+  "service_pages": 101,
+  "active_wiki_links": 2111,
   "errors": [],
   "front_matter_scope": "Delimiter, duplicate top-level key, and Boolean read checks; not a complete YAML parser",
   "references": {
@@ -227,12 +227,22 @@
       "Sources/Audit Delivery and Comparisons 2026-09-27.md",
       "Sources/Official AWS Sources.md"
     ],
+    "https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/UsingAlarmActions.html": [
+      "Services/Amazon EC2.md"
+    ],
     "https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-allowed-amis.html": [
       "Sources/Domain 6 Official Sources.md"
     ],
+    "https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-instance-recover.html": [
+      "Services/Amazon EC2.md"
+    ],
     "https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/instance-configuration-recovery.html": [
       "Services/AWS Health.md",
+      "Services/Amazon EC2.md",
       "Sources/Domain 4 Official Sources.md"
+    ],
+    "https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/monitoring-system-instance-status-check.html": [
+      "Services/Amazon EC2.md"
     ],
     "https://docs.aws.amazon.com/AWSSimpleQueueService/latest/SQSDeveloperGuide/sqs-visibility-timeout.html": [
       "Sources/Audit Amazon Services 2026-09-27.md"

@@ -15,8 +15,7 @@ read: false
 | Patch Manager | Patch compliance/install | Baseline + scheduling/reboot choices |
 | Quick Setup patch policy | Organization/multi-Region patch setup | Centrally configured scan/install schedules |
 
-Run Command/State Manager host actions need managed nodes. Automation can also operate on AWS resources using API actions. [[AWS Systems Manager]] supports hybrid activation for appropriate external hosts.
+Run Command/State Manager host actions need managed nodes. [[AWS Systems Manager Automation]] can also operate on AWS resources using API actions. [[AWS Systems Manager]] supports hybrid activation for appropriate external hosts.
 
 > [!warning]
 > “SSH replacement” is usually Session Manager for interactive administration, not Run Command. No inbound port requirement does not remove outbound connectivity, Agent, IAM, and logging prerequisites.
-

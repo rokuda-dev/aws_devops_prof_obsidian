@@ -1,7 +1,10 @@
 ---
-tags: [aws, dop-c02, domains]
+tags:
+  - aws
+  - dop-c02
+  - domains
 updated: 2026-09-19
-read: false
+read: true
 ---
 
 # Domain 5 - Incident and Event Response
@@ -28,7 +31,7 @@ Use evidence to apply scoped, duplicate-safe changes, verify recovery, and handl
 - [[Exposed Credential Response]]
 - [[DDoS Mitigation and Attack Surface Reduction]]
 - [[Lambda Deployment Validation Hooks]]
-- [[AWS Systems Manager]], [[AWS Health]], [[Amazon RDS]], [[Amazon EC2 Auto Scaling]]
+- [[AWS Systems Manager Automation]], [[AWS Systems Manager]], [[AWS Health]], [[Amazon RDS]], [[Amazon EC2 Auto Scaling]]
 - [[AWS Identity and Access Management]], [[AWS Shield]], [[AWS WAF]], [[Amazon CloudFront]]
 - [[AWS CodeDeploy]], [[AWS Config]], [[AWS CloudFormation]], [[Safe Event-Driven Remediation]]
 

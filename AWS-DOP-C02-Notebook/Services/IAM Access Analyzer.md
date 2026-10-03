@@ -1,8 +1,11 @@
 ---
 title: IAM Access Analyzer
-tags: [aws, dop-c02, domain-6]
+tags:
+  - aws
+  - dop-c02
+  - domain-6
 verified: 2026-09-19
-read: false
+read: true
 ---
 
 # IAM Access Analyzer

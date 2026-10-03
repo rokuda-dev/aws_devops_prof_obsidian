@@ -1,7 +1,10 @@
 ---
-tags: [aws, dop-c02, domains]
+tags:
+  - aws
+  - dop-c02
+  - domains
 updated: 2026-09-19
-read: false
+read: true
 ---
 
 # Domain 4 - Monitoring and Logging
@@ -13,7 +16,7 @@ read: false
 
 Identify the producer, required latency, account/Region scope, retention, query pattern, and security boundary. EC2 guest logs and memory/disk metrics normally need the CloudWatch agent or another explicit publisher. ECS container stdout/stderr can use `awslogs`; FireLens is a deliberate alternative for routing and transformation. ALB access logs, CloudTrail records, VPC Flow Logs, and application logs are separate producers with different configuration and completeness guarantees.
 
-For cross-account designs, distinguish linked observation from copied data. OAM provides federated CloudWatch visibility; Logs centralization or subscription destinations copy new records to a monitoring/central account; Firehose commonly delivers buffered data to S3; OpenSearch supports indexed search; Athena queries structured data in S3. Plan future-account onboarding, encryption, delivery-error monitoring, retention, and historical backfill.
+For cross-account designs, distinguish linked observation from copied data. OAM (Observability Access Manager) provides federated CloudWatch visibility; Logs centralization or subscription destinations copy new records to a monitoring/central account; Firehose commonly delivers buffered data to S3; OpenSearch supports indexed search; Athena queries structured data in S3. Plan future-account onboarding, encryption, delivery-error monitoring, retention, and historical backfill.
 
 Metric identity is namespace + name + dimensions. Choose the correct statistic and period; `Sum` and `SampleCount` answer different questions. Metric streams export updates, while PutMetricData/EMF publish custom metrics.
 

@@ -1,7 +1,10 @@
 ---
-tags: [aws, dop-c02, domain-4]
+tags:
+  - aws
+  - dop-c02
+  - domain-4
 verified: 2026-09-18
-read: false
+read: true
 ---
 
 # Static vs Anomaly vs Composite Alarms

@@ -1,7 +1,10 @@
 ---
-tags: [aws, dop-c02, domain-3]
+tags:
+  - aws
+  - dop-c02
+  - domain-3
 verified: 2026-09-18
-read: false
+read: true
 ---
 
 # RDS Multi-AZ vs Read Replicas vs Aurora Global Database

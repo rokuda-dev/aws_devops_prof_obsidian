@@ -38,7 +38,7 @@ read: true
 | Distributed request trace                 | [[AWS X-Ray]] + [[AWS Distro for OpenTelemetry]]                   |
 | Fleet commands / interactive access       | [[AWS Systems Manager]] Run Command / Session Manager              |
 | Desired host state / patches              | SSM State Manager / Patch Manager                                  |
-| Operational runbook                       | SSM Automation                                                     |
+| Operational runbook                       | [[AWS Systems Manager Automation]]                                 |
 | Multi-step orchestration                  | [[AWS Step Functions]]                                             |
 | Event routing                             | [[Amazon EventBridge]]                                             |
 | Custom event handler                      | [[AWS Lambda]]                                                     |
@@ -77,7 +77,7 @@ read: true
 | Deploy stacks across accounts and Regions | [[AWS CloudFormation StackSets]] | [[AWS RAM]], which shares supported existing resources |
 | Govern approved self-service infrastructure | [[AWS Service Catalog]] | Account vending through Control Tower Account Factory |
 | Record resource configuration and evaluate compliance | [[AWS Config]] | CloudTrail actor/API history |
-| Maintain fleet state or execute operational runbooks | [[AWS Systems Manager]] State Manager or Automation | Session Manager interactive access |
+| Maintain fleet state or execute operational runbooks | [[AWS Systems Manager]] State Manager or [[AWS Systems Manager Automation|Automation]] | Session Manager interactive access |
 | Route events or coordinate multi-step work | [[Amazon EventBridge]] or [[AWS Step Functions]] | Treating event delivery as proof of remediation success |
 
 ## Domain 3 — resilient solutions
@@ -125,9 +125,9 @@ See [[Domain 4 Scenario Decisions]] for collection, analysis, and response pipel
 | React to an AWS API call | CloudTrail-captured event → EventBridge | Config compliance-change event |
 | React to numeric threshold | CloudWatch alarm | EventBridge as metric storage |
 | React to AWS service maintenance | AWS Health → EventBridge | Polling CloudWatch for Health events |
-| Repair a noncompliant resource | Config evaluation → SSM Automation or scoped Lambda | Aggregator as enforcement engine |
+| Repair a noncompliant resource | Config evaluation → [[AWS Systems Manager Automation|SSM Automation]] or scoped Lambda | Aggregator as enforcement engine |
 | Stateful response with retries/branches/approval | [[AWS Step Functions]] | Lambda-only ad hoc orchestration |
-| Fleet operational runbook | SSM Automation | Run Command interactive access |
+| Fleet operational runbook | [[AWS Systems Manager Automation|SSM Automation]] | Run Command interactive access |
 | Investigate an operational issue | Systems Manager OpsCenter/OpsItem | Fleet Manager node administration |
 | Validate a Lambda deployment | CodeDeploy BeforeAllowTraffic/AfterAllowTraffic hooks + alarms | ECS AfterAllowTestTraffic hook |
 | Parallel independent pipeline actions | Equal CodePipeline `runOrder` values in the same stage | Pipeline execution mode |

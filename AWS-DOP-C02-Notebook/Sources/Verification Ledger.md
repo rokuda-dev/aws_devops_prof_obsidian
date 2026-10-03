@@ -6,6 +6,10 @@ read: false
 
 # Verification Ledger
 
+## Systems Manager Automation page — 2026-10-03
+
+Added the canonical [[AWS Systems Manager Automation]] note and linked it from the service index, general Systems Manager note, Domain 2 and Domain 5 paths, and the most direct comparison/selection pages. Targeted first-party checks covered the Automation runbook model and actions, execution identity and assume-role requirements, target and rate controls, multi-account/multi-Region roles and controls, the unsupported `aws:approve` combination in that mode, and Config automatic-remediation stale-snapshot behavior. This was a scoped Automation review, not a re-verification of every Systems Manager feature or regional service variation.
+
 ## Verification and stale-reference run — 2026-09-27
 
 Reviewed all 209 baseline Markdown pages with targeted first-party checks of material claims and a separate HTTP reference scan. Applied corrections and added four audit records. See [[Verification and Stale Reference Audit 2026-09-27]] for findings by domain, every-page coverage, evidence, and explicit limits. This run does not reassert a sentence-by-sentence proof of every claim or reproduce unavailable historical ZIP/transcript checks. Historical verification entries below retain their original scope and dates.

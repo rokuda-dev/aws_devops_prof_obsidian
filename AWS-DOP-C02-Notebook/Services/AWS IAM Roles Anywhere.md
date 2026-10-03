@@ -1,8 +1,11 @@
 ---
 title: AWS IAM Roles Anywhere
-tags: [aws, dop-c02, domain-6]
+tags:
+  - aws
+  - dop-c02
+  - domain-6
 verified: 2026-09-19
-read: false
+read: true
 ---
 
 # AWS IAM Roles Anywhere

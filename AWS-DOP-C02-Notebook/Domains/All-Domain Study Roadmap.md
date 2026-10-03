@@ -1,7 +1,11 @@
 ---
-tags: [aws, certification, dop-c02, roadmap]
+tags:
+  - aws
+  - certification
+  - dop-c02
+  - roadmap
 verified: 2026-09-19
-read: false
+read: true
 ---
 
 # All-Domain Study Roadmap

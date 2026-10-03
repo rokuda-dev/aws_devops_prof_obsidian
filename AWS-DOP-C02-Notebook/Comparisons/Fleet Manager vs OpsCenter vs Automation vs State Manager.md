@@ -1,8 +1,11 @@
 ---
 title: Fleet Manager vs OpsCenter vs Automation vs State Manager
-tags: [aws, dop-c02, domain-5]
+tags:
+  - aws
+  - dop-c02
+  - domain-5
 verified: 2026-09-18
-read: false
+read: true
 ---
 
 # Fleet Manager vs OpsCenter vs Automation vs State Manager
@@ -19,4 +22,4 @@ read: false
 
 The incident case, one-time repair, and ongoing desired-state policy are distinct. Required managed-node setup and permissions depend on the feature; an AWS API-only Automation action is not the same as a command on an unmanaged server.
 
-Tasks 5.2–5.3. [[AWS Systems Manager]], [[Systems Manager Incident Operations]], [[Run Command vs Session Manager vs State Manager vs Automation]], [[Domain 5 Official Sources]].
+Tasks 5.2–5.3. [[AWS Systems Manager Automation]], [[AWS Systems Manager]], [[Systems Manager Incident Operations]], [[Run Command vs Session Manager vs State Manager vs Automation]], [[Domain 5 Official Sources]].

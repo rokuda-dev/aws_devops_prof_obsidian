@@ -21,6 +21,8 @@ Task statements: 1.1, 2.1. See [[Domain 1 - SDLC Automation]] and [[Domain 2 - C
 
 Parameters include String, StringList, and SecureString, with versioning and tier-dependent policies/sharing. Hierarchical paths organize environments and applications.
 
+Parameters generally may not be larger than 8KB. Exceptions exist.
+
 ## Architecture pattern
 
 [[AWS CodeBuild]]/application/[[AWS CloudFormation]] retrieves parameter through its IAM role.

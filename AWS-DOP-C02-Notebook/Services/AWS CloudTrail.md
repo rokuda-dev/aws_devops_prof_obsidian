@@ -1,9 +1,12 @@
 ---
 title: AWS CloudTrail
-tags: [aws, dop-c02, service]
+tags:
+  - aws
+  - dop-c02
+  - service
 status: consolidated-study-note
 updated: 2026-09-18
-read: false
+read: true
 ---
 
 # AWS CloudTrail

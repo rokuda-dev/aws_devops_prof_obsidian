@@ -1,7 +1,10 @@
 ---
-tags: [aws, dop-c02, domains]
+tags:
+  - aws
+  - dop-c02
+  - domains
 updated: 2026-09-19
-read: false
+read: true
 ---
 
 # Domain 6 - Security and Compliance

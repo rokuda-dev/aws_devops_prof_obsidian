@@ -1,8 +1,11 @@
 ---
 title: CloudWatch Container Insights
-tags: [aws, dop-c02, domain-5]
+tags:
+  - aws
+  - dop-c02
+  - domain-5
 verified: 2026-09-18
-read: false
+read: true
 ---
 
 # CloudWatch Container Insights

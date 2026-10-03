@@ -28,6 +28,8 @@ Use `artifacts` for build output, `reports` for test/coverage results, and `cach
 - VPC configuration lets builds reach private resources. CodeBuild cannot assign a public IP to its VPC ENI, so private subnets need NAT or suitable VPC endpoints for required services.
 - Docker image builds usually require privileged mode.
 - Use the project service role; never embed long-lived AWS keys.
+- No ability to perform multiprocessing or parallel processing
+- Possibility to use Docker Layer Cache mode to expedite build process
 
 ## Secrets
 

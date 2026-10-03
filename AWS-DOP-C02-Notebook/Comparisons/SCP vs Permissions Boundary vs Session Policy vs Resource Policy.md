@@ -1,8 +1,11 @@
 ---
 title: SCP vs Permissions Boundary vs Session Policy vs Resource Policy
-tags: [aws, dop-c02, domain-6]
+tags:
+  - aws
+  - dop-c02
+  - domain-6
 verified: 2026-09-20
-read: false
+read: true
 ---
 
 # SCP vs Permissions Boundary vs Session Policy vs Resource Policy

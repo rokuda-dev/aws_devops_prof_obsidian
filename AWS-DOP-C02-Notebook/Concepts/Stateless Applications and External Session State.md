@@ -1,7 +1,10 @@
 ---
-tags: [aws, dop-c02, concepts]
+tags:
+  - aws
+  - dop-c02
+  - concepts
 updated: 2026-09-18
-read: false
+read: true
 ---
 
 # Stateless Applications and External Session State

@@ -87,6 +87,7 @@ Every file in `Services/` appears exactly once below. Canonical notes hold study
 | [[AWS Shield]] | DDoS protection and configured Advanced response | 5.2 |
 | [[AWS Step Functions]] | Stateful orchestration of multi-step workflows with branching, retries, waits, and service integrations. | 2.3; cross-domain 5 |
 | [[AWS Storage Gateway]] | S3 File Gateway RefreshCache distinction | Additional resource |
+| [[AWS Systems Manager Automation]] | Controlled multi-step operational runbooks, resource remediation, and rate-controlled cross-account/Region execution. | 2.3; 3.3; 5.1–5.3; 6.2–6.3 |
 | [[AWS Systems Manager Parameter Store]] | Hierarchical storage for parameters and KMS-encrypted SecureString values. | 1.1, 2.1 |
 | [[AWS Systems Manager]] | Managed-node operations, desired state, patching, secure access, Automation, and incident workflows. | 2.1–2.3; 4.3; 5.1–5.3; 6.3 |
 | [[AWS Transit Gateway]] | Regional hubs and inter-Region private peering | 3.2 |

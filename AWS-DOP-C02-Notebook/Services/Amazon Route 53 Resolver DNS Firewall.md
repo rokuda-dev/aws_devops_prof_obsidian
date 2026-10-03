@@ -1,8 +1,11 @@
 ---
 title: Amazon Route 53 Resolver DNS Firewall
-tags: [aws, dop-c02, domain-6]
+tags:
+  - aws
+  - dop-c02
+  - domain-6
 verified: 2026-09-19
-read: false
+read: true
 ---
 
 # Amazon Route 53 Resolver DNS Firewall

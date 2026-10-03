@@ -34,7 +34,8 @@ read: true
 
 ## Task 2.3 — Design and build automated solutions for complex tasks and large-scale environments
 
-- [[AWS Systems Manager]] — inventory, State Manager, Automation, Patch Manager, Run Command, Session Manager
+- [[AWS Systems Manager]] — inventory, State Manager, Patch Manager, Run Command, and Session Manager
+- [[AWS Systems Manager Automation]] — operational runbooks, rate-controlled targeting, and multi-account/multi-Region remediation
 - [[AWS Step Functions and EventBridge]] — event routing and multi-step orchestration
 - AWS Lambda — custom event-driven automation
 - [[AWS Application Discovery Service]] — migration discovery and dependency information for existing customers; closed to new customers November 7, 2025. AWS recommends AWS Transform for new discovery projects ([availability notice](https://docs.aws.amazon.com/application-discovery/latest/userguide/application-discovery-service-availability-change.html), rechecked 2026-09-27).

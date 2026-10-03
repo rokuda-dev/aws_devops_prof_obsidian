@@ -47,6 +47,7 @@ Representative evidence for all six domains is listed here. Detailed supplied-so
 - [AWS CDK Developer Guide](https://docs.aws.amazon.com/cdk/v2/guide/home.html)
 - [AWS SAM Developer Guide](https://docs.aws.amazon.com/serverless-application-model/latest/developerguide/what-is-sam.html)
 - [AWS Systems Manager](https://docs.aws.amazon.com/systems-manager/latest/userguide/what-is-systems-manager.html)
+- [[AWS Systems Manager Automation]] — [official source](https://docs.aws.amazon.com/systems-manager/latest/userguide/systems-manager-automation.html)
 - [AWS Config](https://docs.aws.amazon.com/config/latest/developerguide/WhatIsConfig.html)
 - [AWS Organizations SCPs](https://docs.aws.amazon.com/organizations/latest/userguide/orgs_manage_policies_scps.html)
 - [AWS Control Tower](https://docs.aws.amazon.com/controltower/latest/userguide/what-is-control-tower.html)

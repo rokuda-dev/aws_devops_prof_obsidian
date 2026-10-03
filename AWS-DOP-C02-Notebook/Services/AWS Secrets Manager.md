@@ -21,6 +21,8 @@ Task statements: 1.1, 2.1; cross-domain 6. See [[Domain 1 - SDLC Automation]] an
 
 Version stages such as AWSCURRENT/AWSPENDING support rotation. Supported rotation can use managed integration or a Lambda rotation function; multi-Region replicas distribute secrets.
 
+Secrets may not be larger than 12KB.
+
 ## Architecture pattern
 
 [[AWS CodeBuild]] or application IAM role → runtime secret retrieval → use credential without logging it.

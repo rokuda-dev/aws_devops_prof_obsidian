@@ -1,8 +1,11 @@
 ---
 title: Inspector vs GuardDuty vs Macie vs Access Analyzer
-tags: [aws, dop-c02, domain-6]
+tags:
+  - aws
+  - dop-c02
+  - domain-6
 verified: 2026-09-19
-read: false
+read: true
 ---
 
 # Inspector vs GuardDuty vs Macie vs Access Analyzer

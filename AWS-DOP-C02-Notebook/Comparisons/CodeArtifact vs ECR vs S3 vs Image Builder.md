@@ -1,7 +1,10 @@
 ---
-tags: [aws, dop-c02, comparisons]
+tags:
+  - aws
+  - dop-c02
+  - comparisons
 updated: 2026-09-18
-read: false
+read: true
 ---
 
 # CodeArtifact vs ECR vs S3 vs Image Builder

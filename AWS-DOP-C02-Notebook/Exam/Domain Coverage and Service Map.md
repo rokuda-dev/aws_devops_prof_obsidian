@@ -1,7 +1,10 @@
 ---
-tags: [aws, dop-c02, exam]
+tags:
+  - aws
+  - dop-c02
+  - exam
 updated: 2026-09-19
-read: false
+read: true
 ---
 
 # Domain Coverage and Service Map

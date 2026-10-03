@@ -27,7 +27,10 @@ Cache miss → primary origin → eligible failure → secondary origin; [[Lambd
 
 ## IAM and security
 
-Use HTTPS; use OAC for supported S3 origins; use signed URLs/cookies for restricted viewer access. See [[CloudFront Field-Level Encryption]].
+- Use HTTPS; 
+- Use OAC for supported S3 origins;
+- Use Response Header Policies to allow for specific HTTP headers 
+- Use signed URLs/cookies for restricted viewer access. See [[CloudFront Field-Level Encryption]].
 
 ## Failure, rollback, and lifecycle
 

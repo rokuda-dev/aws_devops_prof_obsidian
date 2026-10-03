@@ -10,7 +10,7 @@ read: true
 
 # AWS Elastic Beanstalk
 
-Elastic Beanstalk deploys applications while provisioning and operating underlying AWS resources such as compute, load balancing, scaling, and health monitoring.
+Elastic Beanstalk deploys applications while provisioning and operating underlying AWS resources such as compute, load balancing, scaling, and health monitoring. At this moment it only support EC2 instances.
 
 ## Current service model
 

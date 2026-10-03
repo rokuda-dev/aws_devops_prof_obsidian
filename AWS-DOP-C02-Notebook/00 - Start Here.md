@@ -41,19 +41,19 @@ read: false
 Source → Build/Test → Artifact → Deploy → Observe → Govern/Remediate
 ```
 
-| Function | Primary services |
-|---|---|
-| Source integration | [[AWS CodeCommit and CodeConnections]] |
-| Orchestration | [[AWS CodePipeline]] |
-| Build and test | [[AWS CodeBuild]] |
-| Package registry | [[AWS CodeArtifact]] |
-| Container/image artifacts | [[Amazon ECR and EC2 Image Builder]] |
-| Application deployment | [[AWS CodeDeploy]] |
-| Infrastructure deployment | [[AWS CloudFormation, CDK, and SAM]] |
-| Runtime platforms | [[Amazon ECS Deployments]], [[AWS Lambda and API Gateway]], [[AWS Elastic Beanstalk]] |
-| Configuration and fleet operations | [[AWS Systems Manager]], [[AWS AppConfig, Parameter Store, and Secrets Manager]] |
-| Governance and compliance | [[AWS Organizations and Control Tower]], [[AWS Config]], [[AWS Service Catalog and RAM]] |
-| Health signals | [[Amazon CloudWatch, X-Ray, and OpenTelemetry]] |
+| Function                           | Primary services                                                                         |
+| ---------------------------------- | ---------------------------------------------------------------------------------------- |
+| Source integration                 | [[AWS CodeCommit and CodeConnections]]                                                   |
+| Orchestration                      | [[AWS CodePipeline]]                                                                     |
+| Build and test                     | [[AWS CodeBuild]]                                                                        |
+| Package registry                   | [[AWS CodeArtifact]]                                                                     |
+| Container/image artifacts          | [[Amazon ECR and EC2 Image Builder]]                                                     |
+| Application deployment             | [[AWS CodeDeploy]]                                                                       |
+| Infrastructure deployment          | [[AWS CloudFormation, CDK, and SAM]]                                                     |
+| Runtime platforms                  | [[Amazon ECS Deployments]], [[AWS Lambda and API Gateway]], [[AWS Elastic Beanstalk]]    |
+| Configuration and fleet operations | [[AWS Systems Manager]], [[AWS AppConfig, Parameter Store, and Secrets Manager]]         |
+| Governance and compliance          | [[AWS Organizations and Control Tower]], [[AWS Config]], [[AWS Service Catalog and RAM]] |
+| Health signals                     | [[Amazon CloudWatch, X-Ray, and OpenTelemetry]]                                          |
 
 ## Conventions
 

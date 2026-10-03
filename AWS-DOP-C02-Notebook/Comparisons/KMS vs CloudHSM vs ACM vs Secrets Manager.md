@@ -1,8 +1,11 @@
 ---
 title: KMS vs CloudHSM vs ACM vs Secrets Manager
-tags: [aws, dop-c02, domain-6]
+tags:
+  - aws
+  - dop-c02
+  - domain-6
 verified: 2026-09-19
-read: false
+read: true
 ---
 
 # KMS vs CloudHSM vs ACM vs Secrets Manager

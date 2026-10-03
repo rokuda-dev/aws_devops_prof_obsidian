@@ -1,8 +1,11 @@
 ---
 title: CI-CD Failure Triage and Parallel Actions
-tags: [aws, dop-c02, domain-5]
+tags:
+  - aws
+  - dop-c02
+  - domain-5
 verified: 2026-09-18
-read: false
+read: true
 ---
 
 # CI-CD Failure Triage and Parallel Actions

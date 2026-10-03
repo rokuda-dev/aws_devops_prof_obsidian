@@ -1,8 +1,8 @@
 {
-  "checked_at_utc": "2026-09-27T09:41:17.388089+00:00",
-  "notes": 213,
-  "service_pages": 99,
-  "active_wiki_links": 2081,
+  "checked_at_utc": "2026-10-03T09:25:23.600198+00:00",
+  "notes": 214,
+  "service_pages": 100,
+  "active_wiki_links": 2104,
   "errors": [],
   "front_matter_scope": "Delimiter, duplicate top-level key, and Boolean read checks; not a complete YAML parser",
   "references": {
@@ -805,6 +805,9 @@
       "Sources/Audit Concepts and Domains 2026-09-27.md",
       "Sources/Domain 5 Official Sources.md"
     ],
+    "https://docs.aws.amazon.com/config/latest/developerguide/setup-autoremediation.html": [
+      "Services/AWS Systems Manager Automation.md"
+    ],
     "https://docs.aws.amazon.com/controltower/latest/userguide/what-is-control-tower.html": [
       "Services/AWS Control Tower.md",
       "Sources/Audit Delivery and Comparisons 2026-09-27.md",
@@ -1142,7 +1145,11 @@
       "Sources/Domain 5 Official Sources.md"
     ],
     "https://docs.aws.amazon.com/systems-manager/latest/userguide/automation-actions.html": [
+      "Services/AWS Systems Manager Automation.md",
       "Sources/Official AWS Sources.md"
+    ],
+    "https://docs.aws.amazon.com/systems-manager/latest/userguide/automation-setup.html": [
+      "Services/AWS Systems Manager Automation.md"
     ],
     "https://docs.aws.amazon.com/systems-manager/latest/userguide/integration-ps-secretsmanager.html": [
       "Sources/Audit Concepts and Domains 2026-09-27.md",
@@ -1160,10 +1167,18 @@
       "Sources/Official AWS Sources.md"
     ],
     "https://docs.aws.amazon.com/systems-manager/latest/userguide/running-automations-multiple-accounts-regions.html": [
+      "Services/AWS Systems Manager Automation.md",
       "Sources/Domain 6 Official Sources.md"
+    ],
+    "https://docs.aws.amazon.com/systems-manager/latest/userguide/running-automations-scale.html": [
+      "Services/AWS Systems Manager Automation.md"
     ],
     "https://docs.aws.amazon.com/systems-manager/latest/userguide/sysman-compliance-about.html#sysman-compliance-custom": [
       "Sources/Domain 6 Official Sources.md"
+    ],
+    "https://docs.aws.amazon.com/systems-manager/latest/userguide/systems-manager-automation.html": [
+      "Services/AWS Systems Manager Automation.md",
+      "Sources/Official AWS Sources.md"
     ],
     "https://docs.aws.amazon.com/systems-manager/latest/userguide/systems-manager-hybrid-multicloud.html": [
       "Services/AWS Systems Manager.md"

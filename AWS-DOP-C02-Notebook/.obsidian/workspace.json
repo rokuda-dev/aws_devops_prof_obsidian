@@ -4,95 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "25d454c4ebe92277",
+        "id": "87342e0c12c05750",
         "type": "tabs",
         "children": [
           {
-            "id": "72617c89ae5b9dba",
+            "id": "cfd40427a4c1e194",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Exam/Cross-Account and Cross-Region CodePipeline.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Cross-Account and Cross-Region CodePipeline"
-            }
-          },
-          {
-            "id": "9c00c09da2c77015",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Domains/Domain 3 - Resilient Cloud Solutions.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Domain 3 - Resilient Cloud Solutions"
-            }
-          },
-          {
-            "id": "6b3a66567d9c75a9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Concepts/Scaling Metrics and Troubleshooting.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Scaling Metrics and Troubleshooting"
-            }
-          },
-          {
-            "id": "e42bd0b69c1c11be",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Concepts/Stateless Applications and External Session State.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Stateless Applications and External Session State"
-            }
-          },
-          {
-            "id": "710b773db783f583",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Services/Amazon ElastiCache.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Amazon ElastiCache"
-            }
-          },
-          {
-            "id": "e7bfd9dc7fcabf7f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Services/Amazon ECS.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Amazon ECS"
+              "title": "New tab"
             }
           }
-        ],
-        "currentTab": 5
+        ]
       }
     ],
     "direction": "vertical"
@@ -126,7 +51,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#aws",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -150,7 +75,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -170,7 +96,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Services/AWS CodeDeploy.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -245,8 +170,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -259,34 +183,34 @@
       "bases:Create new base": false
     }
   },
-  "active": "e7bfd9dc7fcabf7f",
+  "active": "cfd40427a4c1e194",
   "lastOpenFiles": [
-    "Sources/Verification and Stale Reference Audit 2026-09-27.md",
-    "Sources/Audit Delivery and Comparisons 2026-09-27.md",
-    "Sources/Audit Concepts and Domains 2026-09-27.md",
-    "Sources/Audit Amazon Services 2026-09-27.md",
-    "Services/AWS Fargate.md",
-    "Services/Amazon ECS.md",
-    "Concepts/Scaling Metrics and Troubleshooting.md",
-    "Services/AWS Application Auto Scaling.md",
-    "Services/Amazon EC2 Auto Scaling.md",
-    "Domains/Domain 3 - Resilient Cloud Solutions.md",
-    "Comparisons/Cooldown vs Warmup vs Lifecycle Hooks vs Health Check Grace Period.md",
-    "Concepts/Multi-Region Application Checklist.md",
-    "Concepts/Stateless Applications and External Session State.md",
-    "Services/Amazon ElastiCache.md",
-    "Services/Amazon EKS.md",
-    "Services/AWS Lambda.md",
-    "Services/Amazon API Gateway.md",
+    "custom resources.md",
+    "Services/AWS CloudFormation.md",
+    "Comparisons/Run Command vs Session Manager vs State Manager vs Automation.md",
+    "Services/AWS Systems Manager Automation.md",
+    "Services/AWS Systems Manager.md",
+    "Services/Amazon CloudFront.md",
+    "Services/CloudFront Field-Level Encryption.md",
+    "Services/AWS Config.md",
+    "Services/AWS Systems Manager Parameter Store.md",
+    "Services/AWS Secrets Manager.md",
+    "Services/AWS Elastic Beanstalk.md",
+    "Services/AWS CodeBuild.md",
     "00 - Start Here.md",
-    "Exam/Cross-Account and Cross-Region CodePipeline.md",
-    "Exam/Domain 3 Architecture Patterns.md",
-    "Exam/Domain 3 Scenario Decisions.md",
-    "Services/Amazon Application Recovery Controller.md",
-    "Concepts/Disaster Recovery Testing and Failback.md",
-    "Concepts/Disaster Recovery Strategies.md",
-    "Exam/Domain 3 Transcript Corrections.md",
-    "Concepts/RTO RPO SLA SLO and Error Budgets.md",
+    "Concepts/Monitoring Correlation Tracing and Dashboards.md",
+    "Exam/High-Value Exam Patterns.md",
+    "Exam/Rapid Review.md",
+    "Exam/Notebook Validation.md",
+    "Exam/Domain Coverage and Service Map.md",
+    "Comparisons/RDS Blue Green vs EngineVersion Update vs Read Replica Promotion.md",
+    "Comparisons/Shield vs WAF vs CloudFront vs Auto Scaling.md",
+    "Comparisons/DAX vs ElastiCache vs DynamoDB Global Tables.md",
+    "Comparisons/Config vs CloudTrail vs Systems Manager.md",
+    "Comparisons/Config Compliance vs CloudTrail Actor Attribution.md",
+    "Comparisons/CodePipeline vs CodeBuild vs CodeDeploy.md",
+    "Comparisons/CodeArtifact vs ECR vs S3 vs Image Builder.md",
+    "Comparisons/AppConfig vs Parameter Store vs Secrets Manager.md",
     "aws_devops_prof_obsidian",
     "AWS"
   ]

@@ -20,19 +20,21 @@ Systems Manager centrally views, manages, and operates managed nodes across AWS,
 | Interactive administration without inbound SSH/RDP | Session Manager |
 | Maintain desired managed-node configuration | State Manager |
 | Patch operating systems | Patch Manager / Quick Setup patch policies |
-| Multi-step operational remediation | Automation runbooks |
+| Multi-step operational remediation | [[AWS Systems Manager Automation|Automation runbooks]] |
 | Store hierarchical parameters | Parameter Store |
 | Collect software/configuration inventory | Inventory |
 
 ## Managed nodes
 
-SSM Agent and service connectivity are required. For on-premises servers and external VMs, create a hybrid activation and register the machine as a managed node. IAM roles/service roles and network access to Systems Manager endpoints must be correct.
+SSM Agent and service connectivity are required.
+For on-premises servers and external VMs, create a hybrid activation and register the machine as a managed node. (Managed hybrid instances will carry 'mi'-prefix.)
+IAM roles/service roles and network access to Systems Manager endpoints must be correct.
 
 ## Important distinctions
 
 - Run Command is non-interactive; Session Manager provides interactive access.
 - State Manager maintains OS/software state; [[AWS Config]] evaluates AWS resource configuration.
-- Automation coordinates runbook steps and AWS API actions; Lambda is better for custom event-driven code, and Step Functions for application-level orchestration with complex branching/waits.
+- [[AWS Systems Manager Automation]] coordinates runbook steps and AWS API actions; Lambda is better for custom event-driven code, and Step Functions for application-level orchestration with complex branching/waits.
 
 Source: [Systems Manager overview](https://docs.aws.amazon.com/systems-manager/latest/userguide/what-is-systems-manager.html)
 
@@ -46,13 +48,14 @@ Quick Setup patch policies support centrally configured scan/install schedules a
 
 Managed nodes need SSM Agent, authorized node/service roles, and outbound service connectivity. No inbound SSH/RDP is needed for standard Session Manager access, but IAM authorization and network prerequisites still apply. Standard session logging can be configured; do not assume encrypted SSH or port-forwarding session contents are recorded like ordinary shell sessions.
 
-Automation runbooks can interact with AWS resources without requiring every resource to be an SSM managed node. Run Command/State Manager host operations target managed nodes. Use approvals, scoped roles, and rate/error controls for high-impact fleet changes.
+[[AWS Systems Manager Automation|Automation runbooks]] can interact with AWS resources without requiring every resource to be an SSM managed node. Run Command/State Manager host operations target managed nodes. Use approvals, scoped roles, and rate/error controls for high-impact fleet changes.
 
 ## Official AWS references
 
 - [Hybrid/multicloud environments](https://docs.aws.amazon.com/systems-manager/latest/userguide/systems-manager-hybrid-multicloud.html)
 - [Quick Setup patch policies](https://docs.aws.amazon.com/systems-manager/latest/userguide/quick-setup-patch-manager.html)
 - [Patch policy features](https://docs.aws.amazon.com/systems-manager/latest/userguide/patch-manager-policies.html)
+- [[AWS Systems Manager Automation]]
 - [[Run Command vs Session Manager vs State Manager vs Automation]]
 
 ## Domain 3 — automated repair and recovery

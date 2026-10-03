@@ -5,7 +5,7 @@ tags:
   - domain-1
   - domain-2
   - systems-manager
-read: true
+read: false
 ---
 
 # AWS Systems Manager
@@ -40,9 +40,24 @@ Source: [Systems Manager overview](https://docs.aws.amazon.com/systems-manager/l
 
 ## Patch strategy
 
-A patch baseline defines approval/rejection rules. Patch groups map appropriate nodes to baselines in traditional designs; maintenance windows schedule controlled operations. Test updates in development/test before production and account for reboot/service interruption.
+A patch baseline defines approval/rejection rules. Test updates in development/test before production and account for reboot/service interruption.
 
-Quick Setup patch policies support centrally configured scan/install schedules across selected accounts and Regions or an organization. These require managed nodes and appropriate organization/service access; scan-only compliance reporting is not patch installation.
+### Patch groups — traditional patching
+
+Patch groups associate managed nodes with different patch baselines in traditional `AWS-RunPatchBaseline` workflows, such as using Run Command or a maintenance-window task.
+
+- Assign a node with the case-sensitive tag key `PatchGroup` or `Patch Group`; the tag value is the group name, such as `DEV` or `PROD`. Prefer one key convention consistently. Use `PatchGroup` without a space when EC2 instance metadata tags are enabled.
+- Register the patch-group value with a patch baseline. A managed node can belong to only one patch group, and a patch group can be registered with only one baseline for each operating-system type.
+- During patching, SSM Agent and Patch Manager use the node's patch-group value to select the registered baseline. A node without a patch-group tag uses the currently configured default baseline for its operating-system type.
+- Patch-group membership selects the baseline; it does not by itself run or schedule patching. Target the nodes and invoke `AWS-RunPatchBaseline` through Run Command or a maintenance window.
+
+Example: nodes tagged `PatchGroup=DEV` can use a baseline that approves updates quickly, while `PatchGroup=PROD` can use a more conservative baseline after validation. A maintenance window can then target the appropriate tag value and control the production rollout schedule.
+
+Do not confuse baseline lookup with tag targeting: baseline registration treats equal values under `PatchGroup` and `Patch Group` as the same patch group, but Run Command targeting treats those tag keys as different. Standardize on one key to avoid partial fleet targeting.
+
+### Quick Setup patch policies
+
+Quick Setup patch policies are the AWS-recommended centralized approach and do **not** use patch groups. A policy selects the baseline for each operating-system type and configures scan/install schedules across selected accounts and Regions or an organization. These require managed nodes and appropriate organization/service access; scan-only compliance reporting is not patch installation.
 
 ## Session and runbook security
 
@@ -53,6 +68,7 @@ Managed nodes need SSM Agent, authorized node/service roles, and outbound servic
 ## Official AWS references
 
 - [Hybrid/multicloud environments](https://docs.aws.amazon.com/systems-manager/latest/userguide/systems-manager-hybrid-multicloud.html)
+- [Patch groups](https://docs.aws.amazon.com/systems-manager/latest/userguide/patch-manager-patch-groups.html)
 - [Quick Setup patch policies](https://docs.aws.amazon.com/systems-manager/latest/userguide/quick-setup-patch-manager.html)
 - [Patch policy features](https://docs.aws.amazon.com/systems-manager/latest/userguide/patch-manager-policies.html)
 - [[AWS Systems Manager Automation]]

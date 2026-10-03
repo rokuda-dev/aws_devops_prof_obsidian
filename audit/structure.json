@@ -1,5 +1,5 @@
 {
-  "checked_at_utc": "2026-10-03T09:57:59.264431+00:00",
+  "checked_at_utc": "2026-10-03T11:02:10.114168+00:00",
   "notes": 214,
   "service_pages": 100,
   "active_wiki_links": 2106,
@@ -1180,6 +1180,9 @@
       "Sources/Audit Delivery and Comparisons 2026-09-27.md",
       "Sources/Domain 6 Official Sources.md"
     ],
+    "https://docs.aws.amazon.com/systems-manager/latest/userguide/patch-manager-patch-groups.html": [
+      "Services/AWS Systems Manager.md"
+    ],
     "https://docs.aws.amazon.com/systems-manager/latest/userguide/patch-manager-policies.html": [
       "Services/AWS Systems Manager.md"
     ],
@@ -1225,18 +1228,28 @@
       "Sources/Audit Amazon Services 2026-09-27.md",
       "Sources/Domain 3 Official Sources.md"
     ],
+    "https://docs.aws.amazon.com/vpc/latest/userguide/create-network-acl.html": [
+      "Comparisons/Security Groups vs Network ACLs.md"
+    ],
+    "https://docs.aws.amazon.com/vpc/latest/userguide/creating-security-groups.html": [
+      "Comparisons/Security Groups vs Network ACLs.md"
+    ],
+    "https://docs.aws.amazon.com/vpc/latest/userguide/default-network-acl.html": [
+      "Comparisons/Security Groups vs Network ACLs.md"
+    ],
+    "https://docs.aws.amazon.com/vpc/latest/userguide/default-security-group.html": [
+      "Comparisons/Security Groups vs Network ACLs.md"
+    ],
     "https://docs.aws.amazon.com/vpc/latest/userguide/resolver-dns-firewall.html": [
       "Services/Amazon Route 53 Resolver DNS Firewall.md",
       "Sources/Audit Amazon Services 2026-09-27.md"
     ],
     "https://docs.aws.amazon.com/vpc/latest/userguide/vpc-network-acls.html": [
-      "Comparisons/Security Groups vs Network ACLs.md",
       "Concepts/HTTPS Connectivity Troubleshooting.md",
       "Sources/Audit Delivery and Comparisons 2026-09-27.md",
       "Sources/Domain 5 Official Sources.md"
     ],
     "https://docs.aws.amazon.com/vpc/latest/userguide/vpc-security-groups.html": [
-      "Comparisons/Security Groups vs Network ACLs.md",
       "Concepts/HTTPS Connectivity Troubleshooting.md",
       "Concepts/Security Group Remediation and Access Safety.md",
       "Sources/Audit Concepts and Domains 2026-09-27.md",

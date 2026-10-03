@@ -19,6 +19,8 @@ Trusted Advisor can emit check-item refresh notifications to EventBridge. Match 
 
 The transcript's low-utilization → Lambda → terminate design is only a possible controlled workflow, not a safe default.
 
+Built-in Trusted Advisor notification feature automatically sends notification emails weekly.
+
 ## Before changing capacity
 
 Check sustained usage windows, workload schedules, ownership/tags, stateful storage, licensing, desired ASG capacity and business approvals. Low CPU does not mean an instance is unnecessary: it may be a standby, memory-heavy workload or periodic batch node.

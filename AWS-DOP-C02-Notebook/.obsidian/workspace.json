@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Services/Amazon DynamoDB.md",
+                "file": "Comparisons/Security Groups vs Network ACLs.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Amazon DynamoDB"
+              "title": "Security Groups vs Network ACLs"
             }
           }
         ]
@@ -100,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Services/Amazon DynamoDB.md",
+                "file": "Comparisons/Security Groups vs Network ACLs.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -190,6 +190,8 @@
   },
   "active": "cfd40427a4c1e194",
   "lastOpenFiles": [
+    "Services/AWS Trusted Advisor.md",
+    "Services/Amazon DynamoDB.md",
     "Services/AWS CloudFormation.md",
     "custom resources.md",
     "Comparisons/Run Command vs Session Manager vs State Manager vs Automation.md",
@@ -214,8 +216,6 @@
     "Comparisons/Config vs CloudTrail vs Systems Manager.md",
     "Comparisons/Config Compliance vs CloudTrail Actor Attribution.md",
     "Comparisons/CodePipeline vs CodeBuild vs CodeDeploy.md",
-    "Comparisons/CodeArtifact vs ECR vs S3 vs Image Builder.md",
-    "Comparisons/AppConfig vs Parameter Store vs Secrets Manager.md",
     "aws_devops_prof_obsidian",
     "AWS"
   ]

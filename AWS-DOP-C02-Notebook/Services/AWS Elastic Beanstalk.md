@@ -24,7 +24,7 @@ AWS documentation now describes:
 - All at once
 - Rolling
 - Rolling with additional batch
-- Immutable
+- Immutable -> leaves old instances running in case of issues with partial deployment.
 - Traffic splitting
 - Blue/green by creating a separate environment and swapping environment URLs/CNAMEs
 

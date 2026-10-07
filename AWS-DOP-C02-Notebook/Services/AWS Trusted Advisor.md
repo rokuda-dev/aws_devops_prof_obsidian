@@ -11,7 +11,13 @@ read: true
 
 ## Role
 
-Recommendations/checks across supported cost, performance, security, fault-tolerance and related operational areas. Available checks, API access and refresh behavior depend on current support/service capabilities.
+Recommendations/checks across supported: 
+- cost, 
+- performance, 
+- security,
+- fault-tolerance 
+- and related operational areas. 
+Available checks, API access and refresh behavior depend on current support/service capabilities.
 
 ## Event integration
 

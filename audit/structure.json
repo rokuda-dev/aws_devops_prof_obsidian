@@ -1,8 +1,8 @@
 {
-  "checked_at_utc": "2026-10-03T12:08:15.083481+00:00",
-  "notes": 215,
+  "checked_at_utc": "2026-10-07T17:55:21.475758+00:00",
+  "notes": 216,
   "service_pages": 101,
-  "active_wiki_links": 2111,
+  "active_wiki_links": 2119,
   "errors": [],
   "front_matter_scope": "Delimiter, duplicate top-level key, and Boolean read checks; not a complete YAML parser",
   "references": {
@@ -308,6 +308,9 @@
       "Concepts/CloudWatch Log Subscriptions and Cross-Account Destinations.md",
       "Sources/Domain 4 Official Sources.md"
     ],
+    "https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/": [
+      "Comparisons/CloudWatch vs EventBridge.md"
+    ],
     "https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/CloudWatch-Agent-Configuration-File-Details.html": [
       "Concepts/CloudWatch Metrics Namespaces and Dimensions.md",
       "Sources/Domain 4 Official Sources.md"
@@ -330,6 +333,9 @@
     ],
     "https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/CloudWatch_Synthetics_Canaries_VPC.html": [
       "Sources/Audit Concepts and Domains 2026-09-27.md"
+    ],
+    "https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/cloudwatch-and-eventbridge.html": [
+      "Comparisons/CloudWatch vs EventBridge.md"
     ],
     "https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/cloudwatch_concepts.html": [
       "Concepts/CloudWatch Metrics Namespaces and Dimensions.md",
@@ -915,6 +921,18 @@
       "Services/AWS Trusted Advisor.md",
       "Sources/Audit Amazon Services 2026-09-27.md",
       "Sources/Domain 4 Official Sources.md"
+    ],
+    "https://docs.aws.amazon.com/eventbridge/latest/userguide/": [
+      "Comparisons/CloudWatch vs EventBridge.md"
+    ],
+    "https://docs.aws.amazon.com/eventbridge/latest/userguide/eb-event-patterns.html": [
+      "Comparisons/CloudWatch vs EventBridge.md"
+    ],
+    "https://docs.aws.amazon.com/eventbridge/latest/userguide/eb-rule-dlq.html": [
+      "Comparisons/CloudWatch vs EventBridge.md"
+    ],
+    "https://docs.aws.amazon.com/eventbridge/latest/userguide/eb-rules.html": [
+      "Comparisons/CloudWatch vs EventBridge.md"
     ],
     "https://docs.aws.amazon.com/eventbridge/latest/userguide/eb-targets.html": [
       "Services/Amazon EventBridge.md",

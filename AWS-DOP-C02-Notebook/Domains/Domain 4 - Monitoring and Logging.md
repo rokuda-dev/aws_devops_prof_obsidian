@@ -42,7 +42,7 @@ Then design a bounded response: authorize the target narrowly, recheck live stat
 
 Core services: [[Amazon EventBridge]], [[AWS Systems Manager]], [[AWS Lambda]], [[AWS Step Functions]], [[AWS Config]], [[Amazon SNS]], [[AWS Trusted Advisor]].
 
-Study: [[Safe Event-Driven Remediation]], [[AWS Health vs CloudWatch vs Trusted Advisor]], [[Domain 4 Architecture Patterns]]. Workload targets may include [[Amazon EC2 Auto Scaling]], [[Amazon ECS]], [[Amazon EKS]], [[Amazon SQS]], and [[AWS CodeDeploy]].
+Study: [[CloudWatch vs EventBridge]], [[Safe Event-Driven Remediation]], [[AWS Health vs CloudWatch vs Trusted Advisor]], [[Domain 4 Architecture Patterns]]. Workload targets may include [[Amazon EC2 Auto Scaling]], [[Amazon ECS]], [[Amazon EKS]], [[Amazon SQS]], and [[AWS CodeDeploy]].
 
 ## Sources and deeper review
 

@@ -3,9 +3,9 @@ tags:
   - dop-c02
   - domain-1
   - deployments
-read: true
+read: false
 ---
-
+![[Pasted image 20261008194200.png]]
 # Deployment Strategy Matrix
 
 | Strategy | Capacity/cost | Risk and rollback | Best cue |

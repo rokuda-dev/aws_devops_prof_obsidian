@@ -6,6 +6,10 @@ read: false
 
 # Verification Ledger
 
+## Exam-distinction consistency review — 2026-10-07
+
+Reviewed the notebook against current first-party guidance for high-value DOP-C02 distinctions in build concurrency, CloudWatch log analysis and alarms, multi-Region database topology, messaging semantics, resilience validation, managed observability, Elastic Beanstalk compute modes, and Trusted Advisor notifications. Corrected material contradictions and added targeted comparison notes. See [[Consistency and Exam Distinctions Audit 2026-10-07]] for evidence, read-state handling, and remaining coverage limits.
+
 ## CloudFormation custom-resource process — 2026-10-03
 
 Expanded [[AWS CloudFormation]] with the provider/template workflow, request and response contract, physical-ID replacement semantics, timeouts, IAM and VPC response-path considerations, lifecycle testing, troubleshooting, and the custom-resource versus registry-resource decision. Targeted first-party checks covered the current CloudFormation custom-resource overview, template reference, request/response reference, Lambda-backed walkthrough, VPC endpoint considerations, and registry resource-type model. This was a scoped custom-resource review; no provider code was deployed and no AWS account operations were performed.

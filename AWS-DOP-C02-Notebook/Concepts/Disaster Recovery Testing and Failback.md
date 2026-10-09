@@ -3,8 +3,8 @@ tags:
   - aws
   - dop-c02
   - domain-3
-verified: 2026-09-18
-read: true
+verified: 2026-10-07
+read: false
 ---
 
 # Disaster Recovery Testing and Failback
@@ -34,7 +34,15 @@ Do not simply change DNS to the old database. Fence writers, reconcile divergenc
 
 ## Controlled fault tests
 
-AWS Fault Injection Service experiments can use CloudWatch alarm stop conditions. Use isolated targets, limited blast radius, and explicit cleanup; stopping an experiment does not necessarily undo every induced state. Resilience Hub assessments provide estimates/recommendations, not proof of achieved RTO/RPO.
+AWS Fault Injection Service experiments perform real disruptive actions and can use CloudWatch alarm stop conditions. Use isolated targets, limited blast radius, and explicit cleanup; stopping an experiment does not necessarily undo every induced state. Resilience Hub defines resilience goals, assesses supported application resources against them, and recommends improvements. An assessment is not a fault experiment, and neither replaces a successful restore/failover drill with measured RTO/RPO.
+
+Keep the lifecycle distinct:
+
+```text
+Resilience policy/assessment -> controlled fault experiment -> recovery execution -> application/data validation -> failback
+```
+
+See [[Resilience Hub vs FIS vs Backup vs DRS vs ARC]] for the service-selection boundary.
 
 ## Sources
 
@@ -42,4 +50,5 @@ Task 3.3, with clearly labeled supplementary testing tools.
 
 - [AWS Backup restore testing](https://aws.amazon.com/blogs/storage/implementing-restore-testing-for-recovery-validation-using-aws-backup/)
 - [Resilience testing](https://docs.aws.amazon.com/resilience-hub/latest/userguide/arh-testing.html)
+- [AWS Fault Injection Service concepts and stop conditions](https://docs.aws.amazon.com/fis/latest/userguide/what-is.html)
 - [AWS Config — official resource](https://docs.aws.amazon.com/config/latest/developerguide/aws-config-landing-page.html)

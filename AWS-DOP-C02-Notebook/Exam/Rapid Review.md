@@ -1,6 +1,6 @@
 ---
 tags: [aws, dop-c02, exam]
-updated: 2026-09-20
+updated: 2026-10-07
 read: false
 ---
 
@@ -88,6 +88,7 @@ Read [[Common Traps and Current Corrections]] before relying on older training. 
 | S3 CRR | Versioning/permissions; existing objects may need Batch Replication |
 | Backup continuous copy | Snapshot at destination, not preserved continuous PITR stream |
 | DR validation | Restore, failover, real app/data verification, failback; not drift only |
+| Resilience assessment / disruption test | Resilience Hub / FIS with stop conditions |
 
 See [[Domain 3 Scenario Decisions]] and [[Domain 3 Transcript Corrections]].
 
@@ -112,6 +113,7 @@ See [[Domain 3 Scenario Decisions]] and [[Domain 3 Transcript Corrections]].
 | CloudTrail event history | 90 days of regional management events |
 | CloudTrail Lake availability | Closed to new customers May 31, 2026; trails remain supported |
 | Log-based alarm | Metric filter + metric alarm, or supported native Logs Insights log alarm |
+| Prometheus metrics / managed visualization | Managed Service for Prometheus / Managed Grafana |
 | S3 object access audit | Explicit CloudTrail data-event selectors |
 | Digest validation | Detects tampering; does not prevent it |
 | Bucket-policy alert | CloudTrail → metric filter/alarm/SNS or API event → EventBridge |
@@ -130,6 +132,8 @@ See [[Domain 4 Scenario Decisions]], [[Domain 4 Transcript Corrections]].
 |---|---|
 | Actor / compliance / numeric breach / AWS impact | CloudTrail / Config / CloudWatch alarm / Health |
 | Event target succeeds | Still verify accepted handler/workflow and real recovery |
+| Competing workers / ordered queue | SQS Standard / SQS FIFO with message groups |
+| Fanout / retained replay | SNS, often to separate SQS queues / Kinesis Data Streams |
 | Public-list-only S3 | Exact custom policy evaluation; listing is metadata exposure |
 | Compliance-team object access | Policy enforcement + selected data events + role/session attribution |
 | Config and Step Functions | Not a direct custom-rule evaluator; response can bridge via EventBridge/SSM |

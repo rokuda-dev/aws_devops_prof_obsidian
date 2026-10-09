@@ -48,7 +48,7 @@ Select the data-recovery mechanism first, then orchestrate compute and traffic. 
 
 Core services: [[AWS Backup]], [[AWS Elastic Disaster Recovery]], [[Amazon Application Recovery Controller]], [[Amazon Aurora Global Database]], [[AWS Systems Manager]], [[AWS Step Functions]], [[Amazon S3]].
 
-Study: [[Disaster Recovery Strategies]], [[Disaster Recovery Testing and Failback]], [[RDS Multi-AZ vs Read Replicas vs Aurora Global Database]].
+Study: [[Disaster Recovery Strategies]], [[Disaster Recovery Testing and Failback]], [[RDS Multi-AZ vs Read Replicas vs Aurora Global Database]], [[Resilience Hub vs FIS vs Backup vs DRS vs ARC]].
 
 ## Sources and deeper review
 

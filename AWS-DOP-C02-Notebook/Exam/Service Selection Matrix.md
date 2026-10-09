@@ -3,8 +3,8 @@ tags:
   - aws
   - dop-c02
   - exam
-updated: 2026-09-19
-read: true
+updated: 2026-10-07
+read: false
 ---
 
 # Service Selection Matrix
@@ -41,6 +41,9 @@ read: true
 | Operational runbook                       | [[AWS Systems Manager Automation]]                                 |
 | Multi-step orchestration                  | [[AWS Step Functions]]                                             |
 | Event routing                             | [[Amazon EventBridge]]                                             |
+| Competing-worker queue                    | [[Amazon SQS]]                                                     |
+| Pub/sub fanout                            | [[Amazon SNS]]                                                     |
+| Retained replayable stream                | [[Amazon Kinesis Data Streams]]                                    |
 | Custom event handler                      | [[AWS Lambda]]                                                     |
 | Permission cap across accounts            | [[AWS Organizations]] SCP                                          |
 | Standardized account vending              | [[AWS Control Tower]]                                              |
@@ -97,6 +100,8 @@ read: true
 | Fast EC2 fleet replacement | Golden AMI + launch-template version + ASG rollout | Merely changing an AMI parameter |
 | Pod scaling versus node capacity | HPA versus Karpenter/Cluster Autoscaler/EKS Auto Mode | Fargate automatically choosing replica count |
 | Coordinated regional recovery actions | ARC Region switch, Step Functions, or SSM Automation as requirements dictate | Traffic control alone |
+| Assess resilience posture against RTO/RPO targets | AWS Resilience Hub | A live fault-injection test |
+| Run controlled disruptive experiments | AWS Fault Injection Service (FIS) with stop conditions | A recovery plan or backup mechanism |
 
 See [[Domain 3 Scenario Decisions]] for requirement-sensitive choices.
 
@@ -107,6 +112,7 @@ See [[Domain 3 Scenario Decisions]] for requirement-sensitive choices.
 | Guest logs, memory, disk, or process metrics | CloudWatch agent | Default EC2 metrics |
 | ECS container stdout/stderr | `awslogs` driver; FireLens for deliberate routing/transformation | Host CloudWatch agent as a prerequisite for awslogs |
 | Count patterns in logs | CloudWatch Logs metric filter | Logs Insights interactive query |
+| Alarm on a scheduled Logs Insights query | CloudWatch log alarm | A metric filter when no derived metric is required |
 | Forward matching log records | CloudWatch Logs subscription | Metric filter, which emits metrics rather than raw records |
 | Query archived logs in S3 with SQL | [[Amazon Athena]] | [[Amazon OpenSearch Service]] indexed search |
 | Federated cross-account CloudWatch view | OAM cross-account observability | Copied centralized log archive |
@@ -116,6 +122,8 @@ See [[Domain 3 Scenario Decisions]] for requirement-sensitive choices.
 | Detect resource configuration noncompliance | [[AWS Config]] rule | CloudTrail actor history |
 | Detect supported threat activity | [[Amazon GuardDuty]] | Inspector vulnerabilities or Macie sensitive-data discovery |
 | Notify about AWS maintenance/impact | [[AWS Health]] → EventBridge | CloudWatch metric filter against an event bus |
+| Prometheus-compatible metrics and PromQL | Amazon Managed Service for Prometheus | A visualization workspace |
+| Cross-source managed visualization | Amazon Managed Grafana | A metrics store or trace collector |
 
 See [[Domain 4 Scenario Decisions]] for collection, analysis, and response pipelines.
 
@@ -126,6 +134,9 @@ See [[Domain 4 Scenario Decisions]] for collection, analysis, and response pipel
 | React to an AWS API call | CloudTrail-captured event → EventBridge | Config compliance-change event |
 | React to numeric threshold | CloudWatch alarm | EventBridge as metric storage |
 | React to AWS service maintenance | AWS Health → EventBridge | Polling CloudWatch for Health events |
+| Buffer work for competing consumers | [[Amazon SQS]] Standard or FIFO as ordering/deduplication requires | SNS fanout or a replayable stream |
+| Fan out one publication to independent subscribers | [[Amazon SNS]], often with one SQS queue per durable consumer | Multiple workers sharing one queue |
+| Preserve ordered, replayable event history for multiple consumers | [[Amazon Kinesis Data Streams]] | EventBridge event routing without stream replay semantics |
 | Repair a noncompliant resource | Config evaluation → [[AWS Systems Manager Automation|SSM Automation]] or scoped Lambda | Aggregator as enforcement engine |
 | Stateful response with retries/branches/approval | [[AWS Step Functions]] | Lambda-only ad hoc orchestration |
 | Fleet operational runbook | [[AWS Systems Manager Automation|SSM Automation]] | Run Command interactive access |

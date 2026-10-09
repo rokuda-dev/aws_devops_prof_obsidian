@@ -3,11 +3,17 @@ tags:
   - aws
   - dop-c02
   - domain-3
-verified: 2026-09-18
-read: true
+verified: 2026-10-07
+read: false
 ---
 
 # Amazon SNS
+
+## Core role
+
+SNS is managed publish/subscribe messaging. A publisher sends to a topic and SNS pushes a copy to each matching subscription. Use it for application-to-application fan-out or application-to-person notification; it is not a competing-consumer work queue or retained replay stream.
+
+For durable fan-out, subscribe separate SQS queues so each consumer receives its own buffered copy and can retry independently. Subscription filtering can reduce delivery to subscribers, but EventBridge provides broader event-bus routing across AWS, custom, and partner events. Kinesis Data Streams retains records for independent consumers and replay.
 
 ## Role in Domain 3
 
@@ -29,6 +35,7 @@ Tasks 3.1 and 3.3. See [[Amazon RDS]], [[AWS Lambda]], [[Domain 3 Architecture P
 
 - [RDS event notifications and delivery timing](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/USER_Events.overview.html)
 - [SNS overview](https://docs.aws.amazon.com/sns/latest/dg/welcome.html)
+- [[SQS vs SNS vs EventBridge vs Kinesis]]
 
 ## Domain 4 — team notification
 

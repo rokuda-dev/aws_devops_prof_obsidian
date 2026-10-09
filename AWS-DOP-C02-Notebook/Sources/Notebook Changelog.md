@@ -6,6 +6,14 @@ read: false
 
 # Notebook Changelog
 
+## 2026-10-07 — consistency and exam-distinction review
+
+- Corrected CodeBuild batch-concurrency, Elastic Beanstalk mode, Aurora Global Database, native CloudWatch log-alarm, DynamoDB global-table account topology, and Trusted Advisor notification guidance.
+- Added focused comparisons for messaging, resilience services, and managed observability choices, then propagated the material distinctions into exam-review notes.
+- Reset `read` only on notes with substantive study-content changes; link-only navigation edits retained their prior values.
+
+Details: [[Consistency and Exam Distinctions Audit 2026-10-07]].
+
 ## 2026-09-27 — verification and stale-reference check on the working v1.4.5 notebook
 
 - Reviewed all 209 existing pages; added four audit records with page-level coverage and first-party evidence.

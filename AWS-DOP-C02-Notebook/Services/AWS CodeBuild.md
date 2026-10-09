@@ -4,7 +4,7 @@ tags:
   - dop-c02
   - domain-1
   - codebuild
-read: true
+read: false
 ---
 
 # AWS CodeBuild
@@ -25,10 +25,10 @@ Use `artifacts` for build output, `reports` for test/coverage results, and `cach
 
 - S3 cache works across hosts; local cache is tied to host reuse and is best-effort for on-demand builds.
 - Batch builds support build graphs and build matrices.
+- Batch build lists and matrices can run builds in parallel; build graphs express dependencies, and build fan-out can shard tests across parallel build environments. This is separate from whatever parallelism a build tool runs inside one build container.
 - VPC configuration lets builds reach private resources. CodeBuild cannot assign a public IP to its VPC ENI, so private subnets need NAT or suitable VPC endpoints for required services.
 - Docker image builds usually require privileged mode.
 - Use the project service role; never embed long-lived AWS keys.
-- No ability to perform multiprocessing or parallel processing
 - Possibility to use Docker Layer Cache mode to expedite build process
 
 ## Secrets
@@ -51,6 +51,7 @@ Report generation is not a substitute for correct test exit status. Do not swall
 ## Official AWS references
 
 - [Test reports and expiration](https://docs.aws.amazon.com/codebuild/latest/userguide/test-reporting.html)
+- [Concurrent and coordinated batch builds](https://docs.aws.amazon.com/codebuild/latest/userguide/batch-build.html)
 - [CodeBuild overview](https://docs.aws.amazon.com/codebuild/latest/userguide/welcome.html)
 - [VPC support](https://docs.aws.amazon.com/codebuild/latest/userguide/vpc-support.html)
 

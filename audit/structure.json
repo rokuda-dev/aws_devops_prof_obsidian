@@ -1,11 +1,14 @@
 {
-  "checked_at_utc": "2026-10-07T17:55:21.475758+00:00",
-  "notes": 216,
+  "checked_at_utc": "2026-10-07T18:16:07.396429+00:00",
+  "notes": 220,
   "service_pages": 101,
-  "active_wiki_links": 2119,
+  "active_wiki_links": 2158,
   "errors": [],
   "front_matter_scope": "Delimiter, duplicate top-level key, and Boolean read checks; not a complete YAML parser",
   "references": {
+    "https://aws-otel.github.io/docs/introduction/": [
+      "Comparisons/CloudWatch vs Managed Prometheus vs Managed Grafana vs X-Ray.md"
+    ],
     "https://aws.amazon.com/about-aws/whats-new/2024/02/amazon-data-firehose-message-extraction-cloudwatch-logs/": [
       "Services/Amazon Data Firehose.md",
       "Sources/Domain 4 Official Sources.md"
@@ -55,7 +58,6 @@
       "Sources/Domain 3 Official Sources.md"
     ],
     "https://aws.amazon.com/blogs/database/best-practices-for-amazon-dynamodb-global-tables-part-1-operational-readiness/": [
-      "Comparisons/DynamoDB Global Tables vs Aurora Global Database.md",
       "Exam/Common Traps and Current Corrections.md",
       "Services/Amazon DynamoDB.md",
       "Sources/Official AWS Sources.md"
@@ -244,8 +246,16 @@
     "https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/monitoring-system-instance-status-check.html": [
       "Services/Amazon EC2.md"
     ],
+    "https://docs.aws.amazon.com/AWSSimpleQueueService/latest/SQSDeveloperGuide/sqs-fifo-queues.html": [
+      "Comparisons/SQS vs SNS vs EventBridge vs Kinesis.md",
+      "Services/Amazon SQS.md"
+    ],
     "https://docs.aws.amazon.com/AWSSimpleQueueService/latest/SQSDeveloperGuide/sqs-visibility-timeout.html": [
       "Sources/Audit Amazon Services 2026-09-27.md"
+    ],
+    "https://docs.aws.amazon.com/AWSSimpleQueueService/latest/SQSDeveloperGuide/standard-queues.html": [
+      "Comparisons/SQS vs SNS vs EventBridge vs Kinesis.md",
+      "Services/Amazon SQS.md"
     ],
     "https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/field-level-encryption.html": [
       "Services/CloudFront Field-Level Encryption.md",
@@ -329,10 +339,20 @@
       "Sources/Audit Amazon Services 2026-09-27.md",
       "Sources/Audit Concepts and Domains 2026-09-27.md",
       "Sources/Audit Delivery and Comparisons 2026-09-27.md",
+      "Sources/Consistency and Exam Distinctions Audit 2026-10-07.md",
       "Sources/Verification and Stale Reference Audit 2026-09-27.md"
     ],
     "https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/CloudWatch_Synthetics_Canaries_VPC.html": [
       "Sources/Audit Concepts and Domains 2026-09-27.md"
+    ],
+    "https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/WhatIsCloudWatch.html": [
+      "Comparisons/CloudWatch vs Managed Prometheus vs Managed Grafana vs X-Ray.md"
+    ],
+    "https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/alarm-log.html": [
+      "Concepts/CloudWatch Logs Insights and Filter Patterns.md"
+    ],
+    "https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/alarm-promql.html": [
+      "Comparisons/CloudWatch vs Managed Prometheus vs Managed Grafana vs X-Ray.md"
     ],
     "https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/cloudwatch-and-eventbridge.html": [
       "Comparisons/CloudWatch vs EventBridge.md"
@@ -396,6 +416,7 @@
       "Exam/Common Traps and Current Corrections.md",
       "Services/Amazon Aurora Global Database.md",
       "Sources/Audit Amazon Services 2026-09-27.md",
+      "Sources/Consistency and Exam Distinctions Audit 2026-10-07.md",
       "Sources/Official AWS Sources.md"
     ],
     "https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/Overview.Encryption.html": [
@@ -509,6 +530,11 @@
       "Sources/Audit Amazon Services 2026-09-27.md",
       "Sources/Domain 3 Official Sources.md"
     ],
+    "https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/GlobalTables.html": [
+      "Comparisons/DynamoDB Global Tables vs Aurora Global Database.md",
+      "Services/Amazon DynamoDB.md",
+      "Sources/Consistency and Exam Distinctions Audit 2026-10-07.md"
+    ],
     "https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/Introduction.html": [
       "Services/Amazon DynamoDB.md"
     ],
@@ -608,6 +634,9 @@
       "Sources/Audit Delivery and Comparisons 2026-09-27.md",
       "Sources/Domain 3 Official Sources.md"
     ],
+    "https://docs.aws.amazon.com/aws-backup/latest/devguide/whatisbackup.html": [
+      "Comparisons/Resilience Hub vs FIS vs Backup vs DRS vs ARC.md"
+    ],
     "https://docs.aws.amazon.com/aws-certification/latest/devops-engineer-professional-02/devops-engineer-professional-02-domain1.html": [
       "Domains/Domain 1 - SDLC Automation.md",
       "Sources/Audit Concepts and Domains 2026-09-27.md",
@@ -649,8 +678,12 @@
     ],
     "https://docs.aws.amazon.com/aws-certification/latest/devops-engineer-professional-02/devops-engineer-professional-02.html": [
       "Sources/Audit Concepts and Domains 2026-09-27.md",
+      "Sources/Consistency and Exam Distinctions Audit 2026-10-07.md",
       "Sources/Official AWS Sources.md",
       "Sources/Verification and Stale Reference Audit 2026-09-27.md"
+    ],
+    "https://docs.aws.amazon.com/aws-certification/latest/devops-engineer-professional-02/dop-02-in-scope-services.html": [
+      "Sources/Consistency and Exam Distinctions Audit 2026-10-07.md"
     ],
     "https://docs.aws.amazon.com/aws-managed-policy/latest/reference/AWSCodeCommitPowerUser.html": [
       "Sources/Audit Concepts and Domains 2026-09-27.md",
@@ -681,6 +714,9 @@
     "https://docs.aws.amazon.com/awscloudtrail/latest/userguide/view-cloudtrail-events.html": [
       "Services/AWS CloudTrail.md",
       "Sources/Domain 4 Official Sources.md"
+    ],
+    "https://docs.aws.amazon.com/awssupport/latest/user/get-started-with-aws-trusted-advisor.html": [
+      "Services/AWS Trusted Advisor.md"
     ],
     "https://docs.aws.amazon.com/cdk/api/v2/docs/aws-cdk-lib.aws_config.CfnConfigRule.SourceDetailProperty.html": [
       "Sources/Domain 4 Official Sources.md"
@@ -714,6 +750,10 @@
       "Services/AWS CodeArtifact.md",
       "Sources/Audit Concepts and Domains 2026-09-27.md",
       "Sources/Audit Delivery and Comparisons 2026-09-27.md"
+    ],
+    "https://docs.aws.amazon.com/codebuild/latest/userguide/batch-build.html": [
+      "Services/AWS CodeBuild.md",
+      "Sources/Consistency and Exam Distinctions Audit 2026-10-07.md"
     ],
     "https://docs.aws.amazon.com/codebuild/latest/userguide/test-reporting.html": [
       "Exam/Common Traps and Current Corrections.md",
@@ -863,6 +903,7 @@
       "Sources/Verification and Stale Reference Audit 2026-09-27.md"
     ],
     "https://docs.aws.amazon.com/drs/latest/userguide/what-is-drs.html": [
+      "Comparisons/Resilience Hub vs FIS vs Backup vs DRS vs ARC.md",
       "Sources/Official AWS Sources.md"
     ],
     "https://docs.aws.amazon.com/dtconsole/latest/userguide/connections.html": [
@@ -888,6 +929,9 @@
     "https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/Welcome.html": [
       "Services/AWS Elastic Beanstalk.md",
       "Sources/Official AWS Sources.md"
+    ],
+    "https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/beanstalk-cluster-concepts.html": [
+      "Services/AWS Elastic Beanstalk.md"
     ],
     "https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/concepts.html": [
       "Services/AWS Elastic Beanstalk.md"
@@ -942,6 +986,7 @@
       "Sources/Official AWS Sources.md"
     ],
     "https://docs.aws.amazon.com/eventbridge/latest/userguide/eb-what-is.html": [
+      "Comparisons/SQS vs SNS vs EventBridge vs Kinesis.md",
       "Services/Amazon EventBridge.md",
       "Sources/Official AWS Sources.md"
     ],
@@ -954,8 +999,15 @@
     "https://docs.aws.amazon.com/fis/latest/userguide/stop-experiment.html": [
       "Sources/Audit Concepts and Domains 2026-09-27.md"
     ],
+    "https://docs.aws.amazon.com/fis/latest/userguide/what-is.html": [
+      "Comparisons/Resilience Hub vs FIS vs Backup vs DRS vs ARC.md",
+      "Concepts/Disaster Recovery Testing and Failback.md"
+    ],
     "https://docs.aws.amazon.com/global-accelerator/latest/dg/about-endpoints.html": [
       "Sources/Audit Delivery and Comparisons 2026-09-27.md"
+    ],
+    "https://docs.aws.amazon.com/grafana/latest/userguide/what-is-Amazon-Managed-Service-Grafana.html": [
+      "Comparisons/CloudWatch vs Managed Prometheus vs Managed Grafana vs X-Ray.md"
     ],
     "https://docs.aws.amazon.com/guardduty/latest/ug/guardduty_exportfindings.html": [
       "Services/Amazon GuardDuty.md",
@@ -1082,6 +1134,9 @@
       "Services/AWS Private CA.md",
       "Sources/Audit Delivery and Comparisons 2026-09-27.md"
     ],
+    "https://docs.aws.amazon.com/prometheus/latest/userguide/what-is-Amazon-Managed-Service-Prometheus.html": [
+      "Comparisons/CloudWatch vs Managed Prometheus vs Managed Grafana vs X-Ray.md"
+    ],
     "https://docs.aws.amazon.com/quick/latest/userguide/what-is.html": [
       "Services/Amazon QuickSight.md",
       "Sources/Audit Amazon Services 2026-09-27.md",
@@ -1106,6 +1161,7 @@
       "Services/Amazon Application Recovery Controller.md"
     ],
     "https://docs.aws.amazon.com/r53recovery/latest/dg/what-is-route53-recovery.html": [
+      "Comparisons/Resilience Hub vs FIS vs Backup vs DRS vs ARC.md",
       "Services/Amazon Application Recovery Controller.md",
       "Sources/Domain 3 Official Sources.md"
     ],
@@ -1121,6 +1177,9 @@
     "https://docs.aws.amazon.com/resilience-hub/latest/userguide/concepts-terms.html": [
       "Concepts/Resilience Framework and Dependency Isolation.md",
       "Sources/Domain 3 Official Sources.md"
+    ],
+    "https://docs.aws.amazon.com/resilience-hub/latest/userguide/what-is.html": [
+      "Comparisons/Resilience Hub vs FIS vs Backup vs DRS vs ARC.md"
     ],
     "https://docs.aws.amazon.com/rolesanywhere/latest/userguide/introduction.html": [
       "Sources/Audit Delivery and Comparisons 2026-09-27.md"
@@ -1173,6 +1232,7 @@
       "Sources/Audit Delivery and Comparisons 2026-09-27.md"
     ],
     "https://docs.aws.amazon.com/sns/latest/dg/welcome.html": [
+      "Comparisons/SQS vs SNS vs EventBridge vs Kinesis.md",
       "Services/Amazon SNS.md"
     ],
     "https://docs.aws.amazon.com/solutions/latest/devops-monitoring-dashboard-on-aws/solution-overview.html": [
@@ -1191,6 +1251,9 @@
       "Services/AWS Storage Gateway.md",
       "Sources/Audit Delivery and Comparisons 2026-09-27.md",
       "Sources/Domain 5 Official Sources.md"
+    ],
+    "https://docs.aws.amazon.com/streams/latest/dev/introduction.html": [
+      "Comparisons/SQS vs SNS vs EventBridge vs Kinesis.md"
     ],
     "https://docs.aws.amazon.com/systems-manager/latest/userguide/automation-action-executeStateMachine.html": [
       "Services/AWS Step Functions.md",
@@ -1322,6 +1385,7 @@
       "Sources/Domain 5 Official Sources.md"
     ],
     "https://docs.aws.amazon.com/xray/latest/devguide/aws-xray.html": [
+      "Comparisons/CloudWatch vs Managed Prometheus vs Managed Grafana vs X-Ray.md",
       "Sources/Official AWS Sources.md"
     ],
     "https://docs.aws.amazon.com/xray/latest/devguide/xray-sdk-daemon-timeline.html": [

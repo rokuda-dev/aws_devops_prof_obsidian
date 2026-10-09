@@ -4,13 +4,13 @@ tags:
   - dop-c02
   - domain-1
   - elastic-beanstalk
-verified: 2026-09-18
-read: true
+verified: 2026-10-07
+read: false
 ---
 
 # AWS Elastic Beanstalk
 
-Elastic Beanstalk deploys applications while provisioning and operating underlying AWS resources such as compute, load balancing, scaling, and health monitoring. At this moment it only support EC2 instances.
+Elastic Beanstalk deploys applications while provisioning and operating underlying AWS resources such as compute, load balancing, scaling, and health monitoring. Standard Mode runs applications directly on EC2; Cluster Mode runs applications on EKS.
 
 ## Current service model
 
@@ -47,4 +47,5 @@ Rolling policies can leave mixed revisions during rollout; immutable deployments
 Elastic Beanstalk orchestrates underlying resources; application instance roles, deployment permissions, networking, and secret access still need least-privilege configuration.
 
 - [Mode concepts](https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/concepts.html)
+- [Standard versus Cluster architecture](https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/beanstalk-cluster-concepts.html)
 - [Cluster Mode release](https://docs.aws.amazon.com/elasticbeanstalk/latest/relnotes/release-2026-09-17-cluster-mode.html)

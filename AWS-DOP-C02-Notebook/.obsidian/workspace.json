@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Comparisons/DynamoDB Global Tables vs Aurora Global Database.md",
+                "file": "Concepts/Deployment Strategy Matrix.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "DynamoDB Global Tables vs Aurora Global Database"
+              "title": "Deployment Strategy Matrix"
             }
           }
         ]
@@ -55,7 +55,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "custom resource",
+                "query": "security group",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -79,7 +79,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -99,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Comparisons/DynamoDB Global Tables vs Aurora Global Database.md",
+                "file": "Concepts/Deployment Strategy Matrix.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -189,12 +190,22 @@
   },
   "active": "cfd40427a4c1e194",
   "lastOpenFiles": [
+    "Pasted image 20261008194200.png",
+    "Comparisons/Security Groups vs Network ACLs.md",
+    "Concepts/HTTPS Connectivity Troubleshooting.md",
+    "Comparisons/Run Command vs Session Manager vs State Manager vs Automation.md",
+    "Sources/Consistency and Exam Distinctions Audit 2026-10-07.md",
+    "Comparisons/CloudWatch vs Managed Prometheus vs Managed Grafana vs X-Ray.md",
+    "Comparisons/Resilience Hub vs FIS vs Backup vs DRS vs ARC.md",
+    "Comparisons/SQS vs SNS vs EventBridge vs Kinesis.md",
+    "Services/Amazon DynamoDB.md",
+    "Comparisons/DynamoDB Global Tables vs Aurora Global Database.md",
+    "local secondary.md",
     "Exam/High-Value Exam Patterns.md",
     "Service Index.md",
     "00 - Start Here.md",
     "Comparisons/AppConfig vs Parameter Store vs Secrets Manager.md",
     "Services/AWS CodeDeploy.md",
-    "Comparisons/DynamoDB Global Tables vs Aurora Global Database.md",
     "Services/AWS Elastic Beanstalk.md",
     "Services/Amazon Aurora Global Database.md",
     "Comparisons/CloudWatch vs EventBridge.md",
@@ -205,16 +216,6 @@
     "Concepts/CloudWatch Logs Insights and Filter Patterns.md",
     "Services/Amazon Macie.md",
     "Services/AWS X-Ray.md",
-    "Services/Amazon EC2.md",
-    "Comparisons/Security Groups vs Network ACLs.md",
-    "Services/Amazon DynamoDB.md",
-    "Services/AWS CloudFormation.md",
-    "custom resources.md",
-    "Comparisons/Run Command vs Session Manager vs State Manager vs Automation.md",
-    "Services/AWS Systems Manager Automation.md",
-    "Services/AWS Systems Manager.md",
-    "Services/Amazon CloudFront.md",
-    "Services/CloudFront Field-Level Encryption.md",
     "aws_devops_prof_obsidian",
     "AWS"
   ]

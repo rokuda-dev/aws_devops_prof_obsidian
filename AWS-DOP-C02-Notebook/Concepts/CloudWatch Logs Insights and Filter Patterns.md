@@ -3,8 +3,8 @@ tags:
   - aws
   - dop-c02
   - domain-4
-verified: 2026-09-18
-read: true
+verified: 2026-10-07
+read: false
 ---
 
 # CloudWatch Logs Insights and Filter Patterns
@@ -15,9 +15,14 @@ read: true
 |---|---|---|
 | Metric-filter pattern | Extract/count log matches into a metric | New ingested events |
 | Subscription-filter pattern | Forward matching events | New ingested events |
-| Logs Insights query | Search/aggregate stored logs | Query over a selected time window |
+| Logs Insights query | Search/aggregate stored logs | One-time query or separately scheduled query over selected windows |
+| CloudWatch log alarm | Evaluate an aggregated Logs Insights query result | Scheduled M-out-of-N evaluation and alarm actions |
 
 EventBridge event patterns use a different JSON matching structure; do not paste an Insights query into a rule.
+
+## Query versus continuous evaluation
+
+Running a Logs Insights query once does not create an alarm. A current CloudWatch **log alarm** schedules an aggregated Logs Insights query and evaluates recent results against a threshold using M-out-of-N logic, without first creating a metric filter. Use a metric filter when the durable output should be a reusable CloudWatch metric; use a log alarm when the supported scheduled query result is the signal itself.
 
 ## Discovered fields
 
@@ -66,3 +71,4 @@ Tasks 4.1–4.2. See [[Log Subscription vs Metric Filter vs EventBridge Rule]], 
 - [Discovered fields and log classes](https://docs.aws.amazon.com/AmazonCloudWatch/latest/logs/CWL_AnalyzeLogData-discoverable-fields.html)
 - [Metric-filter concepts](https://docs.aws.amazon.com/AmazonCloudWatch/latest/logs/MonitoringLogData.html)
 - [Official sample queries](https://docs.aws.amazon.com/AmazonCloudWatch/latest/logs/CWL_QuerySyntax-examples.html)
+- [Log alarms](https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/alarm-log.html)

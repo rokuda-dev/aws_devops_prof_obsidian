@@ -32,7 +32,7 @@ Use Logs Insights for interactive CloudWatch Logs analysis, Athena for SQL over 
 
 Core services: [[Amazon CloudWatch]], [[AWS X-Ray]], [[AWS Distro for OpenTelemetry]], [[AWS Config]], [[Amazon GuardDuty]], [[Amazon Inspector]], [[Amazon Macie]], [[AWS Health]].
 
-Study: [[Metric Alarms and Anomaly Detection]], [[Monitoring Correlation Tracing and Dashboards]], [[Logs Insights vs Athena vs OpenSearch]], [[Static vs Anomaly vs Composite Alarms]]. Supporting consumers include [[Amazon QuickSight]], [[Amazon API Gateway]], and [[AWS Lambda]].
+Study: [[Metric Alarms and Anomaly Detection]], [[Monitoring Correlation Tracing and Dashboards]], [[Logs Insights vs Athena vs OpenSearch]], [[Static vs Anomaly vs Composite Alarms]], [[CloudWatch vs Managed Prometheus vs Managed Grafana vs X-Ray]]. Supporting consumers include [[Amazon QuickSight]], [[Amazon API Gateway]], and [[AWS Lambda]].
 
 ## Task 4.3 — Automate monitoring and event management of complex environments.
 

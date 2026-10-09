@@ -4,7 +4,7 @@ tags:
   - dop-c02
   - domain-2
   - dynamodb
-read: true
+read: false
 ---
 
 # Amazon DynamoDB
@@ -77,6 +77,8 @@ The LSI reuses `CustomerId`, so it cannot query across customers. The GSI introd
 
 Global Tables support multi-Region eventual consistency (MREC) and multi-Region strong consistency (MRSC), with different topology/Region/feature restrictions. Do not state that all global tables are eventually consistent. MREC asynchronous conflict handling uses last-writer-wins; MRSC synchronously replicates writes and supports strongly consistent reads when requested.
 
+Current Global Tables also distinguish account ownership. Same-account global tables keep all replicas under one account boundary. Multi-account global tables place replicas in different accounts with distinct IAM, KMS, billing, CloudTrail, and governance boundaries. Both models are multi-active, but MRSC is supported only for same-account global tables; a multi-account design uses MREC. Account topology and consistency mode are separate choices.
+
 ## Stream-consumer operations
 
 Design Lambda processing to tolerate duplicate delivery. A failed record/batch can delay progress; configure supported partial-batch handling, retry/failure destinations, and monitoring appropriately. Per-item ordering is not a universal global ordering of every item modification.
@@ -90,6 +92,7 @@ Scope execution-role access to the stream and downstream resources. Restrict tab
 - [GSI write throttling and back-pressure](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/gsi-throttling.html)
 - [Secondary-index design best practices](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/bp-indexes.html)
 - [Global Tables operational readiness and consistency](https://aws.amazon.com/blogs/database/best-practices-for-amazon-dynamodb-global-tables-part-1-operational-readiness/)
+- [Current Global Tables consistency and account models](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/GlobalTables.html)
 - [[DynamoDB Global Tables vs Aurora Global Database]]
 
 ## Domain 3 — capacity, caching, and regional state

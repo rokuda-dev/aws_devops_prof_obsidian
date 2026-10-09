@@ -3,20 +3,20 @@ tags:
   - aws
   - dop-c02
   - domain-4
-verified: 2026-09-18
-read: true
+verified: 2026-10-07
+read: false
 ---
 
 # AWS Trusted Advisor
 
 ## Role
 
-Recommendations/checks across supported: 
-- cost, 
-- performance, 
+Recommendations/checks across supported:
+- cost,
+- performance,
 - security,
-- fault-tolerance 
-- and related operational areas. 
+- fault-tolerance
+- and related operational areas.
 Available checks, API access and refresh behavior depend on current support/service capabilities.
 
 ## Event integration
@@ -25,7 +25,7 @@ Trusted Advisor can emit check-item refresh notifications to EventBridge. Match 
 
 The transcript's low-utilization → Lambda → terminate design is only a possible controlled workflow, not a safe default.
 
-Built-in Trusted Advisor notification feature automatically sends notification emails weekly.
+Trusted Advisor Recommendations can send a weekly check-summary email after notification recipients and preferences are configured. Check availability and automatic refresh cadence depend on the support plan and the check; do not treat the weekly email as a continuous alarm.
 
 ## Before changing capacity
 
@@ -39,6 +39,7 @@ Task 4.3. See [[AWS Health vs CloudWatch vs Trusted Advisor]], [[Safe Event-Driv
 
 - [Trusted Advisor event reference](https://docs.aws.amazon.com/eventbridge/latest/ref/events-ref-trustedadvisor.html)
 - [Support/check refresh capabilities](https://aws.amazon.com/premiumsupport/faqs/)
+- [Recommendation refresh and notification preferences](https://docs.aws.amazon.com/awssupport/latest/user/get-started-with-aws-trusted-advisor.html)
 
 ## Domain 5 — recommendations versus custom compliance
 

@@ -22,6 +22,7 @@ Select the source that answers the requirement, then route, process, notify and 
 - [[Config Compliance vs CloudTrail Actor Attribution]]
 - [[Amazon EventBridge]], [[AWS CloudTrail]], [[AWS Config]], [[AWS Trusted Advisor]]
 - [[AWS Lambda]], [[AWS Step Functions]], [[Amazon SNS]], [[Amazon SQS]], [[Amazon Kinesis Data Streams]]
+- [[SQS vs SNS vs EventBridge vs Kinesis]]
 
 ## Task 5.2 — Implement configuration changes in response to events.
 

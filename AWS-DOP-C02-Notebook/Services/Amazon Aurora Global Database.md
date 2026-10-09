@@ -5,7 +5,7 @@ tags:
   - domain-2
   - domain-3
   - aurora
-read: true
+read: false
 ---
 
 # Amazon Aurora Global Database
@@ -27,11 +27,9 @@ Global relational application + local reads + low RTO/RPO regional recovery → 
 
 Do not confuse with [[Amazon DynamoDB]] Global Tables, which are multi-active NoSQL replicas.
 
-Not usable if Aurora Parallel Query feature is active.
-
 ## Writes, endpoints, and limits
 
-Current documentation allows up to 10 secondary clusters in distinct Regions. Write forwarding can accept requests through a secondary and forward them to the primary; it does not make the secondary an independent writer. The Global Database writer endpoint follows the current primary after managed regional changes.
+Current documentation allows up to 10 secondary clusters in distinct Regions. Write forwarding can accept requests through a secondary and forward them to the primary; it does not make the secondary an independent writer. The Global Database writer endpoint follows the current primary after managed regional changes. Check the current engine/version/Region feature matrix instead of carrying forward unrelated or legacy feature exclusions.
 
 ## IAM, encryption, and recovery
 

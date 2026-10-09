@@ -17,4 +17,4 @@ read: true
 
 EventBridge can have a stream/delivery service as a target, but that does not make event patterns interchangeable with CloudWatch subscription patterns. Match throughput, retry/retention, record format and downstream readiness.
 
-Tasks 4.1–4.3. See [[Amazon Kinesis Data Streams]], [[Amazon Data Firehose]], [[Amazon EventBridge]], [[CloudWatch Log Subscriptions and Cross-Account Destinations]].
+Tasks 4.1–4.3. See [[Amazon Kinesis Data Streams]], [[Amazon Data Firehose]], [[Amazon EventBridge]], [[CloudWatch Log Subscriptions and Cross-Account Destinations]], and [[SQS vs SNS vs EventBridge vs Kinesis]].

@@ -74,6 +74,7 @@ If using a ZIP, extract it first. Choose **Open folder as vault** and select the
 - [[Domain Coverage and Service Map]] — completed scope and explicit coverage limits.
 - [[Notebook Provenance and Progress]] — exact inputs and limitations.
 - [[Verification Ledger]] — current-fact checks.
+- [[Consistency and Exam Distinctions Audit 2026-10-07]] — latest targeted exam-distinction review and correction record.
 - [[Verification and Stale Reference Audit 2026-09-27]] — latest review, corrections, page coverage, and remaining evidence limits.
 - [[Notebook Changelog]] — version history.
 

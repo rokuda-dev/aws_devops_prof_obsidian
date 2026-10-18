@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Concepts/Deployment Strategy Matrix.md",
+                "file": "Concepts/CloudWatch Metrics Namespaces and Dimensions.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Deployment Strategy Matrix"
+              "title": "CloudWatch Metrics Namespaces and Dimensions"
             }
           }
         ]
@@ -55,7 +55,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "security group",
+                "query": "detailed monitoring",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -100,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Concepts/Deployment Strategy Matrix.md",
+                "file": "Concepts/CloudWatch Metrics Namespaces and Dimensions.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -190,6 +190,10 @@
   },
   "active": "cfd40427a4c1e194",
   "lastOpenFiles": [
+    "Sources/Official AWS Sources.md",
+    "Sources/Notebook Provenance and Progress.md",
+    "Concepts/CloudWatch Metrics Namespaces and Dimensions.md",
+    "Concepts/Deployment Strategy Matrix.md",
     "Pasted image 20261008194200.png",
     "Comparisons/Security Groups vs Network ACLs.md",
     "Concepts/HTTPS Connectivity Troubleshooting.md",
@@ -213,9 +217,6 @@
     "Services/Amazon CloudWatch.md",
     "Services/AWS Trusted Advisor.md",
     "Concepts/CloudWatch Log Subscriptions and Cross-Account Destinations.md",
-    "Concepts/CloudWatch Logs Insights and Filter Patterns.md",
-    "Services/Amazon Macie.md",
-    "Services/AWS X-Ray.md",
     "aws_devops_prof_obsidian",
     "AWS"
   ]
